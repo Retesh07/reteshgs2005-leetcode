@@ -1,0 +1,3 @@
+# Write your MySQL query statement below
+
+select max(s.num) as num from( select mynumbers.num from mynumbers group by mynumbers.num having count(mynumbers.num)=1)s
