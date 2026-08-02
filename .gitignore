@@ -1,0 +1,4 @@
+# Keep exporter script local and private (do not push session cookies to GitHub)
+export_leetcode.py
+.env
+*.log
