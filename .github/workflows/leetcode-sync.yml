@@ -3,18 +3,19 @@ name: Sync LeetCode Solutions
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 00:00 UTC every day
+    # Runs every day at 00:00 UTC
     - cron: '0 0 * * *'
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
       - name: Sync LeetCode Submissions
-        uses: joshcai/leetcode-sync@v1.7.0
+        uses: joshcai/leetcode-sync@v1.7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ github.token }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
-          destination-folder: ''
+          destination-folder: ""
           verbose: true
