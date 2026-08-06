@@ -356,6 +356,7 @@
 | Problem Name | Difficulty |
 |--------------|------------|
 | [0399 Evaluate Division](./0399-evaluate-division/) | Medium |
+| [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 
 ## Bidirectional Search
 
@@ -797,6 +798,7 @@
 |--------------|------------|
 | [0744 Network Delay Time](./0744-network-delay-time/) | Medium |
 | [0794 Swim in Rising Water](./0794-swim-in-rising-water/) | Hard |
+| [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
@@ -895,6 +897,7 @@
 | [1236 N-th Tribonacci Number](./1236-n-th-tribonacci-number/) | Easy |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
+| [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
@@ -948,6 +951,7 @@
 | Problem Name | Difficulty |
 |--------------|------------|
 | [0399 Evaluate Division](./0399-evaluate-division/) | Medium |
+| [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 
 ## Game Theory
 
@@ -989,6 +993,7 @@
 | [0803 Cheapest Flights Within K Stops](./0803-cheapest-flights-within-k-stops/) | Medium |
 | [0820 Find Eventual Safe States](./0820-find-eventual-safe-states/) | Medium |
 | [1039 Find the Town Judge](./1039-find-the-town-judge/) | Easy |
+| [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
@@ -1550,6 +1555,7 @@
 | [0399 Evaluate Division](./0399-evaluate-division/) | Medium |
 | [0744 Network Delay Time](./0744-network-delay-time/) | Medium |
 | [0803 Cheapest Flights Within K Stops](./0803-cheapest-flights-within-k-stops/) | Medium |
+| [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
 ## Sieve Theory
