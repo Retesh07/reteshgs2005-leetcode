@@ -1,10 +1,16 @@
+
 #!/usr/bin/env python3
 """
-generate_readme.py
+Production README generator for a LeetCode repository.
 
-Scans LeetCode problem folders (####-slug), fetches metadata from LeetCode's
-GraphQL API, groups problems by topic, and generates README.md.
-Compatible with GitHub Actions.
+Features
+- Scans folders matching ^\d{4}-.*
+- Fetches title, difficulty and topic tags from LeetCode GraphQL
+- Groups problems by topic
+- Sorts topics alphabetically
+- Sorts problems numerically
+- Generates a clean README.md
+- Uses only requests
 """
 
 import json
@@ -14,20 +20,20 @@ from collections import defaultdict
 
 import requests
 
-GRAPHQL_URL = "https://leetcode.com/graphql"
+GRAPHQL = "https://leetcode.com/graphql"
+PATTERN = re.compile(r"^(\d{4})-(.+)$")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
     "Content-Type": "application/json",
-    "Referer": "https://leetcode.com/",
     "Origin": "https://leetcode.com",
+    "Referer": "https://leetcode.com/",
 }
 
-FOLDER_PATTERN = re.compile(r"^(\d{4})-(.+)$")
-
 QUERY = """
-query getQuestionDetail($titleSlug: String!) {
+query getQuestion($titleSlug: String!) {
   question(titleSlug: $titleSlug) {
+    title
     difficulty
     topicTags {
       name
@@ -36,95 +42,90 @@ query getQuestionDetail($titleSlug: String!) {
 }
 """
 
-EMOJI = {
-    "Easy": "🟢 Easy",
-    "Medium": "🟡 Medium",
-    "Hard": "🔴 Hard",
-}
-
-
-def fetch_metadata(slug):
+def fetch(slug):
     payload = {
         "query": QUERY,
         "variables": {"titleSlug": slug},
-        "operationName": "getQuestionDetail",
+        "operationName": "getQuestion"
     }
     try:
         r = requests.post(
-            GRAPHQL_URL,
+            GRAPHQL,
             headers=HEADERS,
             data=json.dumps(payload),
-            timeout=20,
+            timeout=20
         )
         r.raise_for_status()
-        data = r.json()["data"]["question"]
-        if not data:
+        q = r.json()["data"]["question"]
+        if not q:
             return None
         return {
-            "difficulty": data["difficulty"],
-            "topics": [t["name"] for t in data["topicTags"]],
+            "title": q["title"],
+            "difficulty": q["difficulty"],
+            "topics": [x["name"] for x in q["topicTags"]] or ["Other"]
         }
     except Exception as e:
-        print(f"[WARN] Failed for {slug}: {e}")
+        print(f"Skipping {slug}: {e}")
         return None
-
 
 def main():
     problems = []
-    for name in os.listdir("."):
-        if not os.path.isdir(name):
+
+    for entry in os.listdir("."):
+        if not os.path.isdir(entry):
             continue
-        m = FOLDER_PATTERN.match(name)
+
+        m = PATTERN.match(entry)
         if not m:
             continue
 
         number = int(m.group(1))
         slug = m.group(2)
 
-        meta = fetch_metadata(slug)
-        if not meta:
+        meta = fetch(slug)
+        if meta is None:
             continue
 
         problems.append({
             "number": number,
-            "folder": name,
-            "slug": slug,
-            "difficulty": meta["difficulty"],
-            "topics": meta["topics"] or ["Uncategorized"],
+            "folder": entry,
+            **meta
         })
 
     problems.sort(key=lambda x: x["number"])
 
     grouped = defaultdict(list)
+
     for p in problems:
         for topic in p["topics"]:
             grouped[topic].append(p)
 
-    lines = []
-    lines.append("# LeetCode Solutions\n")
-    lines.append("## Topic Index\n")
-    for topic in sorted(grouped):
-        anchor = topic.lower().replace(" ", "-")
-        lines.append(f"- [{topic}](#{anchor})")
-    lines.append("")
+    out = []
+    out.append("# LeetCode Solutions\n")
+    out.append("## LeetCode Topics\n")
 
     for topic in sorted(grouped):
         anchor = topic.lower().replace(" ", "-")
-        lines.append(f"## {topic}\n")
+        out.append(f"- [{topic}](#{anchor})")
+
+    out.append("\n---\n")
+
+    for topic in sorted(grouped):
+        out.append(f"## {topic}\n")
+        out.append("| Problem Name | Difficulty |")
+        out.append("|--------------|------------|")
+
         for p in sorted(grouped[topic], key=lambda x: x["number"]):
-            diff = EMOJI.get(p["difficulty"], p["difficulty"])
-            title = p["folder"]
-            lines.append(
-                f"- **{p['number']:04d}** "
-                f"[{title}](./{p['folder']}/) — {diff}"
+            out.append(
+                f"| [{p['number']:04d} {p['title']}](./{p['folder']}/) | {p['difficulty']} |"
             )
-        lines.append("")
+
+        out.append("")
 
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
+        f.write("\n".join(out))
 
     print("README.md generated successfully.")
-
 
 if __name__ == "__main__":
     main()
