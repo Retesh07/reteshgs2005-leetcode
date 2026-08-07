@@ -323,6 +323,7 @@
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
+| [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 | [4005 Maximum Total Subarray Value I](./4005-maximum-total-subarray-value-i/) | Medium |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 | [4041 Climbing Stairs II](./4041-climbing-stairs-ii/) | Medium |
@@ -1041,6 +1042,7 @@
 | [2248 Minimum Cost of Buying Candies With Discount](./2248-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [3275 Minimum Number of Pushes to Type Word I](./3275-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
+| [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 | [4005 Maximum Total Subarray Value I](./4005-maximum-total-subarray-value-i/) | Medium |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
@@ -1123,6 +1125,7 @@
 | [3405 Count the Number of Special Characters II](./3405-count-the-number-of-special-characters-ii/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
+| [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 
 ## Heap (Priority Queue)
 
@@ -1489,6 +1492,7 @@
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
 | [0860 Design Circular Queue](./0860-design-circular-queue/) | Medium |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
+| [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 
 ## Quickselect
 
