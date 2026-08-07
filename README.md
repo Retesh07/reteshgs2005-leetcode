@@ -259,6 +259,7 @@
 | [0739 Daily Temperatures](./0739-daily-temperatures/) | Medium |
 | [0747 Min Cost Climbing Stairs](./0747-min-cost-climbing-stairs/) | Easy |
 | [0753 Open the Lock](./0753-open-the-lock/) | Medium |
+| [0769 Max Chunks To Make Sorted](./0769-max-chunks-to-make-sorted/) | Medium |
 | [0772 Construct Quad Tree](./0772-construct-quad-tree/) | Medium |
 | [0792 Binary Search](./0792-binary-search/) | Easy |
 | [0794 Swim in Rising Water](./0794-swim-in-rising-water/) | Hard |
@@ -1027,6 +1028,7 @@
 | [0621 Task Scheduler](./0621-task-scheduler/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
 | [0768 Partition Labels](./0768-partition-labels/) | Medium |
+| [0769 Max Chunks To Make Sorted](./0769-max-chunks-to-make-sorted/) | Medium |
 | [0778 Reorganize String](./0778-reorganize-string/) | Medium |
 | [0876 Hand of Straights](./0876-hand-of-straights/) | Medium |
 | [0890 Lemonade Change](./0890-lemonade-change/) | Easy |
@@ -1393,6 +1395,7 @@
 | [0316 Remove Duplicate Letters](./0316-remove-duplicate-letters/) | Medium |
 | [0503 Next Greater Element II](./0503-next-greater-element-ii/) | Medium |
 | [0739 Daily Temperatures](./0739-daily-temperatures/) | Medium |
+| [0769 Max Chunks To Make Sorted](./0769-max-chunks-to-make-sorted/) | Medium |
 | [0883 Car Fleet](./0883-car-fleet/) | Medium |
 | [0937 Online Stock Span](./0937-online-stock-span/) | Medium |
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
@@ -1632,6 +1635,7 @@
 | [0645 Set Mismatch](./0645-set-mismatch/) | Easy |
 | [0658 Find K Closest Elements](./0658-find-k-closest-elements/) | Medium |
 | [0721 Accounts Merge](./0721-accounts-merge/) | Medium |
+| [0769 Max Chunks To Make Sorted](./0769-max-chunks-to-make-sorted/) | Medium |
 | [0778 Reorganize String](./0778-reorganize-string/) | Medium |
 | [0876 Hand of Straights](./0876-hand-of-straights/) | Medium |
 | [0883 Car Fleet](./0883-car-fleet/) | Medium |
@@ -1683,6 +1687,7 @@
 | [0682 Baseball Game](./0682-baseball-game/) | Easy |
 | [0735 Asteroid Collision](./0735-asteroid-collision/) | Medium |
 | [0739 Daily Temperatures](./0739-daily-temperatures/) | Medium |
+| [0769 Max Chunks To Make Sorted](./0769-max-chunks-to-make-sorted/) | Medium |
 | [0874 Backspace String Compare](./0874-backspace-string-compare/) | Easy |
 | [0883 Car Fleet](./0883-car-fleet/) | Medium |
 | [0931 Maximum Frequency Stack](./0931-maximum-frequency-stack/) | Hard |
