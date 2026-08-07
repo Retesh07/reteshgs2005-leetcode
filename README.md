@@ -257,6 +257,7 @@
 | [0733 Flood Fill](./0733-flood-fill/) | Easy |
 | [0735 Asteroid Collision](./0735-asteroid-collision/) | Medium |
 | [0739 Daily Temperatures](./0739-daily-temperatures/) | Medium |
+| [0741 Cherry Pickup](./0741-cherry-pickup/) | Hard |
 | [0747 Min Cost Climbing Stairs](./0747-min-cost-climbing-stairs/) | Easy |
 | [0753 Open the Lock](./0753-open-the-lock/) | Medium |
 | [0769 Max Chunks To Make Sorted](./0769-max-chunks-to-make-sorted/) | Medium |
@@ -888,6 +889,7 @@
 | [0647 Palindromic Substrings](./0647-palindromic-substrings/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
+| [0741 Cherry Pickup](./0741-cherry-pickup/) | Hard |
 | [0747 Min Cost Climbing Stairs](./0747-min-cost-climbing-stairs/) | Easy |
 | [0803 Cheapest Flights Within K Stops](./0803-cheapest-flights-within-k-stops/) | Medium |
 | [0909 Stone Game](./0909-stone-game/) | Medium |
@@ -1333,6 +1335,7 @@
 | [0542 01 Matrix](./0542-01-matrix/) | Medium |
 | [0695 Max Area of Island](./0695-max-area-of-island/) | Medium |
 | [0733 Flood Fill](./0733-flood-fill/) | Easy |
+| [0741 Cherry Pickup](./0741-cherry-pickup/) | Hard |
 | [0772 Construct Quad Tree](./0772-construct-quad-tree/) | Medium |
 | [0794 Swim in Rising Water](./0794-swim-in-rising-water/) | Hard |
 | [0898 Transpose Matrix](./0898-transpose-matrix/) | Easy |
