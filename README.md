@@ -592,6 +592,7 @@
 | [1036 Rotting Oranges](./1036-rotting-oranges/) | Medium |
 | [1073 Number of Enclaves](./1073-number-of-enclaves/) | Medium |
 | [1171 Shortest Path in Binary Matrix](./1171-shortest-path-in-binary-matrix/) | Medium |
+| [1319 Number of Operations to Make Network Connected](./1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
@@ -764,6 +765,7 @@
 | [1029 Vertical Order Traversal of a Binary Tree](./1029-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1035 Cousins in Binary Tree](./1035-cousins-in-binary-tree/) | Easy |
 | [1073 Number of Enclaves](./1073-number-of-enclaves/) | Medium |
+| [1319 Number of Operations to Make Network Connected](./1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1450 Delete Leaves With a Given Value](./1450-delete-leaves-with-a-given-value/) | Medium |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
@@ -997,6 +999,7 @@
 | [0803 Cheapest Flights Within K Stops](./0803-cheapest-flights-within-k-stops/) | Medium |
 | [0820 Find Eventual Safe States](./0820-find-eventual-safe-states/) | Medium |
 | [1039 Find the Town Judge](./1039-find-the-town-judge/) | Easy |
+| [1319 Number of Operations to Make Network Connected](./1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
@@ -1944,6 +1947,7 @@
 | [0794 Swim in Rising Water](./0794-swim-in-rising-water/) | Hard |
 | [0801 Is Graph Bipartite?](./0801-is-graph-bipartite/) | Medium |
 | [1073 Number of Enclaves](./1073-number-of-enclaves/) | Medium |
+| [1319 Number of Operations to Make Network Connected](./1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 
