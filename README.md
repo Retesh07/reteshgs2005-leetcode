@@ -297,6 +297,7 @@
 | [1256 Rank Transform of an Array](./1256-rank-transform-of-an-array/) | Easy |
 | [1386 Shift 2D Grid](./1386-shift-2d-grid/) | Easy |
 | [1408 Find the Smallest Divisor Given a Threshold](./1408-find-the-smallest-divisor-given-a-threshold/) | Medium |
+| [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
 | [1528 Kids With the Greatest Number of Candies](./1528-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1574 Maximum Product of Two Elements in an Array](./1574-maximum-product-of-two-elements-in-an-array/) | Easy |
@@ -1119,6 +1120,7 @@
 | [1029 Vertical Order Traversal of a Binary Tree](./1029-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1039 Find the Town Judge](./1039-find-the-town-judge/) | Easy |
 | [1256 Rank Transform of an Array](./1256-rank-transform-of-an-array/) | Easy |
+| [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
 | [1741 Sort Array by Increasing Frequency](./1741-sort-array-by-increasing-frequency/) | Easy |
 | [1798 Max Number of K-Sum Pairs](./1798-max-number-of-k-sum-pairs/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
@@ -1765,6 +1767,7 @@
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
 | [1304 Longest Happy String](./1304-longest-happy-string/) | Medium |
+| [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
 | [1537 Maximum Score After Splitting a String](./1537-maximum-score-after-splitting-a-string/) | Easy |
 | [1567 Maximum Number of Vowels in a Substring of Given Length](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1894 Merge Strings Alternately](./1894-merge-strings-alternately/) | Easy |
