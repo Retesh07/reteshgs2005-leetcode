@@ -266,6 +266,7 @@
 | [0794 Swim in Rising Water](./0794-swim-in-rising-water/) | Hard |
 | [0816 Design HashSet](./0816-design-hashset/) | Easy |
 | [0817 Design HashMap](./0817-design-hashmap/) | Easy |
+| [0827 Making A Large Island](./0827-making-a-large-island/) | Hard |
 | [0860 Design Circular Queue](./0860-design-circular-queue/) | Medium |
 | [0876 Hand of Straights](./0876-hand-of-straights/) | Medium |
 | [0883 Car Fleet](./0883-car-fleet/) | Medium |
@@ -588,6 +589,7 @@
 | [0801 Is Graph Bipartite?](./0801-is-graph-bipartite/) | Medium |
 | [0803 Cheapest Flights Within K Stops](./0803-cheapest-flights-within-k-stops/) | Medium |
 | [0820 Find Eventual Safe States](./0820-find-eventual-safe-states/) | Medium |
+| [0827 Making A Large Island](./0827-making-a-large-island/) | Hard |
 | [1029 Vertical Order Traversal of a Binary Tree](./1029-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1035 Cousins in Binary Tree](./1035-cousins-in-binary-tree/) | Easy |
 | [1036 Rotting Oranges](./1036-rotting-oranges/) | Medium |
@@ -763,6 +765,7 @@
 | [0801 Is Graph Bipartite?](./0801-is-graph-bipartite/) | Medium |
 | [0803 Cheapest Flights Within K Stops](./0803-cheapest-flights-within-k-stops/) | Medium |
 | [0820 Find Eventual Safe States](./0820-find-eventual-safe-states/) | Medium |
+| [0827 Making A Large Island](./0827-making-a-large-island/) | Hard |
 | [1029 Vertical Order Traversal of a Binary Tree](./1029-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1035 Cousins in Binary Tree](./1035-cousins-in-binary-tree/) | Easy |
 | [1073 Number of Enclaves](./1073-number-of-enclaves/) | Medium |
@@ -1346,6 +1349,7 @@
 | [0741 Cherry Pickup](./0741-cherry-pickup/) | Hard |
 | [0772 Construct Quad Tree](./0772-construct-quad-tree/) | Medium |
 | [0794 Swim in Rising Water](./0794-swim-in-rising-water/) | Hard |
+| [0827 Making A Large Island](./0827-making-a-large-island/) | Hard |
 | [0898 Transpose Matrix](./0898-transpose-matrix/) | Easy |
 | [1036 Rotting Oranges](./1036-rotting-oranges/) | Medium |
 | [1073 Number of Enclaves](./1073-number-of-enclaves/) | Medium |
@@ -1949,6 +1953,7 @@
 | [0721 Accounts Merge](./0721-accounts-merge/) | Medium |
 | [0794 Swim in Rising Water](./0794-swim-in-rising-water/) | Hard |
 | [0801 Is Graph Bipartite?](./0801-is-graph-bipartite/) | Medium |
+| [0827 Making A Large Island](./0827-making-a-large-island/) | Hard |
 | [1073 Number of Enclaves](./1073-number-of-enclaves/) | Medium |
 | [1319 Number of Operations to Make Network Connected](./1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
