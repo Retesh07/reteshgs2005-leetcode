@@ -834,6 +834,7 @@
 | [0215 Kth Largest Element in an Array](./0215-kth-largest-element-in-an-array/) | Medium |
 | [0240 Search a 2D Matrix II](./0240-search-a-2d-matrix-ii/) | Medium |
 | [0347 Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium |
+| [0395 Longest Substring with At Least K Repeating Characters](./0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [0772 Construct Quad Tree](./0772-construct-quad-tree/) | Medium |
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
@@ -1100,6 +1101,7 @@
 | [0347 Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium |
 | [0355 Design Twitter](./0355-design-twitter/) | Medium |
 | [0383 Ransom Note](./0383-ransom-note/) | Easy |
+| [0395 Longest Substring with At Least K Repeating Characters](./0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0424 Longest Repeating Character Replacement](./0424-longest-repeating-character-replacement/) | Medium |
 | [0433 Minimum Genetic Mutation](./0433-minimum-genetic-mutation/) | Medium |
 | [0442 Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array/) | Medium |
@@ -1611,6 +1613,7 @@
 | [0209 Minimum Size Subarray Sum](./0209-minimum-size-subarray-sum/) | Medium |
 | [0219 Contains Duplicate II](./0219-contains-duplicate-ii/) | Easy |
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
+| [0395 Longest Substring with At Least K Repeating Characters](./0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0413 Arithmetic Slices](./0413-arithmetic-slices/) | Medium |
 | [0424 Longest Repeating Character Replacement](./0424-longest-repeating-character-replacement/) | Medium |
 | [0567 Permutation in String](./0567-permutation-in-string/) | Medium |
@@ -1753,6 +1756,7 @@
 | [0383 Ransom Note](./0383-ransom-note/) | Easy |
 | [0392 Is Subsequence](./0392-is-subsequence/) | Easy |
 | [0394 Decode String](./0394-decode-string/) | Medium |
+| [0395 Longest Substring with At Least K Repeating Characters](./0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0399 Evaluate Division](./0399-evaluate-division/) | Medium |
 | [0424 Longest Repeating Character Replacement](./0424-longest-repeating-character-replacement/) | Medium |
 | [0433 Minimum Genetic Mutation](./0433-minimum-genetic-mutation/) | Medium |
