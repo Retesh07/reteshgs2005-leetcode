@@ -322,6 +322,7 @@
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
+| [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
@@ -1130,6 +1131,7 @@
 | [1798 Max Number of K-Sum Pairs](./1798-max-number-of-k-sum-pairs/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
+| [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2978 Check if Strings Can be Made Equal With Operations II](./2978-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3405 Count the Number of Special Characters II](./3405-count-the-number-of-special-characters-ii/) | Medium |
@@ -1624,6 +1626,7 @@
 | [1567 Maximum Number of Vowels in a Substring of Given Length](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
+| [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 
 ## Sorting
 
