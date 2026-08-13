@@ -180,6 +180,7 @@
 | [0106 Construct Binary Tree from Inorder and Postorder Traversal](./0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108 Convert Sorted Array to Binary Search Tree](./0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0118 Pascal's Triangle](./0118-pascals-triangle/) | Easy |
+| [0120 Triangle](./0120-triangle/) | Medium |
 | [0121 Best Time to Buy and Sell Stock](./0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122 Best Time to Buy and Sell Stock II](./0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0128 Longest Consecutive Sequence](./0128-longest-consecutive-sequence/) | Medium |
@@ -867,6 +868,7 @@
 | [0097 Interleaving String](./0097-interleaving-string/) | Medium |
 | [0115 Distinct Subsequences](./0115-distinct-subsequences/) | Hard |
 | [0118 Pascal's Triangle](./0118-pascals-triangle/) | Easy |
+| [0120 Triangle](./0120-triangle/) | Medium |
 | [0121 Best Time to Buy and Sell Stock](./0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122 Best Time to Buy and Sell Stock II](./0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0124 Binary Tree Maximum Path Sum](./0124-binary-tree-maximum-path-sum/) | Hard |
