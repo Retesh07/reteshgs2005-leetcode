@@ -68,6 +68,7 @@
 - [Manacher](#manacher)
 - [Math](#math)
 - [Matrix](#matrix)
+- [Meet in the Middle](#meet-in-the-middle)
 - [Memoization](#memoization)
 - [Merge Sort](#merge-sort)
 - [Minimax](#minimax)
@@ -172,7 +173,6 @@
 | [0078 Subsets](./0078-subsets/) | Medium |
 | [0079 Word Search](./0079-word-search/) | Medium |
 | [0080 Remove Duplicates from Sorted Array II](./0080-remove-duplicates-from-sorted-array-ii/) | Medium |
-| [0081 Search in Rotated Sorted Array II](./0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0084 Largest Rectangle in Histogram](./0084-largest-rectangle-in-histogram/) | Hard |
 | [0088 Merge Sorted Array](./0088-merge-sorted-array/) | Easy |
 | [0090 Subsets II](./0090-subsets-ii/) | Medium |
@@ -315,6 +315,7 @@
 | [1962 Single-Threaded CPU](./1962-single-threaded-cpu/) | Medium |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 | [2026 Merge Triplets to Form Target Triplet](./2026-merge-triplets-to-form-target-triplet/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [2106 Find Greatest Common Divisor of Array](./2106-find-greatest-common-divisor-of-array/) | Easy |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
@@ -397,7 +398,6 @@
 | [0035 Search Insert Position](./0035-search-insert-position/) | Easy |
 | [0069 Sqrt(x)](./0069-sqrtx/) | Easy |
 | [0074 Search a 2D Matrix](./0074-search-a-2d-matrix/) | Medium |
-| [0081 Search in Rotated Sorted Array II](./0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0153 Find Minimum in Rotated Sorted Array](./0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0162 Find Peak Element](./0162-find-peak-element/) | Medium |
 | [0167 Two Sum II - Input Array Is Sorted](./0167-two-sum-ii-input-array-is-sorted/) | Medium |
@@ -426,6 +426,7 @@
 | [1646 Kth Missing Positive Number](./1646-kth-missing-positive-number/) | Easy |
 | [1675 Magnetic Force Between Two Balls](./1675-magnetic-force-between-two-balls/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 
@@ -512,6 +513,7 @@
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1444 Number of Steps to Reduce a Number to Zero](./1444-number-of-steps-to-reduce-a-number-to-zero/) | Easy |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [3394 Minimum Array End](./3394-minimum-array-end/) | Medium |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 
@@ -521,6 +523,7 @@
 |--------------|------------|
 | [0473 Matchsticks to Square](./0473-matchsticks-to-square/) | Medium |
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
 ## Borůvka's Algorithm
 
@@ -916,6 +919,7 @@
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [4041 Climbing Stairs II](./4041-climbing-stairs-ii/) | Medium |
@@ -1365,6 +1369,12 @@
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
 
+## Meet in the Middle
+
+| Problem Name | Difficulty |
+|--------------|------------|
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+
 ## Memoization
 
 | Problem Name | Difficulty |
@@ -1446,6 +1456,7 @@
 |--------------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [0931 Maximum Frequency Stack](./0931-maximum-frequency-stack/) | Hard |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
 ## Other
 
@@ -1677,6 +1688,7 @@
 | [1741 Sort Array by Increasing Frequency](./1741-sort-array-by-increasing-frequency/) | Easy |
 | [1798 Max Number of K-Sum Pairs](./1798-max-number-of-k-sum-pairs/) | Medium |
 | [1962 Single-Threaded CPU](./1962-single-threaded-cpu/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2248 Minimum Cost of Buying Candies With Discount](./2248-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [2978 Check if Strings Can be Made Equal With Operations II](./2978-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
@@ -1945,6 +1957,7 @@
 | [1019 Squares of a Sorted Array](./1019-squares-of-a-sorted-array/) | Easy |
 | [1798 Max Number of K-Sum Pairs](./1798-max-number-of-k-sum-pairs/) | Medium |
 | [1894 Merge Strings Alternately](./1894-merge-strings-alternately/) | Easy |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2271 Rearrange Array Elements by Sign](./2271-rearrange-array-elements-by-sign/) | Medium |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
