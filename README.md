@@ -173,6 +173,7 @@
 | [0078 Subsets](./0078-subsets/) | Medium |
 | [0079 Word Search](./0079-word-search/) | Medium |
 | [0080 Remove Duplicates from Sorted Array II](./0080-remove-duplicates-from-sorted-array-ii/) | Medium |
+| [0081 Search in Rotated Sorted Array II](./0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0084 Largest Rectangle in Histogram](./0084-largest-rectangle-in-histogram/) | Hard |
 | [0088 Merge Sorted Array](./0088-merge-sorted-array/) | Easy |
 | [0090 Subsets II](./0090-subsets-ii/) | Medium |
@@ -327,6 +328,7 @@
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 | [4005 Maximum Total Subarray Value I](./4005-maximum-total-subarray-value-i/) | Medium |
@@ -398,6 +400,7 @@
 | [0035 Search Insert Position](./0035-search-insert-position/) | Easy |
 | [0069 Sqrt(x)](./0069-sqrtx/) | Easy |
 | [0074 Search a 2D Matrix](./0074-search-a-2d-matrix/) | Medium |
+| [0081 Search in Rotated Sorted Array II](./0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0153 Find Minimum in Rotated Sorted Array](./0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0162 Find Peak Element](./0162-find-peak-element/) | Medium |
 | [0167 Two Sum II - Input Array Is Sorted](./0167-two-sum-ii-input-array-is-sorted/) | Medium |
@@ -515,6 +518,7 @@
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [3394 Minimum Array End](./3394-minimum-array-end/) | Medium |
+| [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 
 ## Bitmask
