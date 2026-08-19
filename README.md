@@ -919,6 +919,7 @@
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
 | [1020 Longest Turbulent Subarray](./1020-longest-turbulent-subarray/) | Medium |
 | [1086 Divisor Game](./1086-divisor-game/) | Easy |
+| [1092 Shortest Common Supersequence ](./1092-shortest-common-supersequence/) | Hard |
 | [1130 Last Stone Weight II](./1130-last-stone-weight-ii/) | Medium |
 | [1236 N-th Tribonacci Number](./1236-n-th-tribonacci-number/) | Easy |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
@@ -1267,6 +1268,7 @@
 | Problem Name | Difficulty |
 |--------------|------------|
 | [0583 Delete Operation for Two Strings](./0583-delete-operation-for-two-strings/) | Medium |
+| [1092 Shortest Common Supersequence ](./1092-shortest-common-supersequence/) | Hard |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
 
 ## Longest Increasing Subsequence
@@ -1805,6 +1807,7 @@
 | [0874 Backspace String Compare](./0874-backspace-string-compare/) | Easy |
 | [0990 Verifying an Alien Dictionary](./0990-verifying-an-alien-dictionary/) | Easy |
 | [1023 Time Based Key-Value Store](./1023-time-based-key-value-store/) | Medium |
+| [1092 Shortest Common Supersequence ](./1092-shortest-common-supersequence/) | Hard |
 | [1146 Greatest Common Divisor of Strings](./1146-greatest-common-divisor-of-strings/) | Easy |
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
