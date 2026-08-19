@@ -922,6 +922,7 @@
 | [1236 N-th Tribonacci Number](./1236-n-th-tribonacci-number/) | Easy |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
+| [1312 Minimum Insertion Steps to Make a String Palindrome](./1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
@@ -1805,6 +1806,7 @@
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
 | [1304 Longest Happy String](./1304-longest-happy-string/) | Medium |
+| [1312 Minimum Insertion Steps to Make a String Palindrome](./1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
 | [1537 Maximum Score After Splitting a String](./1537-maximum-score-after-splitting-a-string/) | Easy |
 | [1567 Maximum Number of Vowels in a Substring of Given Length](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
