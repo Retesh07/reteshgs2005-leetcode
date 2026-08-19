@@ -1,140 +1,166 @@
 # LeetCode Solutions
 
-## LeetCode Topics
+Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 
-- [0-1 Knapsack](#0-1-knapsack)
-- [Algorithm X](#algorithm-x)
-- [Array](#array)
-- [Backtracking](#backtracking)
-- [Bellman–Ford Algorithm](#bellman–ford-algorithm)
-- [Bidirectional Search](#bidirectional-search)
-- [Binary Indexed Tree](#binary-indexed-tree)
-- [Binary Lifting](#binary-lifting)
-- [Binary Search](#binary-search)
-- [Binary Search Tree](#binary-search-tree)
-- [Binary Tree](#binary-tree)
-- [Bipartite Graph](#bipartite-graph)
-- [Bit Manipulation](#bit-manipulation)
-- [Bitmask](#bitmask)
-- [Borůvka's Algorithm](#borůvka's-algorithm)
-- [Boyer–Moore Majority Vote Algorithm](#boyer–moore-majority-vote-algorithm)
-- [Bracket Sequences](#bracket-sequences)
-- [Brainteaser](#brainteaser)
-- [Breadth-First Search](#breadth-first-search)
-- [Brute-Force Search](#brute-force-search)
-- [Bubble Sort](#bubble-sort)
-- [Bucket Sort](#bucket-sort)
-- [Combinatorics](#combinatorics)
-- [Complete Knapsack](#complete-knapsack)
-- [Counting](#counting)
-- [Counting Sort](#counting-sort)
-- [DP on Trees](#dp-on-trees)
-- [Dancing Links](#dancing-links)
-- [Data Stream](#data-stream)
-- [Database](#database)
-- [Depth-First Search](#depth-first-search)
-- [Design](#design)
-- [Dijkstra's Algorithm](#dijkstra's-algorithm)
-- [Directed Acyclic Graph](#directed-acyclic-graph)
-- [Divide and Conquer](#divide-and-conquer)
-- [Doubly-Linked List](#doubly-linked-list)
-- [Dynamic Programming](#dynamic-programming)
-- [Enumeration](#enumeration)
-- [Euclidean Algorithm](#euclidean-algorithm)
-- [Eulerian Circuit](#eulerian-circuit)
-- [Eulerian Path](#eulerian-path)
-- [Floyd's Cycle Finding Algorithm](#floyd's-cycle-finding-algorithm)
-- [Floyd–Warshall Algorithm](#floyd–warshall-algorithm)
-- [Game Theory](#game-theory)
-- [Geometry](#geometry)
-- [Graph Coloring](#graph-coloring)
-- [Graph Theory](#graph-theory)
-- [Greatest Common Divisor](#greatest-common-divisor)
-- [Greedy](#greedy)
-- [Hash Function](#hash-function)
-- [Hash Table](#hash-table)
-- [Heap (Priority Queue)](#heap-(priority-queue))
-- [Impartial Game](#impartial-game)
-- [Interactive](#interactive)
-- [Iterator](#iterator)
-- [K-D Tree](#k-d-tree)
-- [Knapsack Problem](#knapsack-problem)
-- [Kosaraju's Algorithm](#kosaraju's-algorithm)
-- [Kruskal's Algorithm](#kruskal's-algorithm)
-- [Linked List](#linked-list)
-- [Longest Common Subsequence](#longest-common-subsequence)
-- [Longest Increasing Subsequence](#longest-increasing-subsequence)
-- [Lowest Common Ancestor](#lowest-common-ancestor)
-- [Manacher](#manacher)
-- [Math](#math)
-- [Matrix](#matrix)
-- [Meet in the Middle](#meet-in-the-middle)
-- [Memoization](#memoization)
-- [Merge Sort](#merge-sort)
-- [Minimax](#minimax)
-- [Minimum Spanning Tree](#minimum-spanning-tree)
-- [Monotonic Queue](#monotonic-queue)
-- [Monotonic Stack](#monotonic-stack)
-- [Newton's Method](#newton's-method)
-- [Number Theory](#number-theory)
-- [Ordered Set](#ordered-set)
-- [Other](#other)
-- [Pigeonhole Principle](#pigeonhole-principle)
-- [Prefix Sum](#prefix-sum)
-- [Prim's Algorithm](#prim's-algorithm)
-- [Primality Test](#primality-test)
-- [Prime Number Sieve](#prime-number-sieve)
-- [Queue](#queue)
-- [Quickselect](#quickselect)
-- [Quicksort](#quicksort)
-- [Radix Sort](#radix-sort)
-- [Randomized](#randomized)
-- [Range Minimum/Maximum Query](#range-minimum/maximum-query)
-- [Recursion](#recursion)
-- [Segment Tree](#segment-tree)
-- [Semi-Eulerian Graph](#semi-eulerian-graph)
-- [Shortest Path](#shortest-path)
-- [Sieve Theory](#sieve-theory)
-- [Simulation](#simulation)
-- [Sliding Window](#sliding-window)
-- [Sorting](#sorting)
-- [Stack](#stack)
-- [String](#string)
-- [String Matching](#string-matching)
-- [Tarjan's SCC Algorithm](#tarjan's-scc-algorithm)
-- [Ternary Search](#ternary-search)
-- [Timsort](#timsort)
-- [Topological Sort](#topological-sort)
-- [Tournament Sort](#tournament-sort)
-- [Treap](#treap)
-- [Tree](#tree)
-- [Trie](#trie)
-- [Two Pointers](#two-pointers)
-- [Union-Find](#union-find)
-- [Zero-Sum Game](#zero-sum-game)
+## 📊 LeetCode Progress
 
----
+### 410 / 4029 Problems Solved
 
-## 0-1 Knapsack
+`██░░░░░░░░░░░░░░░░░░` **10.18%**
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Difficulty | Solved | Total | Progress |
+|------------|-------:|------:|---------:|
+| 🟢 Easy | 139 | 960 | 14.48% |
+| 🟡 Medium | 227 | 2103 | 10.79% |
+| 🔴 Hard | 44 | 966 | 4.55% |
+
+## 💻 Repository
+
+**400 solutions** are currently stored in this repository.
+
+| Difficulty | Solutions |
+|------------|----------:|
+| 🟢 Easy | 135 |
+| 🟡 Medium | 223 |
+| 🔴 Hard | 42 |
+
+## 🧠 Topics
+
+| Topic | Problems |
+|-------|---------:|
+| Array | 202 |
+| String | 76 |
+| Dynamic Programming | 72 |
+| Hash Table | 71 |
+| Depth-First Search | 55 |
+| Math | 51 |
+| Sorting | 51 |
+| Breadth-First Search | 48 |
+| Two Pointers | 48 |
+| Binary Search | 38 |
+| Tree | 37 |
+| Binary Tree | 36 |
+| Matrix | 31 |
+| Greedy | 30 |
+| Database | 29 |
+| Stack | 29 |
+| Heap (Priority Queue) | 25 |
+| Linked List | 23 |
+| Bit Manipulation | 21 |
+| Design | 20 |
+| Backtracking | 19 |
+| Divide and Conquer | 19 |
+| Graph Theory | 19 |
+| Sliding Window | 17 |
+| Union-Find | 15 |
+| Prefix Sum | 14 |
+| Simulation | 14 |
+| Recursion | 11 |
+| Binary Search Tree | 10 |
+| Counting | 10 |
+| Monotonic Stack | 9 |
+| Number Theory | 8 |
+| Queue | 7 |
+| Topological Sort | 7 |
+| Knapsack Problem | 6 |
+| Memoization | 6 |
+| Dijkstra's Algorithm | 5 |
+| Enumeration | 5 |
+| Game Theory | 5 |
+| Minimax | 5 |
+| Shortest Path | 5 |
+| Trie | 5 |
+| Bidirectional Search | 4 |
+| Combinatorics | 4 |
+| DP on Trees | 4 |
+| Data Stream | 4 |
+| Euclidean Algorithm | 4 |
+| Floyd's Cycle Finding Algorithm | 4 |
+| Greatest Common Divisor | 4 |
+| Zero-Sum Game | 4 |
+| 0-1 Knapsack | 3 |
+| Algorithm X | 3 |
+| Bitmask | 3 |
+| Bracket Sequences | 3 |
+| Complete Knapsack | 3 |
+| Hash Function | 3 |
+| Longest Common Subsequence | 3 |
+| Merge Sort | 3 |
+| Monotonic Queue | 3 |
+| Ordered Set | 3 |
+| Other | 3 |
+| Quickselect | 3 |
+| Quicksort | 3 |
+| Segment Tree | 3 |
+| Bellman–Ford Algorithm | 2 |
+| Binary Indexed Tree | 2 |
+| Binary Lifting | 2 |
+| Boyer–Moore Majority Vote Algorithm | 2 |
+| Bucket Sort | 2 |
+| Counting Sort | 2 |
+| Directed Acyclic Graph | 2 |
+| Floyd–Warshall Algorithm | 2 |
+| Interactive | 2 |
+| Longest Increasing Subsequence | 2 |
+| Lowest Common Ancestor | 2 |
+| Range Minimum/Maximum Query | 2 |
+| Bipartite Graph | 1 |
+| Borůvka's Algorithm | 1 |
+| Brainteaser | 1 |
+| Brute-Force Search | 1 |
+| Bubble Sort | 1 |
+| Dancing Links | 1 |
+| Doubly-Linked List | 1 |
+| Eulerian Circuit | 1 |
+| Eulerian Path | 1 |
+| Geometry | 1 |
+| Graph Coloring | 1 |
+| Impartial Game | 1 |
+| Iterator | 1 |
+| K-D Tree | 1 |
+| Kosaraju's Algorithm | 1 |
+| Kruskal's Algorithm | 1 |
+| Manacher | 1 |
+| Meet in the Middle | 1 |
+| Minimum Spanning Tree | 1 |
+| Newton's Method | 1 |
+| Pigeonhole Principle | 1 |
+| Prim's Algorithm | 1 |
+| Primality Test | 1 |
+| Prime Number Sieve | 1 |
+| Radix Sort | 1 |
+| Randomized | 1 |
+| Semi-Eulerian Graph | 1 |
+| Sieve Theory | 1 |
+| String Matching | 1 |
+| Tarjan's SCC Algorithm | 1 |
+| Ternary Search | 1 |
+| Timsort | 1 |
+| Tournament Sort | 1 |
+| Treap | 1 |
+
+## 📝 Solutions
+
+### 0-1 Knapsack
+
+| Problem | Difficulty |
+|---------|------------|
 | [0416 Partition Equal Subset Sum](./0416-partition-equal-subset-sum/) | Medium |
 | [0494 Target Sum](./0494-target-sum/) | Medium |
 | [1130 Last Stone Weight II](./1130-last-stone-weight-ii/) | Medium |
 
-## Algorithm X
+### Algorithm X
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0037 Sudoku Solver](./0037-sudoku-solver/) | Hard |
 | [0051 N-Queens](./0051-n-queens/) | Hard |
 | [0052 N-Queens II](./0052-n-queens-ii/) | Hard |
 
-## Array
+### Array
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0001 Two Sum](./0001-two-sum/) | Easy |
 | [0004 Median of Two Sorted Arrays](./0004-median-of-two-sorted-arrays/) | Hard |
 | [0011 Container With Most Water](./0011-container-with-most-water/) | Medium |
@@ -338,10 +364,10 @@
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-## Backtracking
+### Backtracking
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0017 Letter Combinations of a Phone Number](./0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022 Generate Parentheses](./0022-generate-parentheses/) | Medium |
 | [0037 Sudoku Solver](./0037-sudoku-solver/) | Hard |
@@ -362,40 +388,40 @@
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 
-## Bellman–Ford Algorithm
+### Bellman–Ford Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0399 Evaluate Division](./0399-evaluate-division/) | Medium |
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 
-## Bidirectional Search
+### Bidirectional Search
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0126 Word Ladder II](./0126-word-ladder-ii/) | Hard |
 | [0127 Word Ladder](./0127-word-ladder/) | Hard |
 | [0433 Minimum Genetic Mutation](./0433-minimum-genetic-mutation/) | Medium |
 | [0753 Open the Lock](./0753-open-the-lock/) | Medium |
 
-## Binary Indexed Tree
+### Binary Indexed Tree
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 
-## Binary Lifting
+### Binary Lifting
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0235 Lowest Common Ancestor of a Binary Search Tree](./0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236 Lowest Common Ancestor of a Binary Tree](./0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 
-## Binary Search
+### Binary Search
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0004 Median of Two Sorted Arrays](./0004-median-of-two-sorted-arrays/) | Hard |
 | [0033 Search in Rotated Sorted Array](./0033-search-in-rotated-sorted-array/) | Medium |
 | [0034 Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
@@ -435,10 +461,10 @@
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 
-## Binary Search Tree
+### Binary Search Tree
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0098 Validate Binary Search Tree](./0098-validate-binary-search-tree/) | Medium |
 | [0108 Convert Sorted Array to Binary Search Tree](./0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0173 Binary Search Tree Iterator](./0173-binary-search-tree-iterator/) | Medium |
@@ -450,10 +476,10 @@
 | [0789 Kth Largest Element in a Stream](./0789-kth-largest-element-in-a-stream/) | Easy |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 
-## Binary Tree
+### Binary Tree
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0094 Binary Tree Inorder Traversal](./0094-binary-tree-inorder-traversal/) | Easy |
 | [0098 Validate Binary Search Tree](./0098-validate-binary-search-tree/) | Medium |
 | [0100 Same Tree](./0100-same-tree/) | Easy |
@@ -491,16 +517,16 @@
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
 
-## Bipartite Graph
+### Bipartite Graph
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0801 Is Graph Bipartite?](./0801-is-graph-bipartite/) | Medium |
 
-## Bit Manipulation
+### Bit Manipulation
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0067 Add Binary](./0067-add-binary/) | Easy |
 | [0078 Subsets](./0078-subsets/) | Medium |
 | [0090 Subsets II](./0090-subsets-ii/) | Medium |
@@ -523,45 +549,45 @@
 | [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 
-## Bitmask
+### Bitmask
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0473 Matchsticks to Square](./0473-matchsticks-to-square/) | Medium |
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
-## Borůvka's Algorithm
+### Borůvka's Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 
-## Boyer–Moore Majority Vote Algorithm
+### Boyer–Moore Majority Vote Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0169 Majority Element](./0169-majority-element/) | Easy |
 | [0229 Majority Element II](./0229-majority-element-ii/) | Medium |
 
-## Bracket Sequences
+### Bracket Sequences
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0020 Valid Parentheses](./0020-valid-parentheses/) | Easy |
 | [0022 Generate Parentheses](./0022-generate-parentheses/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
 
-## Brainteaser
+### Brainteaser
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1086 Divisor Game](./1086-divisor-game/) | Easy |
 
-## Breadth-First Search
+### Breadth-First Search
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0100 Same Tree](./0100-same-tree/) | Easy |
 | [0101 Symmetric Tree](./0101-symmetric-tree/) | Easy |
 | [0102 Binary Tree Level Order Traversal](./0102-binary-tree-level-order-traversal/) | Medium |
@@ -611,46 +637,46 @@
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 
-## Brute-Force Search
+### Brute-Force Search
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0139 Word Break](./0139-word-break/) | Medium |
 
-## Bubble Sort
+### Bubble Sort
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0075 Sort Colors](./0075-sort-colors/) | Medium |
 
-## Bucket Sort
+### Bucket Sort
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0347 Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium |
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 
-## Combinatorics
+### Combinatorics
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0062 Unique Paths](./0062-unique-paths/) | Medium |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 
-## Complete Knapsack
+### Complete Knapsack
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0279 Perfect Squares](./0279-perfect-squares/) | Medium |
 | [0322 Coin Change](./0322-coin-change/) | Medium |
 | [0518 Coin Change II](./0518-coin-change-ii/) | Medium |
 
-## Counting
+### Counting
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0169 Majority Element](./0169-majority-element/) | Easy |
 | [0229 Majority Element II](./0229-majority-element-ii/) | Medium |
 | [0347 Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium |
@@ -662,41 +688,41 @@
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 
-## Counting Sort
+### Counting Sort
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 | [3812 Smallest Palindromic Rearrangement I](./3812-smallest-palindromic-rearrangement-i/) | Medium |
 
-## DP on Trees
+### DP on Trees
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0124 Binary Tree Maximum Path Sum](./0124-binary-tree-maximum-path-sum/) | Hard |
 | [0337 House Robber III](./0337-house-robber-iii/) | Medium |
 | [0543 Diameter of Binary Tree](./0543-diameter-of-binary-tree/) | Easy |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 
-## Dancing Links
+### Dancing Links
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0037 Sudoku Solver](./0037-sudoku-solver/) | Hard |
 
-## Data Stream
+### Data Stream
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0295 Find Median from Data Stream](./0295-find-median-from-data-stream/) | Hard |
 | [0789 Kth Largest Element in a Stream](./0789-kth-largest-element-in-a-stream/) | Easy |
 | [0937 Online Stock Span](./0937-online-stock-span/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 
-## Database
+### Database
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0197 Rising Temperature](./0197-rising-temperature/) | Easy |
 | [0570 Managers with at Least 5 Direct Reports](./0570-managers-with-at-least-5-direct-reports/) | Medium |
 | [0577 Employee Bonus](./0577-employee-bonus/) | Easy |
@@ -727,10 +753,10 @@
 | [2087 Confirmation Rate](./2087-confirmation-rate/) | Medium |
 | [2495 Number of Unique Subjects Taught by Each Teacher](./2495-number-of-unique-subjects-taught-by-each-teacher/) | Easy |
 
-## Depth-First Search
+### Depth-First Search
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0079 Word Search](./0079-word-search/) | Medium |
 | [0094 Binary Tree Inorder Traversal](./0094-binary-tree-inorder-traversal/) | Easy |
 | [0098 Validate Binary Search Tree](./0098-validate-binary-search-tree/) | Medium |
@@ -787,10 +813,10 @@
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 
-## Design
+### Design
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0146 LRU Cache](./0146-lru-cache/) | Medium |
 | [0155 Min Stack](./0155-min-stack/) | Medium |
 | [0173 Binary Search Tree Iterator](./0173-binary-search-tree-iterator/) | Medium |
@@ -812,27 +838,27 @@
 | [1023 Time Based Key-Value Store](./1023-time-based-key-value-store/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 
-## Dijkstra's Algorithm
+### Dijkstra's Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0744 Network Delay Time](./0744-network-delay-time/) | Medium |
 | [0794 Swim in Rising Water](./0794-swim-in-rising-water/) | Hard |
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
-## Directed Acyclic Graph
+### Directed Acyclic Graph
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0207 Course Schedule](./0207-course-schedule/) | Medium |
 | [0329 Longest Increasing Path in a Matrix](./0329-longest-increasing-path-in-a-matrix/) | Hard |
 
-## Divide and Conquer
+### Divide and Conquer
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0004 Median of Two Sorted Arrays](./0004-median-of-two-sorted-arrays/) | Hard |
 | [0023 Merge k Sorted Lists](./0023-merge-k-sorted-lists/) | Hard |
 | [0053 Maximum Subarray](./0053-maximum-subarray/) | Medium |
@@ -853,16 +879,16 @@
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 
-## Doubly-Linked List
+### Doubly-Linked List
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0146 LRU Cache](./0146-lru-cache/) | Medium |
 
-## Dynamic Programming
+### Dynamic Programming
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0005 Longest Palindromic Substring](./0005-longest-palindromic-substring/) | Medium |
 | [0022 Generate Parentheses](./0022-generate-parentheses/) | Medium |
 | [0042 Trapping Rain Water](./0042-trapping-rain-water/) | Hard |
@@ -936,79 +962,79 @@
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [4041 Climbing Stairs II](./4041-climbing-stairs-ii/) | Medium |
 
-## Enumeration
+### Enumeration
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0204 Count Primes](./0204-count-primes/) | Medium |
 | [1212 Sequential Digits](./1212-sequential-digits/) | Medium |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 | [3345 Smallest Divisible Digit Product I](./3345-smallest-divisible-digit-product-i/) | Easy |
 | [3805 Maximize Active Section with Trade I](./3805-maximize-active-section-with-trade-i/) | Medium |
 
-## Euclidean Algorithm
+### Euclidean Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1146 Greatest Common Divisor of Strings](./1146-greatest-common-divisor-of-strings/) | Easy |
 | [2106 Find Greatest Common Divisor of Array](./2106-find-greatest-common-divisor-of-array/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 
-## Eulerian Circuit
+### Eulerian Circuit
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0332 Reconstruct Itinerary](./0332-reconstruct-itinerary/) | Hard |
 
-## Eulerian Path
+### Eulerian Path
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0332 Reconstruct Itinerary](./0332-reconstruct-itinerary/) | Hard |
 
-## Floyd's Cycle Finding Algorithm
+### Floyd's Cycle Finding Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0141 Linked List Cycle](./0141-linked-list-cycle/) | Easy |
 | [0142 Linked List Cycle II](./0142-linked-list-cycle-ii/) | Medium |
 | [0202 Happy Number](./0202-happy-number/) | Easy |
 | [0287 Find the Duplicate Number](./0287-find-the-duplicate-number/) | Medium |
 
-## Floyd–Warshall Algorithm
+### Floyd–Warshall Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0399 Evaluate Division](./0399-evaluate-division/) | Medium |
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 
-## Game Theory
+### Game Theory
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0486 Predict the Winner](./0486-predict-the-winner/) | Medium |
 | [0909 Stone Game](./0909-stone-game/) | Medium |
 | [1086 Divisor Game](./1086-divisor-game/) | Easy |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
 
-## Geometry
+### Geometry
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
 
-## Graph Coloring
+### Graph Coloring
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0801 Is Graph Bipartite?](./0801-is-graph-bipartite/) | Medium |
 
-## Graph Theory
+### Graph Theory
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0133 Clone Graph](./0133-clone-graph/) | Medium |
 | [0207 Course Schedule](./0207-course-schedule/) | Medium |
 | [0210 Course Schedule II](./0210-course-schedule-ii/) | Medium |
@@ -1029,19 +1055,19 @@
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
-## Greatest Common Divisor
+### Greatest Common Divisor
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1146 Greatest Common Divisor of Strings](./1146-greatest-common-divisor-of-strings/) | Easy |
 | [2106 Find Greatest Common Divisor of Array](./2106-find-greatest-common-divisor-of-array/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 
-## Greedy
+### Greedy
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0011 Container With Most Water](./0011-container-with-most-water/) | Medium |
 | [0045 Jump Game II](./0045-jump-game-ii/) | Medium |
 | [0055 Jump Game](./0055-jump-game/) | Medium |
@@ -1073,18 +1099,18 @@
 | [4005 Maximum Total Subarray Value I](./4005-maximum-total-subarray-value-i/) | Medium |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
-## Hash Function
+### Hash Function
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0572 Subtree of Another Tree](./0572-subtree-of-another-tree/) | Easy |
 | [0816 Design HashSet](./0816-design-hashset/) | Easy |
 | [0817 Design HashMap](./0817-design-hashmap/) | Easy |
 
-## Hash Table
+### Hash Table
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0001 Two Sum](./0001-two-sum/) | Easy |
 | [0003 Longest Substring Without Repeating Characters](./0003-longest-substring-without-repeating-characters/) | Medium |
 | [0013 Roman to Integer](./0013-roman-to-integer/) | Easy |
@@ -1157,10 +1183,10 @@
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 
-## Heap (Priority Queue)
+### Heap (Priority Queue)
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0023 Merge k Sorted Lists](./0023-merge-k-sorted-lists/) | Hard |
 | [0215 Kth Largest Element in an Array](./0215-kth-largest-element-in-an-array/) | Medium |
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
@@ -1187,35 +1213,35 @@
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
-## Impartial Game
+### Impartial Game
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1086 Divisor Game](./1086-divisor-game/) | Easy |
 
-## Interactive
+### Interactive
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0374 Guess Number Higher or Lower](./0374-guess-number-higher-or-lower/) | Easy |
 | [1185 Find in Mountain Array](./1185-find-in-mountain-array/) | Hard |
 
-## Iterator
+### Iterator
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0173 Binary Search Tree Iterator](./0173-binary-search-tree-iterator/) | Medium |
 
-## K-D Tree
+### K-D Tree
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
 
-## Knapsack Problem
+### Knapsack Problem
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0279 Perfect Squares](./0279-perfect-squares/) | Medium |
 | [0322 Coin Change](./0322-coin-change/) | Medium |
 | [0416 Partition Equal Subset Sum](./0416-partition-equal-subset-sum/) | Medium |
@@ -1223,22 +1249,22 @@
 | [0518 Coin Change II](./0518-coin-change-ii/) | Medium |
 | [1130 Last Stone Weight II](./1130-last-stone-weight-ii/) | Medium |
 
-## Kosaraju's Algorithm
+### Kosaraju's Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0820 Find Eventual Safe States](./0820-find-eventual-safe-states/) | Medium |
 
-## Kruskal's Algorithm
+### Kruskal's Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 
-## Linked List
+### Linked List
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0002 Add Two Numbers](./0002-add-two-numbers/) | Medium |
 | [0019 Remove Nth Node From End of List](./0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021 Merge Two Sorted Lists](./0021-merge-two-sorted-lists/) | Easy |
@@ -1263,38 +1289,38 @@
 | [0908 Middle of the Linked List](./0908-middle-of-the-linked-list/) | Easy |
 | [2903 Insert Greatest Common Divisors in Linked List](./2903-insert-greatest-common-divisors-in-linked-list/) | Medium |
 
-## Longest Common Subsequence
+### Longest Common Subsequence
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0583 Delete Operation for Two Strings](./0583-delete-operation-for-two-strings/) | Medium |
 | [1092 Shortest Common Supersequence ](./1092-shortest-common-supersequence/) | Hard |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
 
-## Longest Increasing Subsequence
+### Longest Increasing Subsequence
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0300 Longest Increasing Subsequence](./0300-longest-increasing-subsequence/) | Medium |
 | [0334 Increasing Triplet Subsequence](./0334-increasing-triplet-subsequence/) | Medium |
 
-## Lowest Common Ancestor
+### Lowest Common Ancestor
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0235 Lowest Common Ancestor of a Binary Search Tree](./0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236 Lowest Common Ancestor of a Binary Tree](./0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 
-## Manacher
+### Manacher
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0005 Longest Palindromic Substring](./0005-longest-palindromic-substring/) | Medium |
 
-## Math
+### Math
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0002 Add Two Numbers](./0002-add-two-numbers/) | Medium |
 | [0007 Reverse Integer](./0007-reverse-integer/) | Medium |
 | [0009 Palindrome Number](./0009-palindrome-number/) | Easy |
@@ -1347,10 +1373,10 @@
 | [3995 GCD of Odd and Even Sums](./3995-gcd-of-odd-and-even-sums/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-## Matrix
+### Matrix
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0036 Valid Sudoku](./0036-valid-sudoku/) | Medium |
 | [0037 Sudoku Solver](./0037-sudoku-solver/) | Hard |
 | [0048 Rotate Image](./0048-rotate-image/) | Medium |
@@ -1383,16 +1409,16 @@
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
 
-## Meet in the Middle
+### Meet in the Middle
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
-## Memoization
+### Memoization
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0070 Climbing Stairs](./0070-climbing-stairs/) | Easy |
 | [0139 Word Break](./0139-word-break/) | Medium |
 | [0140 Word Break II](./0140-word-break-ii/) | Hard |
@@ -1400,42 +1426,42 @@
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1236 N-th Tribonacci Number](./1236-n-th-tribonacci-number/) | Easy |
 
-## Merge Sort
+### Merge Sort
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0023 Merge k Sorted Lists](./0023-merge-k-sorted-lists/) | Hard |
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 
-## Minimax
+### Minimax
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0486 Predict the Winner](./0486-predict-the-winner/) | Medium |
 | [0794 Swim in Rising Water](./0794-swim-in-rising-water/) | Hard |
 | [0909 Stone Game](./0909-stone-game/) | Medium |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
 
-## Minimum Spanning Tree
+### Minimum Spanning Tree
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 
-## Monotonic Queue
+### Monotonic Queue
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 
-## Monotonic Stack
+### Monotonic Stack
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0042 Trapping Rain Water](./0042-trapping-rain-water/) | Hard |
 | [0084 Largest Rectangle in Histogram](./0084-largest-rectangle-in-histogram/) | Hard |
 | [0316 Remove Duplicate Letters](./0316-remove-duplicate-letters/) | Medium |
@@ -1446,16 +1472,16 @@
 | [0937 Online Stock Span](./0937-online-stock-span/) | Medium |
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 
-## Newton's Method
+### Newton's Method
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0069 Sqrt(x)](./0069-sqrtx/) | Easy |
 
-## Number Theory
+### Number Theory
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0204 Count Primes](./0204-count-primes/) | Medium |
 | [2106 Find Greatest Common Divisor of Array](./2106-find-greatest-common-divisor-of-array/) | Easy |
 | [2491 Smallest Even Multiple](./2491-smallest-even-multiple/) | Easy |
@@ -1465,32 +1491,32 @@
 | [3995 GCD of Odd and Even Sums](./3995-gcd-of-odd-and-even-sums/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-## Ordered Set
+### Ordered Set
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [0931 Maximum Frequency Stack](./0931-maximum-frequency-stack/) | Hard |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
-## Other
+### Other
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [4330 Minimum Lights to Illuminate a Road](./4330-minimum-lights-to-illuminate-a-road/) | Medium |
 | [4342 Create Grid With Exactly One Path](./4342-create-grid-with-exactly-one-path/) | Easy |
 | [4356 Sum of Integers with Maximum Digit Range](./4356-sum-of-integers-with-maximum-digit-range/) | Easy |
 
-## Pigeonhole Principle
+### Pigeonhole Principle
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0287 Find the Duplicate Number](./0287-find-the-duplicate-number/) | Medium |
 
-## Prefix Sum
+### Prefix Sum
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0209 Minimum Size Subarray Sum](./0209-minimum-size-subarray-sum/) | Medium |
 | [0238 Product of Array Except Self](./0238-product-of-array-except-self/) | Medium |
 | [0303 Range Sum Query - Immutable](./0303-range-sum-query-immutable/) | Easy |
@@ -1506,28 +1532,28 @@
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 
-## Prim's Algorithm
+### Prim's Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 
-## Primality Test
+### Primality Test
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0204 Count Primes](./0204-count-primes/) | Medium |
 
-## Prime Number Sieve
+### Prime Number Sieve
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0204 Count Primes](./0204-count-primes/) | Medium |
 
-## Queue
+### Queue
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0225 Implement Stack using Queues](./0225-implement-stack-using-queues/) | Easy |
 | [0232 Implement Queue using Stacks](./0232-implement-queue-using-stacks/) | Easy |
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
@@ -1536,45 +1562,45 @@
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 
-## Quickselect
+### Quickselect
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0215 Kth Largest Element in an Array](./0215-kth-largest-element-in-an-array/) | Medium |
 | [0347 Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium |
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
 
-## Quicksort
+### Quicksort
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0056 Merge Intervals](./0056-merge-intervals/) | Medium |
 | [0075 Sort Colors](./0075-sort-colors/) | Medium |
 | [0455 Assign Cookies](./0455-assign-cookies/) | Easy |
 
-## Radix Sort
+### Radix Sort
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 
-## Randomized
+### Randomized
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0912 Random Pick with Weight](./0912-random-pick-with-weight/) | Medium |
 
-## Range Minimum/Maximum Query
+### Range Minimum/Maximum Query
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0084 Largest Rectangle in Histogram](./0084-largest-rectangle-in-histogram/) | Hard |
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
 
-## Recursion
+### Recursion
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0002 Add Two Numbers](./0002-add-two-numbers/) | Medium |
 | [0021 Merge Two Sorted Lists](./0021-merge-two-sorted-lists/) | Easy |
 | [0025 Reverse Nodes in k-Group](./0025-reverse-nodes-in-k-group/) | Hard |
@@ -1587,40 +1613,40 @@
 | [0486 Predict the Winner](./0486-predict-the-winner/) | Medium |
 | [2050 Count Good Numbers](./2050-count-good-numbers/) | Medium |
 
-## Segment Tree
+### Segment Tree
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
-## Semi-Eulerian Graph
+### Semi-Eulerian Graph
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0332 Reconstruct Itinerary](./0332-reconstruct-itinerary/) | Hard |
 
-## Shortest Path
+### Shortest Path
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0399 Evaluate Division](./0399-evaluate-division/) | Medium |
 | [0744 Network Delay Time](./0744-network-delay-time/) | Medium |
 | [0803 Cheapest Flights Within K Stops](./0803-cheapest-flights-within-k-stops/) | Medium |
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
-## Sieve Theory
+### Sieve Theory
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0204 Count Primes](./0204-count-primes/) | Medium |
 
-## Simulation
+### Simulation
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0043 Multiply Strings](./0043-multiply-strings/) | Medium |
 | [0054 Spiral Matrix](./0054-spiral-matrix/) | Medium |
 | [0067 Add Binary](./0067-add-binary/) | Easy |
@@ -1636,10 +1662,10 @@
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-## Sliding Window
+### Sliding Window
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0003 Longest Substring Without Repeating Characters](./0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076 Minimum Window Substring](./0076-minimum-window-substring/) | Hard |
 | [0209 Minimum Size Subarray Sum](./0209-minimum-size-subarray-sum/) | Medium |
@@ -1658,10 +1684,10 @@
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 
-## Sorting
+### Sorting
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0015 3Sum](./0015-3sum/) | Medium |
 | [0018 4Sum](./0018-4sum/) | Medium |
 | [0047 Permutations II](./0047-permutations-ii/) | Medium |
@@ -1714,10 +1740,10 @@
 | [3859 Maximum Product of Two Digits](./3859-maximum-product-of-two-digits/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-## Stack
+### Stack
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0020 Valid Parentheses](./0020-valid-parentheses/) | Easy |
 | [0042 Trapping Rain Water](./0042-trapping-rain-water/) | Hard |
 | [0071 Simplify Path](./0071-simplify-path/) | Medium |
@@ -1748,10 +1774,10 @@
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
 
-## String
+### String
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0003 Longest Substring Without Repeating Characters](./0003-longest-substring-without-repeating-characters/) | Medium |
 | [0005 Longest Palindromic Substring](./0005-longest-palindromic-substring/) | Medium |
 | [0006 Zigzag Conversion](./0006-zigzag-conversion/) | Medium |
@@ -1829,34 +1855,34 @@
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 
-## String Matching
+### String Matching
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0572 Subtree of Another Tree](./0572-subtree-of-another-tree/) | Easy |
 
-## Tarjan's SCC Algorithm
+### Tarjan's SCC Algorithm
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0820 Find Eventual Safe States](./0820-find-eventual-safe-states/) | Medium |
 
-## Ternary Search
+### Ternary Search
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [1185 Find in Mountain Array](./1185-find-in-mountain-array/) | Hard |
 
-## Timsort
+### Timsort
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0917 Boats to Save People](./0917-boats-to-save-people/) | Medium |
 
-## Topological Sort
+### Topological Sort
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0207 Course Schedule](./0207-course-schedule/) | Medium |
 | [0210 Course Schedule II](./0210-course-schedule-ii/) | Medium |
 | [0310 Minimum Height Trees](./0310-minimum-height-trees/) | Medium |
@@ -1865,22 +1891,22 @@
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
-## Tournament Sort
+### Tournament Sort
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0023 Merge k Sorted Lists](./0023-merge-k-sorted-lists/) | Hard |
 
-## Treap
+### Treap
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 
-## Tree
+### Tree
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0094 Binary Tree Inorder Traversal](./0094-binary-tree-inorder-traversal/) | Easy |
 | [0098 Validate Binary Search Tree](./0098-validate-binary-search-tree/) | Medium |
 | [0100 Same Tree](./0100-same-tree/) | Easy |
@@ -1919,20 +1945,20 @@
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
 
-## Trie
+### Trie
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0014 Longest Common Prefix](./0014-longest-common-prefix/) | Easy |
 | [0139 Word Break](./0139-word-break/) | Medium |
 | [0140 Word Break II](./0140-word-break-ii/) | Hard |
 | [0208 Implement Trie (Prefix Tree)](./0208-implement-trie-prefix-tree/) | Medium |
 | [0211 Design Add and Search Words Data Structure](./0211-design-add-and-search-words-data-structure/) | Medium |
 
-## Two Pointers
+### Two Pointers
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0005 Longest Palindromic Substring](./0005-longest-palindromic-substring/) | Medium |
 | [0011 Container With Most Water](./0011-container-with-most-water/) | Medium |
 | [0015 3Sum](./0015-3sum/) | Medium |
@@ -1982,10 +2008,10 @@
 | [2271 Rearrange Array Elements by Sign](./2271-rearrange-array-elements-by-sign/) | Medium |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-## Union-Find
+### Union-Find
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0128 Longest Consecutive Sequence](./0128-longest-consecutive-sequence/) | Medium |
 | [0130 Surrounded Regions](./0130-surrounded-regions/) | Medium |
 | [0200 Number of Islands](./0200-number-of-islands/) | Medium |
@@ -2002,11 +2028,15 @@
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 
-## Zero-Sum Game
+### Zero-Sum Game
 
-| Problem Name | Difficulty |
-|--------------|------------|
+| Problem | Difficulty |
+|---------|------------|
 | [0486 Predict the Winner](./0486-predict-the-winner/) | Medium |
 | [0909 Stone Game](./0909-stone-game/) | Medium |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
+
+---
+
+*README automatically generated from LeetCode.*
