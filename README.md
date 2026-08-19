@@ -322,6 +322,7 @@
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 | [2248 Minimum Cost of Buying Candies With Discount](./2248-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2271 Rearrange Array Elements by Sign](./2271-rearrange-array-elements-by-sign/) | Medium |
+| [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
@@ -382,6 +383,7 @@
 | Problem Name | Difficulty |
 |--------------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
+| [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 
 ## Binary Lifting
 
@@ -849,6 +851,7 @@
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
+| [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 
 ## Doubly-Linked List
 
@@ -925,6 +928,7 @@
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
+| [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [4041 Climbing Stairs II](./4041-climbing-stairs-ii/) | Medium |
 
@@ -1420,6 +1424,7 @@
 |--------------|------------|
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
+| [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 
 ## Monotonic Stack
 
@@ -1522,6 +1527,7 @@
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
 | [0860 Design Circular Queue](./0860-design-circular-queue/) | Medium |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
+| [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 
 ## Quickselect
@@ -1580,6 +1586,7 @@
 | Problem Name | Difficulty |
 |--------------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
+| [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
 ## Semi-Eulerian Graph
