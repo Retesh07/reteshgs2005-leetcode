@@ -1,21 +1,5 @@
-```python
 #!/usr/bin/env python3
 
-"""
-LeetCode README Generator
-
-Account:
-    reteshgs2005
-
-Generates:
-    - Total LeetCode progress
-    - Easy / Medium / Hard progress
-    - Progress percentages
-    - Topic-wise solved count from repository
-    - Problem lists grouped by topic
-"""
-
-import json
 import os
 import re
 from collections import defaultdict
@@ -23,15 +7,11 @@ from collections import defaultdict
 import requests
 
 
-# =========================================================
-# Configuration
-# =========================================================
-
 USERNAME = "reteshgs2005"
 
-GRAPHQL = "https://leetcode.com/graphql"
+GRAPHQL_URL = "https://leetcode.com/graphql"
 
-PATTERN = re.compile(r"^(\d{4})-(.+)$")
+FOLDER_PATTERN = re.compile(r"^(\d{4})-(.+)$")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
@@ -41,12 +21,8 @@ HEADERS = {
 }
 
 
-# =========================================================
-# GraphQL Queries
-# =========================================================
-
 USER_STATS_QUERY = """
-query userProblemsSolved($username: String!) {
+query userStats($username: String!) {
     allQuestionsCount {
         difficulty
         count
@@ -61,22 +37,16 @@ query userProblemsSolved($username: String!) {
                 count
             }
         }
-
-        profile {
-            ranking
-            reputation
-        }
     }
 }
 """
 
 
 QUESTION_QUERY = """
-query getQuestion($titleSlug: String!) {
+query questionData($titleSlug: String!) {
     question(titleSlug: $titleSlug) {
         title
         difficulty
-
         topicTags {
             name
         }
@@ -85,12 +55,7 @@ query getQuestion($titleSlug: String!) {
 """
 
 
-# =========================================================
-# GraphQL helper
-# =========================================================
-
-def graphql_request(query, variables, operation_name):
-
+def graphql(query, variables, operation_name):
     payload = {
         "query": query,
         "variables": variables,
@@ -98,7 +63,7 @@ def graphql_request(query, variables, operation_name):
     }
 
     response = requests.post(
-        GRAPHQL,
+        GRAPHQL_URL,
         headers=HEADERS,
         json=payload,
         timeout=30,
@@ -114,16 +79,13 @@ def graphql_request(query, variables, operation_name):
     return data["data"]
 
 
-# =========================================================
-# Fetch LeetCode account statistics
-# =========================================================
+def get_user_stats():
+    print(f"Fetching LeetCode stats for {USERNAME}...")
 
-def fetch_user_stats():
-
-    data = graphql_request(
+    data = graphql(
         USER_STATS_QUERY,
         {"username": USERNAME},
-        "userProblemsSolved",
+        "userStats",
     )
 
     user = data.get("matchedUser")
@@ -133,144 +95,81 @@ def fetch_user_stats():
             f"LeetCode user '{USERNAME}' was not found."
         )
 
-    # ---------------------------------------------
-    # Total available questions
-    # ---------------------------------------------
+    totals = {
+        item["difficulty"]: item["count"]
+        for item in data["allQuestionsCount"]
+    }
 
-    total_questions = {}
-
-    for item in data["allQuestionsCount"]:
-        total_questions[item["difficulty"]] = item["count"]
-
-    # ---------------------------------------------
-    # User solved questions
-    # ---------------------------------------------
-
-    solved_questions = {}
-
-    for item in user["submitStatsGlobal"]["acSubmissionNum"]:
-        solved_questions[item["difficulty"]] = item["count"]
+    solved = {
+        item["difficulty"]: item["count"]
+        for item in user["submitStatsGlobal"]["acSubmissionNum"]
+    }
 
     return {
-        "total": total_questions.get("All", 0),
-        "easy_total": total_questions.get("Easy", 0),
-        "medium_total": total_questions.get("Medium", 0),
-        "hard_total": total_questions.get("Hard", 0),
-
-        "solved": solved_questions.get("All", 0),
-        "easy_solved": solved_questions.get("Easy", 0),
-        "medium_solved": solved_questions.get("Medium", 0),
-        "hard_solved": solved_questions.get("Hard", 0),
-
-        "ranking": user.get("profile", {}).get("ranking"),
-        "reputation": user.get("profile", {}).get("reputation"),
+        "total": totals.get("All", 0),
+        "easy_total": totals.get("Easy", 0),
+        "medium_total": totals.get("Medium", 0),
+        "hard_total": totals.get("Hard", 0),
+        "solved": solved.get("All", 0),
+        "easy_solved": solved.get("Easy", 0),
+        "medium_solved": solved.get("Medium", 0),
+        "hard_solved": solved.get("Hard", 0),
     }
 
 
-# =========================================================
-# Fetch individual problem information
-# =========================================================
-
-def fetch_problem(slug):
-
+def get_problem(slug):
     try:
-
-        data = graphql_request(
+        data = graphql(
             QUESTION_QUERY,
             {"titleSlug": slug},
-            "getQuestion",
+            "questionData",
         )
 
         question = data.get("question")
 
         if not question:
+            print(f"Problem not found: {slug}")
             return None
 
         return {
             "title": question["title"],
             "difficulty": question["difficulty"],
             "topics": [
-                topic["name"]
-                for topic in question["topicTags"]
+                tag["name"]
+                for tag in question["topicTags"]
             ] or ["Other"],
         }
 
     except Exception as error:
-
-        print(
-            f"Skipping {slug}: {error}"
-        )
-
+        print(f"Failed to fetch {slug}: {error}")
         return None
 
 
-# =========================================================
-# Percentage helper
-# =========================================================
-
-def percentage(solved, total):
-
+def percent(solved, total):
     if total == 0:
         return 0
 
-    return (solved / total) * 100
+    return solved / total * 100
 
 
-# =========================================================
-# Progress bar
-# =========================================================
-
-def progress_bar(solved, total, length=20):
-
+def progress_bar(solved, total, size=20):
     if total == 0:
-        return "░" * length
+        return "░" * size
 
-    ratio = solved / total
+    filled = int((solved / total) * size)
+    filled = min(filled, size)
 
-    filled = round(ratio * length)
-
-    filled = min(filled, length)
-
-    return (
-        "█" * filled
-        + "░" * (length - filled)
-    )
+    return "█" * filled + "░" * (size - filled)
 
 
-# =========================================================
-# Main
-# =========================================================
-
-def main():
-
-    print(
-        f"Fetching LeetCode statistics for "
-        f"{USERNAME}..."
-    )
-
-    # -----------------------------------------------------
-    # Account statistics
-    # -----------------------------------------------------
-
-    stats = fetch_user_stats()
-
-    print(
-        f"LeetCode solved: "
-        f"{stats['solved']}/{stats['total']}"
-    )
-
-    # -----------------------------------------------------
-    # Repository problems
-    # -----------------------------------------------------
-
+def scan_repository():
     problems = []
 
-    for entry in os.listdir("."):
-
-        if not os.path.isdir(entry):
+    for folder in os.listdir("."):
+        if not os.path.isdir(folder):
             continue
 
-        match = PATTERN.match(entry)
+        match = FOLDER_PATTERN.match(folder)
 
         if not match:
             continue
@@ -278,101 +177,70 @@ def main():
         number = int(match.group(1))
         slug = match.group(2)
 
-        print(
-            f"Fetching problem "
-            f"{number:04d}: {slug}"
-        )
+        print(f"Fetching problem {number:04d} - {slug}")
 
-        metadata = fetch_problem(slug)
+        data = get_problem(slug)
 
-        if metadata is None:
+        if data is None:
             continue
 
-        problems.append(
-            {
-                "number": number,
-                "folder": entry,
-                **metadata,
-            }
-        )
+        problems.append({
+            "number": number,
+            "folder": folder,
+            "slug": slug,
+            **data,
+        })
 
-    # -----------------------------------------------------
-    # Sort problems
-    # -----------------------------------------------------
+    problems.sort(key=lambda x: x["number"])
 
-    problems.sort(
-        key=lambda problem: problem["number"]
-    )
+    return problems
 
-    # -----------------------------------------------------
-    # Group repository problems by topic
-    # -----------------------------------------------------
 
-    grouped = defaultdict(list)
+def generate_readme(stats, problems):
+    topics = defaultdict(list)
 
     for problem in problems:
-
         for topic in problem["topics"]:
-            grouped[topic].append(problem)
+            topics[topic].append(problem)
 
-    # -----------------------------------------------------
-    # Topic counts
-    # -----------------------------------------------------
+    lines = []
 
-    topic_counts = {
-        topic: len(items)
-        for topic, items in grouped.items()
-    }
+    lines.append("# LeetCode Solutions")
+    lines.append("")
+    lines.append(
+        f"Solutions by "
+        f"[{USERNAME}](https://leetcode.com/u/{USERNAME}/)"
+    )
+    lines.append("")
 
     # =====================================================
-    # README
+    # LeetCode Account Progress
     # =====================================================
 
-    out = []
+    lines.append("## 📊 LeetCode Progress")
+    lines.append("")
 
-    # -----------------------------------------------------
-    # Header
-    # -----------------------------------------------------
-
-    out.append("# LeetCode Solutions\n")
-
-    out.append(
-        f"Solutions and progress for "
-        f"**[{USERNAME}](https://leetcode.com/u/{USERNAME}/)**.\n"
+    overall = percent(
+        stats["solved"],
+        stats["total"],
     )
 
-    # -----------------------------------------------------
-    # Overall progress
-    # -----------------------------------------------------
+    lines.append(
+        f"### {stats['solved']} / {stats['total']} Problems Solved"
+    )
+    lines.append("")
 
-    total_solved = stats["solved"]
-    total_questions = stats["total"]
-
-    overall_percentage = percentage(
-        total_solved,
-        total_questions,
+    lines.append(
+        f"`{progress_bar(stats['solved'], stats['total'])}` "
+        f"**{overall:.2f}%**"
     )
 
-    out.append("## 📊 LeetCode Progress\n")
+    lines.append("")
 
-    out.append(
-        f"### {total_solved} / {total_questions} "
-        f"problems solved\n"
-    )
+    lines.append("| Difficulty | Solved | Total | Progress |")
+    lines.append("|------------|-------:|------:|---------:|")
 
-    out.append(
-        f"`{progress_bar(total_solved, total_questions)}` "
-        f"**{overall_percentage:.2f}%**\n"
-    )
-
-    # -----------------------------------------------------
-    # Difficulty table
-    # -----------------------------------------------------
-
-    out.append("| Difficulty | Solved | Total | Progress |")
-    out.append("|------------|-------:|------:|---------:|")
-
-    difficulties = [
+    difficulty_data = [
         (
             "🟢 Easy",
             stats["easy_solved"],
@@ -390,167 +258,147 @@ def main():
         ),
     ]
 
-    for name, solved, total in difficulties:
-
-        pct = percentage(solved, total)
-
-        out.append(
-            f"| {name} | "
-            f"{solved} | "
-            f"{total} | "
-            f"{pct:.2f}% |"
+    for name, solved, total in difficulty_data:
+        lines.append(
+            f"| {name} | {solved} | {total} | "
+            f"{percent(solved, total):.2f}% |"
         )
 
-    out.append("")
+    lines.append("")
 
-    # -----------------------------------------------------
-    # Repository statistics
-    # -----------------------------------------------------
+    # =====================================================
+    # Repository Stats
+    # =====================================================
 
-    out.append("## 💻 Repository\n")
+    lines.append("## 💻 Repository")
+    lines.append("")
 
-    out.append(
-        f"**{len(problems)} solutions** "
-        f"uploaded to this repository.\n"
+    lines.append(
+        f"**{len(problems)} solutions** are currently "
+        f"stored in this repository."
     )
+
+    lines.append("")
 
     repo_difficulty = defaultdict(int)
 
     for problem in problems:
-        repo_difficulty[
-            problem["difficulty"]
-        ] += 1
+        repo_difficulty[problem["difficulty"]] += 1
 
-    out.append("| Difficulty | Solutions |")
-    out.append("|------------|----------:|")
-
-    out.append(
-        f"| 🟢 Easy | "
-        f"{repo_difficulty['Easy']} |"
+    lines.append("| Difficulty | Solutions |")
+    lines.append("|------------|----------:|")
+    lines.append(
+        f"| 🟢 Easy | {repo_difficulty['Easy']} |"
+    )
+    lines.append(
+        f"| 🟡 Medium | {repo_difficulty['Medium']} |"
+    )
+    lines.append(
+        f"| 🔴 Hard | {repo_difficulty['Hard']} |"
     )
 
-    out.append(
-        f"| 🟡 Medium | "
-        f"{repo_difficulty['Medium']} |"
-    )
+    lines.append("")
 
-    out.append(
-        f"| 🔴 Hard | "
-        f"{repo_difficulty['Hard']} |"
-    )
-
-    out.append("")
-
-    # -----------------------------------------------------
+    # =====================================================
     # Topics
-    # -----------------------------------------------------
+    # =====================================================
 
-    out.append("## 🧠 Topics\n")
+    lines.append("## 🧠 Topics")
+    lines.append("")
 
-    out.append(
-        "| Topic | Problems Solved |"
+    lines.append("| Topic | Problems |")
+    lines.append("|-------|---------:|")
+
+    topic_order = sorted(
+        topics,
+        key=lambda topic: (-len(topics[topic]), topic),
     )
 
-    out.append(
-        "|-------|----------------:|"
-    )
-
-    for topic in sorted(
-        topic_counts,
-        key=lambda x: (-topic_counts[x], x),
-    ):
-
-        out.append(
-            f"| {topic} | "
-            f"{topic_counts[topic]} |"
+    for topic in topic_order:
+        lines.append(
+            f"| {topic} | {len(topics[topic])} |"
         )
 
-    out.append("")
+    lines.append("")
 
-    # -----------------------------------------------------
-    # Topic navigation
-    # -----------------------------------------------------
+    # =====================================================
+    # Solutions
+    # =====================================================
 
-    out.append("## 📚 Solutions by Topic\n")
+    lines.append("## 📝 Solutions")
+    lines.append("")
 
-    for topic in sorted(grouped):
+    for topic in sorted(topics):
 
-        anchor = (
-            topic.lower()
-            .replace(" ", "-")
-            .replace("&", "")
-        )
+        lines.append(f"### {topic}")
+        lines.append("")
 
-        out.append(
-            f"- [{topic}](#{anchor})"
-        )
+        lines.append("| Problem | Difficulty |")
+        lines.append("|---------|------------|")
 
-    out.append("\n---\n")
-
-    # -----------------------------------------------------
-    # Problems by topic
-    # -----------------------------------------------------
-
-    for topic in sorted(grouped):
-
-        out.append(
-            f"## {topic}\n"
-        )
-
-        out.append(
-            "| Problem | Difficulty |"
-        )
-
-        out.append(
-            "|---------|------------|"
-        )
-
-        for problem in sorted(
-            grouped[topic],
+        topic_problems = sorted(
+            topics[topic],
             key=lambda x: x["number"],
-        ):
+        )
 
-            out.append(
+        for problem in topic_problems:
+            lines.append(
                 f"| "
                 f"[{problem['number']:04d} "
                 f"{problem['title']}]"
                 f"(./{problem['folder']}/) "
-                f"| "
-                f"{problem['difficulty']} |"
+                f"| {problem['difficulty']} |"
             )
 
-        out.append("")
+        lines.append("")
 
-    # -----------------------------------------------------
+    # =====================================================
     # Footer
-    # -----------------------------------------------------
+    # =====================================================
 
-    out.append("---\n")
-
-    out.append(
-        f"*README automatically generated from "
-        f"LeetCode profile `{USERNAME}`.*"
+    lines.append("---")
+    lines.append("")
+    lines.append(
+        "*README automatically generated from LeetCode.*"
     )
 
-    # -----------------------------------------------------
-    # Write README
-    # -----------------------------------------------------
+    return "\n".join(lines) + "\n"
+
+
+def main():
+    print("=" * 60)
+    print("LeetCode README Generator")
+    print("=" * 60)
+
+    stats = get_user_stats()
+
+    print(
+        f"Account solved: "
+        f"{stats['solved']} / {stats['total']}"
+    )
+
+    problems = scan_repository()
+
+    print(
+        f"Repository solutions: {len(problems)}"
+    )
+
+    readme = generate_readme(
+        stats,
+        problems,
+    )
 
     with open(
         "README.md",
         "w",
         encoding="utf-8",
     ) as file:
+        file.write(readme)
 
-        file.write(
-            "\n".join(out)
-        )
-
-    print(
-        "\nREADME.md generated successfully!"
-    )
+    print("=" * 60)
+    print("README.md generated successfully!")
+    print("=" * 60)
 
 
 if __name__ == "__main__":
     main()
-```
