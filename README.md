@@ -908,6 +908,7 @@
 | [0516 Longest Palindromic Subsequence](./0516-longest-palindromic-subsequence/) | Medium |
 | [0518 Coin Change II](./0518-coin-change-ii/) | Medium |
 | [0542 01 Matrix](./0542-01-matrix/) | Medium |
+| [0583 Delete Operation for Two Strings](./0583-delete-operation-for-two-strings/) | Medium |
 | [0647 Palindromic Substrings](./0647-palindromic-substrings/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
@@ -1265,6 +1266,7 @@
 
 | Problem Name | Difficulty |
 |--------------|------------|
+| [0583 Delete Operation for Two Strings](./0583-delete-operation-for-two-strings/) | Medium |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
 
 ## Longest Increasing Subsequence
@@ -1793,6 +1795,7 @@
 | [0443 String Compression](./0443-string-compression/) | Medium |
 | [0516 Longest Palindromic Subsequence](./0516-longest-palindromic-subsequence/) | Medium |
 | [0567 Permutation in String](./0567-permutation-in-string/) | Medium |
+| [0583 Delete Operation for Two Strings](./0583-delete-operation-for-two-strings/) | Medium |
 | [0647 Palindromic Substrings](./0647-palindromic-substrings/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
 | [0721 Accounts Merge](./0721-accounts-merge/) | Medium |
