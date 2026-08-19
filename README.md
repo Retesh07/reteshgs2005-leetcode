@@ -1,20 +1,14 @@
 # LeetCode Solutions
 
-Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
+Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs2005/).
 
-## 📊 LeetCode Progress
+<p align="center">
+  <a href="https://leetcode.com/u/reteshgs2005/">
+    <img src="https://leetcard.jacoblin.cool/reteshgs2005?theme=dark&font=Baloo_2&border=0&radius=12&animation=true&cache=3600" alt="LeetCode Stats" width="500" />
+  </a>
+</p>
 
-### 410 / 4029 Problems Solved
-
-`██░░░░░░░░░░░░░░░░░░` **10.18%**
-
-| Difficulty | Solved | Total | Progress |
-|------------|-------:|------:|---------:|
-| 🟢 Easy | 139 | 960 | 14.48% |
-| 🟡 Medium | 227 | 2103 | 10.79% |
-| 🔴 Hard | 44 | 966 | 4.55% |
-
-## 💻 Repository
+## 📚 Repository Statistics
 
 **400 solutions** are currently stored in this repository.
 
@@ -72,8 +66,8 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | Trie | 5 |
 | Bidirectional Search | 4 |
 | Combinatorics | 4 |
-| DP on Trees | 4 |
 | Data Stream | 4 |
+| DP on Trees | 4 |
 | Euclidean Algorithm | 4 |
 | Floyd's Cycle Finding Algorithm | 4 |
 | Greatest Common Divisor | 4 |
@@ -139,9 +133,122 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | Tournament Sort | 1 |
 | Treap | 1 |
 
-## 📝 Solutions
+## 🔎 Browse by Topic
 
-### 0-1 Knapsack
+- [0-1 Knapsack](#0-1-knapsack)
+- [Algorithm X](#algorithm-x)
+- [Array](#array)
+- [Backtracking](#backtracking)
+- [Bellman–Ford Algorithm](#bellman–ford-algorithm)
+- [Bidirectional Search](#bidirectional-search)
+- [Binary Indexed Tree](#binary-indexed-tree)
+- [Binary Lifting](#binary-lifting)
+- [Binary Search](#binary-search)
+- [Binary Search Tree](#binary-search-tree)
+- [Binary Tree](#binary-tree)
+- [Bipartite Graph](#bipartite-graph)
+- [Bit Manipulation](#bit-manipulation)
+- [Bitmask](#bitmask)
+- [Borůvka's Algorithm](#borůvka's-algorithm)
+- [Boyer–Moore Majority Vote Algorithm](#boyer–moore-majority-vote-algorithm)
+- [Bracket Sequences](#bracket-sequences)
+- [Brainteaser](#brainteaser)
+- [Breadth-First Search](#breadth-first-search)
+- [Brute-Force Search](#brute-force-search)
+- [Bubble Sort](#bubble-sort)
+- [Bucket Sort](#bucket-sort)
+- [Combinatorics](#combinatorics)
+- [Complete Knapsack](#complete-knapsack)
+- [Counting](#counting)
+- [Counting Sort](#counting-sort)
+- [DP on Trees](#dp-on-trees)
+- [Dancing Links](#dancing-links)
+- [Data Stream](#data-stream)
+- [Database](#database)
+- [Depth-First Search](#depth-first-search)
+- [Design](#design)
+- [Dijkstra's Algorithm](#dijkstra's-algorithm)
+- [Directed Acyclic Graph](#directed-acyclic-graph)
+- [Divide and Conquer](#divide-and-conquer)
+- [Doubly-Linked List](#doubly-linked-list)
+- [Dynamic Programming](#dynamic-programming)
+- [Enumeration](#enumeration)
+- [Euclidean Algorithm](#euclidean-algorithm)
+- [Eulerian Circuit](#eulerian-circuit)
+- [Eulerian Path](#eulerian-path)
+- [Floyd's Cycle Finding Algorithm](#floyd's-cycle-finding-algorithm)
+- [Floyd–Warshall Algorithm](#floyd–warshall-algorithm)
+- [Game Theory](#game-theory)
+- [Geometry](#geometry)
+- [Graph Coloring](#graph-coloring)
+- [Graph Theory](#graph-theory)
+- [Greatest Common Divisor](#greatest-common-divisor)
+- [Greedy](#greedy)
+- [Hash Function](#hash-function)
+- [Hash Table](#hash-table)
+- [Heap (Priority Queue)](#heap-(priority-queue))
+- [Impartial Game](#impartial-game)
+- [Interactive](#interactive)
+- [Iterator](#iterator)
+- [K-D Tree](#k-d-tree)
+- [Knapsack Problem](#knapsack-problem)
+- [Kosaraju's Algorithm](#kosaraju's-algorithm)
+- [Kruskal's Algorithm](#kruskal's-algorithm)
+- [Linked List](#linked-list)
+- [Longest Common Subsequence](#longest-common-subsequence)
+- [Longest Increasing Subsequence](#longest-increasing-subsequence)
+- [Lowest Common Ancestor](#lowest-common-ancestor)
+- [Manacher](#manacher)
+- [Math](#math)
+- [Matrix](#matrix)
+- [Meet in the Middle](#meet-in-the-middle)
+- [Memoization](#memoization)
+- [Merge Sort](#merge-sort)
+- [Minimax](#minimax)
+- [Minimum Spanning Tree](#minimum-spanning-tree)
+- [Monotonic Queue](#monotonic-queue)
+- [Monotonic Stack](#monotonic-stack)
+- [Newton's Method](#newton's-method)
+- [Number Theory](#number-theory)
+- [Ordered Set](#ordered-set)
+- [Other](#other)
+- [Pigeonhole Principle](#pigeonhole-principle)
+- [Prefix Sum](#prefix-sum)
+- [Prim's Algorithm](#prim's-algorithm)
+- [Primality Test](#primality-test)
+- [Prime Number Sieve](#prime-number-sieve)
+- [Queue](#queue)
+- [Quickselect](#quickselect)
+- [Quicksort](#quicksort)
+- [Radix Sort](#radix-sort)
+- [Randomized](#randomized)
+- [Range Minimum/Maximum Query](#range-minimummaximum-query)
+- [Recursion](#recursion)
+- [Segment Tree](#segment-tree)
+- [Semi-Eulerian Graph](#semi-eulerian-graph)
+- [Shortest Path](#shortest-path)
+- [Sieve Theory](#sieve-theory)
+- [Simulation](#simulation)
+- [Sliding Window](#sliding-window)
+- [Sorting](#sorting)
+- [Stack](#stack)
+- [String](#string)
+- [String Matching](#string-matching)
+- [Tarjan's SCC Algorithm](#tarjan's-scc-algorithm)
+- [Ternary Search](#ternary-search)
+- [Timsort](#timsort)
+- [Topological Sort](#topological-sort)
+- [Tournament Sort](#tournament-sort)
+- [Treap](#treap)
+- [Tree](#tree)
+- [Trie](#trie)
+- [Two Pointers](#two-pointers)
+- [Union-Find](#union-find)
+- [Zero-Sum Game](#zero-sum-game)
+
+---
+
+## 0-1 Knapsack
 
 | Problem | Difficulty |
 |---------|------------|
@@ -149,7 +256,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0494 Target Sum](./0494-target-sum/) | Medium |
 | [1130 Last Stone Weight II](./1130-last-stone-weight-ii/) | Medium |
 
-### Algorithm X
+## Algorithm X
 
 | Problem | Difficulty |
 |---------|------------|
@@ -157,7 +264,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0051 N-Queens](./0051-n-queens/) | Hard |
 | [0052 N-Queens II](./0052-n-queens-ii/) | Hard |
 
-### Array
+## Array
 
 | Problem | Difficulty |
 |---------|------------|
@@ -364,7 +471,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-### Backtracking
+## Backtracking
 
 | Problem | Difficulty |
 |---------|------------|
@@ -388,14 +495,14 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 
-### Bellman–Ford Algorithm
+## Bellman–Ford Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
 | [0399 Evaluate Division](./0399-evaluate-division/) | Medium |
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 
-### Bidirectional Search
+## Bidirectional Search
 
 | Problem | Difficulty |
 |---------|------------|
@@ -404,21 +511,21 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0433 Minimum Genetic Mutation](./0433-minimum-genetic-mutation/) | Medium |
 | [0753 Open the Lock](./0753-open-the-lock/) | Medium |
 
-### Binary Indexed Tree
+## Binary Indexed Tree
 
 | Problem | Difficulty |
 |---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 
-### Binary Lifting
+## Binary Lifting
 
 | Problem | Difficulty |
 |---------|------------|
 | [0235 Lowest Common Ancestor of a Binary Search Tree](./0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236 Lowest Common Ancestor of a Binary Tree](./0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 
-### Binary Search
+## Binary Search
 
 | Problem | Difficulty |
 |---------|------------|
@@ -461,7 +568,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 
-### Binary Search Tree
+## Binary Search Tree
 
 | Problem | Difficulty |
 |---------|------------|
@@ -476,7 +583,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0789 Kth Largest Element in a Stream](./0789-kth-largest-element-in-a-stream/) | Easy |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 
-### Binary Tree
+## Binary Tree
 
 | Problem | Difficulty |
 |---------|------------|
@@ -517,13 +624,13 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
 
-### Bipartite Graph
+## Bipartite Graph
 
 | Problem | Difficulty |
 |---------|------------|
 | [0801 Is Graph Bipartite?](./0801-is-graph-bipartite/) | Medium |
 
-### Bit Manipulation
+## Bit Manipulation
 
 | Problem | Difficulty |
 |---------|------------|
@@ -549,7 +656,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 
-### Bitmask
+## Bitmask
 
 | Problem | Difficulty |
 |---------|------------|
@@ -557,20 +664,20 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
-### Borůvka's Algorithm
+## Borůvka's Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 
-### Boyer–Moore Majority Vote Algorithm
+## Boyer–Moore Majority Vote Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
 | [0169 Majority Element](./0169-majority-element/) | Easy |
 | [0229 Majority Element II](./0229-majority-element-ii/) | Medium |
 
-### Bracket Sequences
+## Bracket Sequences
 
 | Problem | Difficulty |
 |---------|------------|
@@ -578,13 +685,13 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0022 Generate Parentheses](./0022-generate-parentheses/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
 
-### Brainteaser
+## Brainteaser
 
 | Problem | Difficulty |
 |---------|------------|
 | [1086 Divisor Game](./1086-divisor-game/) | Easy |
 
-### Breadth-First Search
+## Breadth-First Search
 
 | Problem | Difficulty |
 |---------|------------|
@@ -637,26 +744,26 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 
-### Brute-Force Search
+## Brute-Force Search
 
 | Problem | Difficulty |
 |---------|------------|
 | [0139 Word Break](./0139-word-break/) | Medium |
 
-### Bubble Sort
+## Bubble Sort
 
 | Problem | Difficulty |
 |---------|------------|
 | [0075 Sort Colors](./0075-sort-colors/) | Medium |
 
-### Bucket Sort
+## Bucket Sort
 
 | Problem | Difficulty |
 |---------|------------|
 | [0347 Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium |
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 
-### Combinatorics
+## Combinatorics
 
 | Problem | Difficulty |
 |---------|------------|
@@ -665,7 +772,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 
-### Complete Knapsack
+## Complete Knapsack
 
 | Problem | Difficulty |
 |---------|------------|
@@ -673,7 +780,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0322 Coin Change](./0322-coin-change/) | Medium |
 | [0518 Coin Change II](./0518-coin-change-ii/) | Medium |
 
-### Counting
+## Counting
 
 | Problem | Difficulty |
 |---------|------------|
@@ -688,29 +795,20 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 
-### Counting Sort
+## Counting Sort
 
 | Problem | Difficulty |
 |---------|------------|
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 | [3812 Smallest Palindromic Rearrangement I](./3812-smallest-palindromic-rearrangement-i/) | Medium |
 
-### DP on Trees
-
-| Problem | Difficulty |
-|---------|------------|
-| [0124 Binary Tree Maximum Path Sum](./0124-binary-tree-maximum-path-sum/) | Hard |
-| [0337 House Robber III](./0337-house-robber-iii/) | Medium |
-| [0543 Diameter of Binary Tree](./0543-diameter-of-binary-tree/) | Easy |
-| [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
-
-### Dancing Links
+## Dancing Links
 
 | Problem | Difficulty |
 |---------|------------|
 | [0037 Sudoku Solver](./0037-sudoku-solver/) | Hard |
 
-### Data Stream
+## Data Stream
 
 | Problem | Difficulty |
 |---------|------------|
@@ -719,7 +817,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0937 Online Stock Span](./0937-online-stock-span/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 
-### Database
+## Database
 
 | Problem | Difficulty |
 |---------|------------|
@@ -753,7 +851,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [2087 Confirmation Rate](./2087-confirmation-rate/) | Medium |
 | [2495 Number of Unique Subjects Taught by Each Teacher](./2495-number-of-unique-subjects-taught-by-each-teacher/) | Easy |
 
-### Depth-First Search
+## Depth-First Search
 
 | Problem | Difficulty |
 |---------|------------|
@@ -813,7 +911,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 
-### Design
+## Design
 
 | Problem | Difficulty |
 |---------|------------|
@@ -838,7 +936,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1023 Time Based Key-Value Store](./1023-time-based-key-value-store/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 
-### Dijkstra's Algorithm
+## Dijkstra's Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
@@ -848,14 +946,14 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
-### Directed Acyclic Graph
+## Directed Acyclic Graph
 
 | Problem | Difficulty |
 |---------|------------|
 | [0207 Course Schedule](./0207-course-schedule/) | Medium |
 | [0329 Longest Increasing Path in a Matrix](./0329-longest-increasing-path-in-a-matrix/) | Hard |
 
-### Divide and Conquer
+## Divide and Conquer
 
 | Problem | Difficulty |
 |---------|------------|
@@ -879,13 +977,22 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 
-### Doubly-Linked List
+## Doubly-Linked List
 
 | Problem | Difficulty |
 |---------|------------|
 | [0146 LRU Cache](./0146-lru-cache/) | Medium |
 
-### Dynamic Programming
+## DP on Trees
+
+| Problem | Difficulty |
+|---------|------------|
+| [0124 Binary Tree Maximum Path Sum](./0124-binary-tree-maximum-path-sum/) | Hard |
+| [0337 House Robber III](./0337-house-robber-iii/) | Medium |
+| [0543 Diameter of Binary Tree](./0543-diameter-of-binary-tree/) | Easy |
+| [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
+
+## Dynamic Programming
 
 | Problem | Difficulty |
 |---------|------------|
@@ -962,7 +1069,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [4041 Climbing Stairs II](./4041-climbing-stairs-ii/) | Medium |
 
-### Enumeration
+## Enumeration
 
 | Problem | Difficulty |
 |---------|------------|
@@ -972,7 +1079,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3345 Smallest Divisible Digit Product I](./3345-smallest-divisible-digit-product-i/) | Easy |
 | [3805 Maximize Active Section with Trade I](./3805-maximize-active-section-with-trade-i/) | Medium |
 
-### Euclidean Algorithm
+## Euclidean Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
@@ -981,19 +1088,19 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 
-### Eulerian Circuit
+## Eulerian Circuit
 
 | Problem | Difficulty |
 |---------|------------|
 | [0332 Reconstruct Itinerary](./0332-reconstruct-itinerary/) | Hard |
 
-### Eulerian Path
+## Eulerian Path
 
 | Problem | Difficulty |
 |---------|------------|
 | [0332 Reconstruct Itinerary](./0332-reconstruct-itinerary/) | Hard |
 
-### Floyd's Cycle Finding Algorithm
+## Floyd's Cycle Finding Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1002,14 +1109,14 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0202 Happy Number](./0202-happy-number/) | Easy |
 | [0287 Find the Duplicate Number](./0287-find-the-duplicate-number/) | Medium |
 
-### Floyd–Warshall Algorithm
+## Floyd–Warshall Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
 | [0399 Evaluate Division](./0399-evaluate-division/) | Medium |
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 
-### Game Theory
+## Game Theory
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1019,19 +1126,19 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
 
-### Geometry
+## Geometry
 
 | Problem | Difficulty |
 |---------|------------|
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
 
-### Graph Coloring
+## Graph Coloring
 
 | Problem | Difficulty |
 |---------|------------|
 | [0801 Is Graph Bipartite?](./0801-is-graph-bipartite/) | Medium |
 
-### Graph Theory
+## Graph Theory
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1055,7 +1162,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
-### Greatest Common Divisor
+## Greatest Common Divisor
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1064,7 +1171,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 
-### Greedy
+## Greedy
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1099,7 +1206,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [4005 Maximum Total Subarray Value I](./4005-maximum-total-subarray-value-i/) | Medium |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
-### Hash Function
+## Hash Function
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1107,7 +1214,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0816 Design HashSet](./0816-design-hashset/) | Easy |
 | [0817 Design HashMap](./0817-design-hashmap/) | Easy |
 
-### Hash Table
+## Hash Table
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1183,7 +1290,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 
-### Heap (Priority Queue)
+## Heap (Priority Queue)
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1213,32 +1320,32 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
-### Impartial Game
+## Impartial Game
 
 | Problem | Difficulty |
 |---------|------------|
 | [1086 Divisor Game](./1086-divisor-game/) | Easy |
 
-### Interactive
+## Interactive
 
 | Problem | Difficulty |
 |---------|------------|
 | [0374 Guess Number Higher or Lower](./0374-guess-number-higher-or-lower/) | Easy |
 | [1185 Find in Mountain Array](./1185-find-in-mountain-array/) | Hard |
 
-### Iterator
+## Iterator
 
 | Problem | Difficulty |
 |---------|------------|
 | [0173 Binary Search Tree Iterator](./0173-binary-search-tree-iterator/) | Medium |
 
-### K-D Tree
+## K-D Tree
 
 | Problem | Difficulty |
 |---------|------------|
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
 
-### Knapsack Problem
+## Knapsack Problem
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1249,19 +1356,19 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0518 Coin Change II](./0518-coin-change-ii/) | Medium |
 | [1130 Last Stone Weight II](./1130-last-stone-weight-ii/) | Medium |
 
-### Kosaraju's Algorithm
+## Kosaraju's Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
 | [0820 Find Eventual Safe States](./0820-find-eventual-safe-states/) | Medium |
 
-### Kruskal's Algorithm
+## Kruskal's Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 
-### Linked List
+## Linked List
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1289,7 +1396,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0908 Middle of the Linked List](./0908-middle-of-the-linked-list/) | Easy |
 | [2903 Insert Greatest Common Divisors in Linked List](./2903-insert-greatest-common-divisors-in-linked-list/) | Medium |
 
-### Longest Common Subsequence
+## Longest Common Subsequence
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1297,27 +1404,27 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1092 Shortest Common Supersequence ](./1092-shortest-common-supersequence/) | Hard |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
 
-### Longest Increasing Subsequence
+## Longest Increasing Subsequence
 
 | Problem | Difficulty |
 |---------|------------|
 | [0300 Longest Increasing Subsequence](./0300-longest-increasing-subsequence/) | Medium |
 | [0334 Increasing Triplet Subsequence](./0334-increasing-triplet-subsequence/) | Medium |
 
-### Lowest Common Ancestor
+## Lowest Common Ancestor
 
 | Problem | Difficulty |
 |---------|------------|
 | [0235 Lowest Common Ancestor of a Binary Search Tree](./0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236 Lowest Common Ancestor of a Binary Tree](./0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 
-### Manacher
+## Manacher
 
 | Problem | Difficulty |
 |---------|------------|
 | [0005 Longest Palindromic Substring](./0005-longest-palindromic-substring/) | Medium |
 
-### Math
+## Math
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1373,7 +1480,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3995 GCD of Odd and Even Sums](./3995-gcd-of-odd-and-even-sums/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-### Matrix
+## Matrix
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1409,13 +1516,13 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
 
-### Meet in the Middle
+## Meet in the Middle
 
 | Problem | Difficulty |
 |---------|------------|
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
-### Memoization
+## Memoization
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1426,7 +1533,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1236 N-th Tribonacci Number](./1236-n-th-tribonacci-number/) | Easy |
 
-### Merge Sort
+## Merge Sort
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1434,7 +1541,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 
-### Minimax
+## Minimax
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1444,13 +1551,13 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
 
-### Minimum Spanning Tree
+## Minimum Spanning Tree
 
 | Problem | Difficulty |
 |---------|------------|
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 
-### Monotonic Queue
+## Monotonic Queue
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1458,7 +1565,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 
-### Monotonic Stack
+## Monotonic Stack
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1472,13 +1579,13 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0937 Online Stock Span](./0937-online-stock-span/) | Medium |
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 
-### Newton's Method
+## Newton's Method
 
 | Problem | Difficulty |
 |---------|------------|
 | [0069 Sqrt(x)](./0069-sqrtx/) | Easy |
 
-### Number Theory
+## Number Theory
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1491,7 +1598,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3995 GCD of Odd and Even Sums](./3995-gcd-of-odd-and-even-sums/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-### Ordered Set
+## Ordered Set
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1499,7 +1606,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0931 Maximum Frequency Stack](./0931-maximum-frequency-stack/) | Hard |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
-### Other
+## Other
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1507,13 +1614,13 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [4342 Create Grid With Exactly One Path](./4342-create-grid-with-exactly-one-path/) | Easy |
 | [4356 Sum of Integers with Maximum Digit Range](./4356-sum-of-integers-with-maximum-digit-range/) | Easy |
 
-### Pigeonhole Principle
+## Pigeonhole Principle
 
 | Problem | Difficulty |
 |---------|------------|
 | [0287 Find the Duplicate Number](./0287-find-the-duplicate-number/) | Medium |
 
-### Prefix Sum
+## Prefix Sum
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1532,25 +1639,25 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 
-### Prim's Algorithm
+## Prim's Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 
-### Primality Test
+## Primality Test
 
 | Problem | Difficulty |
 |---------|------------|
 | [0204 Count Primes](./0204-count-primes/) | Medium |
 
-### Prime Number Sieve
+## Prime Number Sieve
 
 | Problem | Difficulty |
 |---------|------------|
 | [0204 Count Primes](./0204-count-primes/) | Medium |
 
-### Queue
+## Queue
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1562,7 +1669,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 
-### Quickselect
+## Quickselect
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1570,7 +1677,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0347 Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium |
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
 
-### Quicksort
+## Quicksort
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1578,26 +1685,26 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0075 Sort Colors](./0075-sort-colors/) | Medium |
 | [0455 Assign Cookies](./0455-assign-cookies/) | Easy |
 
-### Radix Sort
+## Radix Sort
 
 | Problem | Difficulty |
 |---------|------------|
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 
-### Randomized
+## Randomized
 
 | Problem | Difficulty |
 |---------|------------|
 | [0912 Random Pick with Weight](./0912-random-pick-with-weight/) | Medium |
 
-### Range Minimum/Maximum Query
+## Range Minimum/Maximum Query
 
 | Problem | Difficulty |
 |---------|------------|
 | [0084 Largest Rectangle in Histogram](./0084-largest-rectangle-in-histogram/) | Hard |
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
 
-### Recursion
+## Recursion
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1613,7 +1720,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0486 Predict the Winner](./0486-predict-the-winner/) | Medium |
 | [2050 Count Good Numbers](./2050-count-good-numbers/) | Medium |
 
-### Segment Tree
+## Segment Tree
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1621,13 +1728,13 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
-### Semi-Eulerian Graph
+## Semi-Eulerian Graph
 
 | Problem | Difficulty |
 |---------|------------|
 | [0332 Reconstruct Itinerary](./0332-reconstruct-itinerary/) | Hard |
 
-### Shortest Path
+## Shortest Path
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1637,13 +1744,13 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
-### Sieve Theory
+## Sieve Theory
 
 | Problem | Difficulty |
 |---------|------------|
 | [0204 Count Primes](./0204-count-primes/) | Medium |
 
-### Simulation
+## Simulation
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1662,7 +1769,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-### Sliding Window
+## Sliding Window
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1684,7 +1791,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 
-### Sorting
+## Sorting
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1740,7 +1847,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3859 Maximum Product of Two Digits](./3859-maximum-product-of-two-digits/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-### Stack
+## Stack
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1774,7 +1881,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
 
-### String
+## String
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1855,31 +1962,31 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 
-### String Matching
+## String Matching
 
 | Problem | Difficulty |
 |---------|------------|
 | [0572 Subtree of Another Tree](./0572-subtree-of-another-tree/) | Easy |
 
-### Tarjan's SCC Algorithm
+## Tarjan's SCC Algorithm
 
 | Problem | Difficulty |
 |---------|------------|
 | [0820 Find Eventual Safe States](./0820-find-eventual-safe-states/) | Medium |
 
-### Ternary Search
+## Ternary Search
 
 | Problem | Difficulty |
 |---------|------------|
 | [1185 Find in Mountain Array](./1185-find-in-mountain-array/) | Hard |
 
-### Timsort
+## Timsort
 
 | Problem | Difficulty |
 |---------|------------|
 | [0917 Boats to Save People](./0917-boats-to-save-people/) | Medium |
 
-### Topological Sort
+## Topological Sort
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1891,19 +1998,19 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 
-### Tournament Sort
+## Tournament Sort
 
 | Problem | Difficulty |
 |---------|------------|
 | [0023 Merge k Sorted Lists](./0023-merge-k-sorted-lists/) | Hard |
 
-### Treap
+## Treap
 
 | Problem | Difficulty |
 |---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 
-### Tree
+## Tree
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1945,7 +2052,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
 
-### Trie
+## Trie
 
 | Problem | Difficulty |
 |---------|------------|
@@ -1955,7 +2062,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [0208 Implement Trie (Prefix Tree)](./0208-implement-trie-prefix-tree/) | Medium |
 | [0211 Design Add and Search Words Data Structure](./0211-design-add-and-search-words-data-structure/) | Medium |
 
-### Two Pointers
+## Two Pointers
 
 | Problem | Difficulty |
 |---------|------------|
@@ -2008,7 +2115,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [2271 Rearrange Array Elements by Sign](./2271-rearrange-array-elements-by-sign/) | Medium |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
-### Union-Find
+## Union-Find
 
 | Problem | Difficulty |
 |---------|------------|
@@ -2028,7 +2135,7 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 
-### Zero-Sum Game
+## Zero-Sum Game
 
 | Problem | Difficulty |
 |---------|------------|
@@ -2039,4 +2146,6 @@ Solutions by [reteshgs2005](https://leetcode.com/u/reteshgs2005/)
 
 ---
 
-*README automatically generated from LeetCode.*
+<p align="center">
+  <i>Keep solving. Keep learning. 🚀</i>
+</p>
