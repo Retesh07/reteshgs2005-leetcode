@@ -905,6 +905,7 @@
 | [0473 Matchsticks to Square](./0473-matchsticks-to-square/) | Medium |
 | [0486 Predict the Winner](./0486-predict-the-winner/) | Medium |
 | [0494 Target Sum](./0494-target-sum/) | Medium |
+| [0516 Longest Palindromic Subsequence](./0516-longest-palindromic-subsequence/) | Medium |
 | [0518 Coin Change II](./0518-coin-change-ii/) | Medium |
 | [0542 01 Matrix](./0542-01-matrix/) | Medium |
 | [0647 Palindromic Substrings](./0647-palindromic-substrings/) | Medium |
@@ -1789,6 +1790,7 @@
 | [0424 Longest Repeating Character Replacement](./0424-longest-repeating-character-replacement/) | Medium |
 | [0433 Minimum Genetic Mutation](./0433-minimum-genetic-mutation/) | Medium |
 | [0443 String Compression](./0443-string-compression/) | Medium |
+| [0516 Longest Palindromic Subsequence](./0516-longest-palindromic-subsequence/) | Medium |
 | [0567 Permutation in String](./0567-permutation-in-string/) | Medium |
 | [0647 Palindromic Substrings](./0647-palindromic-substrings/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
