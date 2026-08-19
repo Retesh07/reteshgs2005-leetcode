@@ -7,11 +7,31 @@ from collections import defaultdict
 import requests
 
 
+# ============================================================
+# CONFIGURATION
+# ============================================================
+
 USERNAME = "reteshgs2005"
+
+LEETCODE_PROFILE = (
+    f"https://leetcode.com/u/{USERNAME}/"
+)
+
+LEETCODE_CARD = (
+    f"https://leetcard.jacoblin.cool/{USERNAME}"
+    "?theme=dark"
+    "&font=Baloo_2"
+    "&border=0"
+    "&radius=12"
+    "&animation=true"
+    "&cache=3600"
+)
 
 GRAPHQL_URL = "https://leetcode.com/graphql"
 
-FOLDER_PATTERN = re.compile(r"^(\d{4})-(.+)$")
+FOLDER_PATTERN = re.compile(
+    r"^(\d{4})-(.+)$"
+)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
@@ -21,29 +41,12 @@ HEADERS = {
 }
 
 
-USER_STATS_QUERY = """
-query userStats($username: String!) {
-    allQuestionsCount {
-        difficulty
-        count
-    }
-
-    matchedUser(username: $username) {
-        username
-
-        submitStatsGlobal {
-            acSubmissionNum {
-                difficulty
-                count
-            }
-        }
-    }
-}
-"""
-
+# ============================================================
+# LEETCODE QUERY
+# ============================================================
 
 QUESTION_QUERY = """
-query questionData($titleSlug: String!) {
+query getQuestion($titleSlug: String!) {
     question(titleSlug: $titleSlug) {
         title
         difficulty
@@ -55,7 +58,11 @@ query questionData($titleSlug: String!) {
 """
 
 
-def graphql(query, variables, operation_name):
+# ============================================================
+# GRAPHQL REQUEST
+# ============================================================
+
+def graphql_request(query, variables, operation_name):
     payload = {
         "query": query,
         "variables": variables,
@@ -79,93 +86,59 @@ def graphql(query, variables, operation_name):
     return data["data"]
 
 
-def get_user_stats():
-    print(f"Fetching LeetCode stats for {USERNAME}...")
+# ============================================================
+# FETCH PROBLEM DATA
+# ============================================================
 
-    data = graphql(
-        USER_STATS_QUERY,
-        {"username": USERNAME},
-        "userStats",
-    )
-
-    user = data.get("matchedUser")
-
-    if not user:
-        raise RuntimeError(
-            f"LeetCode user '{USERNAME}' was not found."
-        )
-
-    totals = {
-        item["difficulty"]: item["count"]
-        for item in data["allQuestionsCount"]
-    }
-
-    solved = {
-        item["difficulty"]: item["count"]
-        for item in user["submitStatsGlobal"]["acSubmissionNum"]
-    }
-
-    return {
-        "total": totals.get("All", 0),
-        "easy_total": totals.get("Easy", 0),
-        "medium_total": totals.get("Medium", 0),
-        "hard_total": totals.get("Hard", 0),
-        "solved": solved.get("All", 0),
-        "easy_solved": solved.get("Easy", 0),
-        "medium_solved": solved.get("Medium", 0),
-        "hard_solved": solved.get("Hard", 0),
-    }
-
-
-def get_problem(slug):
+def fetch_problem(slug):
     try:
-        data = graphql(
+        data = graphql_request(
             QUESTION_QUERY,
             {"titleSlug": slug},
-            "questionData",
+            "getQuestion",
         )
 
         question = data.get("question")
 
         if not question:
-            print(f"Problem not found: {slug}")
+            print(f"⚠️ Problem not found: {slug}")
             return None
+
+        topics = [
+            tag["name"]
+            for tag in question.get("topicTags", [])
+        ]
+
+        if not topics:
+            topics = ["Other"]
 
         return {
             "title": question["title"],
             "difficulty": question["difficulty"],
-            "topics": [
-                tag["name"]
-                for tag in question["topicTags"]
-            ] or ["Other"],
+            "topics": topics,
         }
 
     except Exception as error:
-        print(f"Failed to fetch {slug}: {error}")
+        print(
+            f"❌ Failed to fetch {slug}: {error}"
+        )
         return None
 
 
-def percent(solved, total):
-    if total == 0:
-        return 0
-
-    return solved / total * 100
-
-
-def progress_bar(solved, total, size=20):
-    if total == 0:
-        return "░" * size
-
-    filled = int((solved / total) * size)
-    filled = min(filled, size)
-
-    return "█" * filled + "░" * (size - filled)
-
+# ============================================================
+# SCAN REPOSITORY
+# ============================================================
 
 def scan_repository():
     problems = []
 
+    print()
+    print("=" * 60)
+    print("Scanning repository")
+    print("=" * 60)
+
     for folder in os.listdir("."):
+
         if not os.path.isdir(folder):
             continue
 
@@ -177,171 +150,245 @@ def scan_repository():
         number = int(match.group(1))
         slug = match.group(2)
 
-        print(f"Fetching problem {number:04d} - {slug}")
+        print(
+            f"Fetching {number:04d} - {slug}"
+        )
 
-        data = get_problem(slug)
+        metadata = fetch_problem(slug)
 
-        if data is None:
+        if metadata is None:
             continue
 
         problems.append({
             "number": number,
             "folder": folder,
             "slug": slug,
-            **data,
+            **metadata,
         })
 
-    problems.sort(key=lambda x: x["number"])
+    problems.sort(
+        key=lambda problem: problem["number"]
+    )
 
     return problems
 
 
-def generate_readme(stats, problems):
+# ============================================================
+# GENERATE README
+# ============================================================
+
+def generate_readme(problems):
+
     topics = defaultdict(list)
 
+    difficulty_counts = {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 0,
+    }
+
+    # --------------------------------------------------------
+    # Organize problems
+    # --------------------------------------------------------
+
     for problem in problems:
+
+        difficulty = problem["difficulty"]
+
+        if difficulty in difficulty_counts:
+            difficulty_counts[difficulty] += 1
+
         for topic in problem["topics"]:
             topics[topic].append(problem)
 
+    # --------------------------------------------------------
+    # README
+    # --------------------------------------------------------
+
     lines = []
 
-    lines.append("# LeetCode Solutions")
-    lines.append("")
-    lines.append(
-        f"Solutions by "
-        f"[{USERNAME}](https://leetcode.com/u/{USERNAME}/)"
-    )
-    lines.append("")
-
-    # =====================================================
-    # LeetCode Account Progress
-    # =====================================================
-
-    lines.append("## 📊 LeetCode Progress")
-    lines.append("")
-
-    overall = percent(
-        stats["solved"],
-        stats["total"],
-    )
+    # ========================================================
+    # HEADER
+    # ========================================================
 
     lines.append(
-        f"### {stats['solved']} / {stats['total']} Problems Solved"
+        "# LeetCode Solutions"
     )
+
     lines.append("")
 
     lines.append(
-        f"`{progress_bar(stats['solved'], stats['total'])}` "
-        f"**{overall:.2f}%**"
+        f"Solutions and progress for "
+        f"[**{USERNAME}**]({LEETCODE_PROFILE})."
     )
 
     lines.append("")
 
-    lines.append("| Difficulty | Solved | Total | Progress |")
-    lines.append("|------------|-------:|------:|---------:|")
+    # ========================================================
+    # DYNAMIC LEETCODE CARD
+    # ========================================================
 
-    difficulty_data = [
-        (
-            "🟢 Easy",
-            stats["easy_solved"],
-            stats["easy_total"],
-        ),
-        (
-            "🟡 Medium",
-            stats["medium_solved"],
-            stats["medium_total"],
-        ),
-        (
-            "🔴 Hard",
-            stats["hard_solved"],
-            stats["hard_total"],
-        ),
-    ]
+    lines.append(
+        "<p align=\"center\">"
+    )
 
-    for name, solved, total in difficulty_data:
+    lines.append(
+        f"  <a href=\"{LEETCODE_PROFILE}\">"
+    )
+
+    lines.append(
+        f"    <img "
+        f"src=\"{LEETCODE_CARD}\" "
+        f"alt=\"LeetCode Stats\" "
+        f"width=\"500\" />"
+    )
+
+    lines.append(
+        "  </a>"
+    )
+
+    lines.append(
+        "</p>"
+    )
+
+    lines.append("")
+
+    # ========================================================
+    # REPOSITORY STATS
+    # ========================================================
+
+    lines.append(
+        "## 📚 Repository Statistics"
+    )
+
+    lines.append("")
+
+    lines.append(
+        f"**{len(problems)} solutions** "
+        f"are currently stored in this repository."
+    )
+
+    lines.append("")
+
+    lines.append(
+        "| Difficulty | Solutions |"
+    )
+
+    lines.append(
+        "|------------|----------:|"
+    )
+
+    lines.append(
+        f"| 🟢 Easy | "
+        f"{difficulty_counts['Easy']} |"
+    )
+
+    lines.append(
+        f"| 🟡 Medium | "
+        f"{difficulty_counts['Medium']} |"
+    )
+
+    lines.append(
+        f"| 🔴 Hard | "
+        f"{difficulty_counts['Hard']} |"
+    )
+
+    lines.append("")
+
+    # ========================================================
+    # TOPICS
+    # ========================================================
+
+    lines.append(
+        "## 🧠 Topics"
+    )
+
+    lines.append("")
+
+    lines.append(
+        "| Topic | Problems |"
+    )
+
+    lines.append(
+        "|-------|---------:|"
+    )
+
+    sorted_topics = sorted(
+        topics.keys(),
+        key=lambda topic: (
+            -len(topics[topic]),
+            topic.lower(),
+        ),
+    )
+
+    for topic in sorted_topics:
+
         lines.append(
-            f"| {name} | {solved} | {total} | "
-            f"{percent(solved, total):.2f}% |"
+            f"| {topic} | "
+            f"{len(topics[topic])} |"
         )
 
     lines.append("")
 
-    # =====================================================
-    # Repository Stats
-    # =====================================================
-
-    lines.append("## 💻 Repository")
-    lines.append("")
+    # ========================================================
+    # TOPIC NAVIGATION
+    # ========================================================
 
     lines.append(
-        f"**{len(problems)} solutions** are currently "
-        f"stored in this repository."
+        "## 🔎 Browse by Topic"
     )
 
-    lines.append("")
-
-    repo_difficulty = defaultdict(int)
-
-    for problem in problems:
-        repo_difficulty[problem["difficulty"]] += 1
-
-    lines.append("| Difficulty | Solutions |")
-    lines.append("|------------|----------:|")
-    lines.append(
-        f"| 🟢 Easy | {repo_difficulty['Easy']} |"
-    )
-    lines.append(
-        f"| 🟡 Medium | {repo_difficulty['Medium']} |"
-    )
-    lines.append(
-        f"| 🔴 Hard | {repo_difficulty['Hard']} |"
-    )
-
-    lines.append("")
-
-    # =====================================================
-    # Topics
-    # =====================================================
-
-    lines.append("## 🧠 Topics")
-    lines.append("")
-
-    lines.append("| Topic | Problems |")
-    lines.append("|-------|---------:|")
-
-    topic_order = sorted(
-        topics,
-        key=lambda topic: (-len(topics[topic]), topic),
-    )
-
-    for topic in topic_order:
-        lines.append(
-            f"| {topic} | {len(topics[topic])} |"
-        )
-
-    lines.append("")
-
-    # =====================================================
-    # Solutions
-    # =====================================================
-
-    lines.append("## 📝 Solutions")
     lines.append("")
 
     for topic in sorted(topics):
 
-        lines.append(f"### {topic}")
+        anchor = (
+            topic.lower()
+            .replace(" ", "-")
+            .replace("&", "")
+            .replace("/", "")
+        )
+
+        lines.append(
+            f"- [{topic}](#{anchor})"
+        )
+
+    lines.append("")
+
+    lines.append("---")
+
+    lines.append("")
+
+    # ========================================================
+    # PROBLEMS BY TOPIC
+    # ========================================================
+
+    for topic in sorted(
+        topics,
+        key=lambda x: x.lower(),
+    ):
+
+        lines.append(
+            f"## {topic}"
+        )
+
         lines.append("")
 
-        lines.append("| Problem | Difficulty |")
-        lines.append("|---------|------------|")
+        lines.append(
+            "| Problem | Difficulty |"
+        )
+
+        lines.append(
+            "|---------|------------|"
+        )
 
         topic_problems = sorted(
             topics[topic],
-            key=lambda x: x["number"],
+            key=lambda problem: problem["number"],
         )
 
         for problem in topic_problems:
+
             lines.append(
                 f"| "
                 f"[{problem['number']:04d} "
@@ -352,40 +399,60 @@ def generate_readme(stats, problems):
 
         lines.append("")
 
-    # =====================================================
-    # Footer
-    # =====================================================
+    # ========================================================
+    # FOOTER
+    # ========================================================
 
     lines.append("---")
+
     lines.append("")
+
     lines.append(
-        "*README automatically generated from LeetCode.*"
+        "<p align=\"center\">"
     )
 
-    return "\n".join(lines) + "\n"
+    lines.append(
+        "  <i>Keep solving. Keep learning. 🚀</i>"
+    )
 
+    lines.append(
+        "</p>"
+    )
+
+    lines.append("")
+
+    return "\n".join(lines)
+
+
+# ============================================================
+# MAIN
+# ============================================================
 
 def main():
-    print("=" * 60)
-    print("LeetCode README Generator")
-    print("=" * 60)
 
-    stats = get_user_stats()
+    print()
+    print("=" * 60)
+    print("🚀 LeetCode README Generator")
+    print("=" * 60)
 
     print(
-        f"Account solved: "
-        f"{stats['solved']} / {stats['total']}"
+        f"Username: {USERNAME}"
+    )
+
+    print(
+        f"Profile: {LEETCODE_PROFILE}"
     )
 
     problems = scan_repository()
 
+    print()
     print(
-        f"Repository solutions: {len(problems)}"
+        f"Found {len(problems)} problems "
+        f"in repository."
     )
 
     readme = generate_readme(
-        stats,
-        problems,
+        problems
     )
 
     with open(
@@ -395,8 +462,9 @@ def main():
     ) as file:
         file.write(readme)
 
+    print()
     print("=" * 60)
-    print("README.md generated successfully!")
+    print("✅ README.md generated successfully")
     print("=" * 60)
 
 
