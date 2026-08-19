@@ -10,21 +10,21 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**400 solutions** are currently stored in this repository.
+**401 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 135 |
 | 🟡 Medium | 223 |
-| 🔴 Hard | 42 |
+| 🔴 Hard | 43 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
 | Array | 202 |
-| String | 76 |
-| Dynamic Programming | 72 |
+| String | 77 |
+| Dynamic Programming | 73 |
 | Hash Table | 71 |
 | Depth-First Search | 55 |
 | Math | 51 |
@@ -34,8 +34,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Binary Search | 38 |
 | Tree | 37 |
 | Binary Tree | 36 |
+| Greedy | 31 |
 | Matrix | 31 |
-| Greedy | 30 |
 | Database | 29 |
 | Stack | 29 |
 | Heap (Priority Queue) | 25 |
@@ -49,7 +49,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Union-Find | 15 |
 | Prefix Sum | 14 |
 | Simulation | 14 |
-| Recursion | 11 |
+| Recursion | 12 |
 | Binary Search Tree | 10 |
 | Counting | 10 |
 | Monotonic Stack | 9 |
@@ -999,6 +999,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0005 Longest Palindromic Substring](./0005-longest-palindromic-substring/) | Medium |
 | [0022 Generate Parentheses](./0022-generate-parentheses/) | Medium |
 | [0042 Trapping Rain Water](./0042-trapping-rain-water/) | Hard |
+| [0044 Wildcard Matching](./0044-wildcard-matching/) | Hard |
 | [0045 Jump Game II](./0045-jump-game-ii/) | Medium |
 | [0053 Maximum Subarray](./0053-maximum-subarray/) | Medium |
 | [0055 Jump Game](./0055-jump-game/) | Medium |
@@ -1176,6 +1177,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Problem | Difficulty |
 |---------|------------|
 | [0011 Container With Most Water](./0011-container-with-most-water/) | Medium |
+| [0044 Wildcard Matching](./0044-wildcard-matching/) | Hard |
 | [0045 Jump Game II](./0045-jump-game-ii/) | Medium |
 | [0055 Jump Game](./0055-jump-game/) | Medium |
 | [0122 Best Time to Buy and Sell Stock II](./0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
@@ -1711,6 +1713,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0002 Add Two Numbers](./0002-add-two-numbers/) | Medium |
 | [0021 Merge Two Sorted Lists](./0021-merge-two-sorted-lists/) | Easy |
 | [0025 Reverse Nodes in k-Group](./0025-reverse-nodes-in-k-group/) | Hard |
+| [0044 Wildcard Matching](./0044-wildcard-matching/) | Hard |
 | [0050 Pow(x, n)](./0050-powx-n/) | Medium |
 | [0143 Reorder List](./0143-reorder-list/) | Medium |
 | [0206 Reverse Linked List](./0206-reverse-linked-list/) | Easy |
@@ -1894,6 +1897,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0020 Valid Parentheses](./0020-valid-parentheses/) | Easy |
 | [0022 Generate Parentheses](./0022-generate-parentheses/) | Medium |
 | [0043 Multiply Strings](./0043-multiply-strings/) | Medium |
+| [0044 Wildcard Matching](./0044-wildcard-matching/) | Hard |
 | [0049 Group Anagrams](./0049-group-anagrams/) | Medium |
 | [0067 Add Binary](./0067-add-binary/) | Easy |
 | [0071 Simplify Path](./0071-simplify-path/) | Medium |
