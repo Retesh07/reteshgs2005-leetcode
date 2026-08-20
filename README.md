@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**401 solutions** are currently stored in this repository.
+**402 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 135 |
+| 🟢 Easy | 136 |
 | 🟡 Medium | 223 |
 | 🔴 Hard | 43 |
 
@@ -22,12 +22,12 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 202 |
+| Array | 205 |
 | String | 77 |
 | Dynamic Programming | 73 |
 | Hash Table | 71 |
 | Depth-First Search | 55 |
-| Math | 51 |
+| Math | 52 |
 | Sorting | 51 |
 | Breadth-First Search | 48 |
 | Two Pointers | 48 |
@@ -46,9 +46,9 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
 | Sliding Window | 17 |
+| Prefix Sum | 15 |
+| Simulation | 15 |
 | Union-Find | 15 |
-| Prefix Sum | 14 |
-| Simulation | 14 |
 | Recursion | 12 |
 | Binary Search Tree | 10 |
 | Counting | 10 |
@@ -82,7 +82,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Merge Sort | 3 |
 | Monotonic Queue | 3 |
 | Ordered Set | 3 |
-| Other | 3 |
 | Quickselect | 3 |
 | Quicksort | 3 |
 | Segment Tree | 3 |
@@ -118,6 +117,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Meet in the Middle | 1 |
 | Minimum Spanning Tree | 1 |
 | Newton's Method | 1 |
+| Other | 1 |
 | Pigeonhole Principle | 1 |
 | Prim's Algorithm | 1 |
 | Primality Test | 1 |
@@ -460,6 +460,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
+| [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
@@ -470,6 +471,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [4041 Climbing Stairs II](./4041-climbing-stairs-ii/) | Medium |
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
+| [4330 Minimum Lights to Illuminate a Road](./4330-minimum-lights-to-illuminate-a-road/) | Medium |
+| [4356 Sum of Integers with Maximum Digit Range](./4356-sum-of-integers-with-maximum-digit-range/) | Easy |
 
 ## Backtracking
 
@@ -1481,6 +1484,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3859 Maximum Product of Two Digits](./3859-maximum-product-of-two-digits/) | Easy |
 | [3995 GCD of Odd and Even Sums](./3995-gcd-of-odd-and-even-sums/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
+| [4356 Sum of Integers with Maximum Digit Range](./4356-sum-of-integers-with-maximum-digit-range/) | Easy |
 
 ## Matrix
 
@@ -1612,9 +1616,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Problem | Difficulty |
 |---------|------------|
-| [4330 Minimum Lights to Illuminate a Road](./4330-minimum-lights-to-illuminate-a-road/) | Medium |
 | [4342 Create Grid With Exactly One Path](./4342-create-grid-with-exactly-one-path/) | Easy |
-| [4356 Sum of Integers with Maximum Digit Range](./4356-sum-of-integers-with-maximum-digit-range/) | Easy |
 
 ## Pigeonhole Principle
 
@@ -1640,6 +1642,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
+| [4330 Minimum Lights to Illuminate a Road](./4330-minimum-lights-to-illuminate-a-road/) | Medium |
 
 ## Prim's Algorithm
 
@@ -1769,6 +1772,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2271 Rearrange Array Elements by Sign](./2271-rearrange-array-elements-by-sign/) | Medium |
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
+| [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
