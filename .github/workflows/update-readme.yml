@@ -45,4 +45,5 @@ jobs:
           fi
 
           git commit -m "Update LeetCode README"
+          git pull --rebase origin main
           git push
