@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**402 solutions** are currently stored in this repository.
+**403 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 136 |
+| 🟢 Easy | 137 |
 | 🟡 Medium | 223 |
 | 🔴 Hard | 43 |
 
@@ -27,7 +27,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Dynamic Programming | 73 |
 | Hash Table | 71 |
 | Depth-First Search | 55 |
-| Math | 52 |
+| Math | 53 |
 | Sorting | 51 |
 | Breadth-First Search | 48 |
 | Two Pointers | 48 |
@@ -1479,6 +1479,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3345 Smallest Divisible Digit Product I](./3345-smallest-divisible-digit-product-i/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3622 Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 | [3859 Maximum Product of Two Digits](./3859-maximum-product-of-two-digits/) | Easy |
