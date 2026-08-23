@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**404 solutions** are currently stored in this repository.
+**405 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 138 |
+| 🟢 Easy | 139 |
 | 🟡 Medium | 223 |
 | 🔴 Hard | 43 |
 
@@ -22,10 +22,10 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 205 |
+| Array | 206 |
 | String | 78 |
 | Dynamic Programming | 73 |
-| Hash Table | 72 |
+| Hash Table | 73 |
 | Depth-First Search | 55 |
 | Math | 53 |
 | Sorting | 51 |
@@ -36,8 +36,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Binary Tree | 36 |
 | Greedy | 31 |
 | Matrix | 31 |
+| Stack | 30 |
 | Database | 29 |
-| Stack | 29 |
 | Heap (Priority Queue) | 25 |
 | Linked List | 23 |
 | Bit Manipulation | 21 |
@@ -52,7 +52,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Recursion | 12 |
 | Counting | 11 |
 | Binary Search Tree | 10 |
-| Monotonic Stack | 9 |
+| Monotonic Stack | 10 |
 | Number Theory | 8 |
 | Queue | 8 |
 | Topological Sort | 7 |
@@ -373,6 +373,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0486 Predict the Winner](./0486-predict-the-winner/) | Medium |
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [0494 Target Sum](./0494-target-sum/) | Medium |
+| [0496 Next Greater Element I](./0496-next-greater-element-i/) | Easy |
 | [0502 IPO](./0502-ipo/) | Hard |
 | [0503 Next Greater Element II](./0503-next-greater-element-ii/) | Medium |
 | [0518 Coin Change II](./0518-coin-change-ii/) | Medium |
@@ -1266,6 +1267,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0442 Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array/) | Medium |
 | [0448 Find All Numbers Disappeared in an Array](./0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0454 4Sum II](./0454-4sum-ii/) | Medium |
+| [0496 Next Greater Element I](./0496-next-greater-element-i/) | Easy |
 | [0560 Subarray Sum Equals K](./0560-subarray-sum-equals-k/) | Medium |
 | [0567 Permutation in String](./0567-permutation-in-string/) | Medium |
 | [0621 Task Scheduler](./0621-task-scheduler/) | Medium |
@@ -1581,6 +1583,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0042 Trapping Rain Water](./0042-trapping-rain-water/) | Hard |
 | [0084 Largest Rectangle in Histogram](./0084-largest-rectangle-in-histogram/) | Hard |
 | [0316 Remove Duplicate Letters](./0316-remove-duplicate-letters/) | Medium |
+| [0496 Next Greater Element I](./0496-next-greater-element-i/) | Easy |
 | [0503 Next Greater Element II](./0503-next-greater-element-ii/) | Medium |
 | [0739 Daily Temperatures](./0739-daily-temperatures/) | Medium |
 | [0769 Max Chunks To Make Sorted](./0769-max-chunks-to-make-sorted/) | Medium |
@@ -1879,6 +1882,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0234 Palindrome Linked List](./0234-palindrome-linked-list/) | Easy |
 | [0316 Remove Duplicate Letters](./0316-remove-duplicate-letters/) | Medium |
 | [0394 Decode String](./0394-decode-string/) | Medium |
+| [0496 Next Greater Element I](./0496-next-greater-element-i/) | Easy |
 | [0503 Next Greater Element II](./0503-next-greater-element-ii/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
 | [0682 Baseball Game](./0682-baseball-game/) | Easy |
