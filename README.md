@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**403 solutions** are currently stored in this repository.
+**404 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 137 |
+| 🟢 Easy | 138 |
 | 🟡 Medium | 223 |
 | 🔴 Hard | 43 |
 
@@ -23,9 +23,9 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Topic | Problems |
 |-------|---------:|
 | Array | 205 |
-| String | 77 |
+| String | 78 |
 | Dynamic Programming | 73 |
-| Hash Table | 71 |
+| Hash Table | 72 |
 | Depth-First Search | 55 |
 | Math | 53 |
 | Sorting | 51 |
@@ -50,11 +50,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Simulation | 15 |
 | Union-Find | 15 |
 | Recursion | 12 |
+| Counting | 11 |
 | Binary Search Tree | 10 |
-| Counting | 10 |
 | Monotonic Stack | 9 |
 | Number Theory | 8 |
-| Queue | 7 |
+| Queue | 8 |
 | Topological Sort | 7 |
 | Knapsack Problem | 6 |
 | Memoization | 6 |
@@ -791,6 +791,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0229 Majority Element II](./0229-majority-element-ii/) | Medium |
 | [0347 Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium |
 | [0383 Ransom Note](./0383-ransom-note/) | Easy |
+| [0387 First Unique Character in a String](./0387-first-unique-character-in-a-string/) | Easy |
 | [0621 Task Scheduler](./0621-task-scheduler/) | Medium |
 | [0778 Reorganize String](./0778-reorganize-string/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
@@ -1258,6 +1259,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0347 Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium |
 | [0355 Design Twitter](./0355-design-twitter/) | Medium |
 | [0383 Ransom Note](./0383-ransom-note/) | Easy |
+| [0387 First Unique Character in a String](./0387-first-unique-character-in-a-string/) | Easy |
 | [0395 Longest Substring with At Least K Repeating Characters](./0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0424 Longest Repeating Character Replacement](./0424-longest-repeating-character-replacement/) | Medium |
 | [0433 Minimum Genetic Mutation](./0433-minimum-genetic-mutation/) | Medium |
@@ -1670,6 +1672,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0225 Implement Stack using Queues](./0225-implement-stack-using-queues/) | Easy |
 | [0232 Implement Queue using Stacks](./0232-implement-queue-using-stacks/) | Easy |
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
+| [0387 First Unique Character in a String](./0387-first-unique-character-in-a-string/) | Easy |
 | [0860 Design Circular Queue](./0860-design-circular-queue/) | Medium |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
@@ -1930,6 +1933,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0344 Reverse String](./0344-reverse-string/) | Easy |
 | [0345 Reverse Vowels of a String](./0345-reverse-vowels-of-a-string/) | Easy |
 | [0383 Ransom Note](./0383-ransom-note/) | Easy |
+| [0387 First Unique Character in a String](./0387-first-unique-character-in-a-string/) | Easy |
 | [0392 Is Subsequence](./0392-is-subsequence/) | Easy |
 | [0394 Decode String](./0394-decode-string/) | Medium |
 | [0395 Longest Substring with At Least K Repeating Characters](./0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
