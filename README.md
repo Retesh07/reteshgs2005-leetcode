@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**405 solutions** are currently stored in this repository.
+**406 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 139 |
+| 🟢 Easy | 140 |
 | 🟡 Medium | 223 |
 | 🔴 Hard | 43 |
 
@@ -22,7 +22,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 206 |
+| Array | 207 |
 | String | 78 |
 | Dynamic Programming | 73 |
 | Hash Table | 73 |
@@ -46,8 +46,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
 | Sliding Window | 17 |
+| Simulation | 16 |
 | Prefix Sum | 15 |
-| Simulation | 15 |
 | Union-Find | 15 |
 | Recursion | 12 |
 | Counting | 11 |
@@ -464,6 +464,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3701 Compute Alternating Sum](./3701-compute-alternating-sum/) | Easy |
 | [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
@@ -1780,6 +1781,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
+| [3701 Compute Alternating Sum](./3701-compute-alternating-sum/) | Easy |
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
