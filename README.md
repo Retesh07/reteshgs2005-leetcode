@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**406 solutions** are currently stored in this repository.
+**407 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 140 |
+| 🟢 Easy | 141 |
 | 🟡 Medium | 223 |
 | 🔴 Hard | 43 |
 
@@ -22,7 +22,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 207 |
+| Array | 208 |
 | String | 78 |
 | Dynamic Programming | 73 |
 | Hash Table | 73 |
@@ -34,8 +34,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Binary Search | 38 |
 | Tree | 37 |
 | Binary Tree | 36 |
+| Matrix | 32 |
 | Greedy | 31 |
-| Matrix | 31 |
 | Stack | 30 |
 | Database | 29 |
 | Heap (Priority Queue) | 25 |
@@ -45,8 +45,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Backtracking | 19 |
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
+| Simulation | 17 |
 | Sliding Window | 17 |
-| Simulation | 16 |
 | Prefix Sum | 15 |
 | Union-Find | 15 |
 | Recursion | 12 |
@@ -380,6 +380,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0540 Single Element in a Sorted Array](./0540-single-element-in-a-sorted-array/) | Medium |
 | [0542 01 Matrix](./0542-01-matrix/) | Medium |
 | [0560 Subarray Sum Equals K](./0560-subarray-sum-equals-k/) | Medium |
+| [0566 Reshape the Matrix](./0566-reshape-the-matrix/) | Easy |
 | [0605 Can Place Flowers](./0605-can-place-flowers/) | Easy |
 | [0621 Task Scheduler](./0621-task-scheduler/) | Medium |
 | [0628 Maximum Product of Three Numbers](./0628-maximum-product-of-three-numbers/) | Easy |
@@ -1513,6 +1514,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0417 Pacific Atlantic Water Flow](./0417-pacific-atlantic-water-flow/) | Medium |
 | [0463 Island Perimeter](./0463-island-perimeter/) | Easy |
 | [0542 01 Matrix](./0542-01-matrix/) | Medium |
+| [0566 Reshape the Matrix](./0566-reshape-the-matrix/) | Easy |
 | [0695 Max Area of Island](./0695-max-area-of-island/) | Medium |
 | [0733 Flood Fill](./0733-flood-fill/) | Easy |
 | [0741 Cherry Pickup](./0741-cherry-pickup/) | Hard |
@@ -1771,6 +1773,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0043 Multiply Strings](./0043-multiply-strings/) | Medium |
 | [0054 Spiral Matrix](./0054-spiral-matrix/) | Medium |
 | [0067 Add Binary](./0067-add-binary/) | Easy |
+| [0566 Reshape the Matrix](./0566-reshape-the-matrix/) | Easy |
 | [0682 Baseball Game](./0682-baseball-game/) | Easy |
 | [0735 Asteroid Collision](./0735-asteroid-collision/) | Medium |
 | [0874 Backspace String Compare](./0874-backspace-string-compare/) | Easy |
