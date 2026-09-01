@@ -10,25 +10,25 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**407 solutions** are currently stored in this repository.
+**408 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 141 |
 | 🟡 Medium | 223 |
-| 🔴 Hard | 43 |
+| 🔴 Hard | 44 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 208 |
+| Array | 209 |
 | String | 78 |
-| Dynamic Programming | 73 |
+| Dynamic Programming | 74 |
 | Hash Table | 73 |
 | Depth-First Search | 55 |
 | Math | 53 |
-| Sorting | 51 |
+| Sorting | 52 |
 | Breadth-First Search | 48 |
 | Two Pointers | 48 |
 | Binary Search | 38 |
@@ -438,6 +438,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
 | [1528 Kids With the Greatest Number of Candies](./1528-kids-with-the-greatest-number-of-candies/) | Easy |
+| [1547 Minimum Cost to Cut a Stick](./1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1574 Maximum Product of Two Elements in an Array](./1574-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1605 Minimum Number of Days to Make m Bouquets](./1605-minimum-number-of-days-to-make-m-bouquets/) | Medium |
@@ -1069,6 +1070,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
+| [1547 Minimum Cost to Cut a Stick](./1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
@@ -1852,6 +1854,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1029 Vertical Order Traversal of a Binary Tree](./1029-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1184 Car Pooling](./1184-car-pooling/) | Medium |
 | [1256 Rank Transform of an Array](./1256-rank-transform-of-an-array/) | Easy |
+| [1547 Minimum Cost to Cut a Stick](./1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1574 Maximum Product of Two Elements in an Array](./1574-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1675 Magnetic Force Between Two Balls](./1675-magnetic-force-between-two-balls/) | Medium |
 | [1741 Sort Array by Increasing Frequency](./1741-sort-array-by-increasing-frequency/) | Easy |
