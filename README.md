@@ -10,19 +10,19 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**408 solutions** are currently stored in this repository.
+**407 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 141 |
-| 🟡 Medium | 223 |
+| 🟡 Medium | 222 |
 | 🔴 Hard | 44 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 209 |
+| Array | 208 |
 | String | 78 |
 | Dynamic Programming | 74 |
 | Hash Table | 73 |
@@ -35,7 +35,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Tree | 37 |
 | Binary Tree | 36 |
 | Matrix | 32 |
-| Greedy | 31 |
+| Greedy | 30 |
 | Stack | 30 |
 | Database | 29 |
 | Heap (Priority Queue) | 25 |
@@ -319,7 +319,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0122 Best Time to Buy and Sell Stock II](./0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0128 Longest Consecutive Sequence](./0128-longest-consecutive-sequence/) | Medium |
 | [0130 Surrounded Regions](./0130-surrounded-regions/) | Medium |
-| [0134 Gas Station](./0134-gas-station/) | Medium |
 | [0135 Candy](./0135-candy/) | Hard |
 | [0136 Single Number](./0136-single-number/) | Easy |
 | [0139 Word Break](./0139-word-break/) | Medium |
@@ -1190,7 +1189,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0045 Jump Game II](./0045-jump-game-ii/) | Medium |
 | [0055 Jump Game](./0055-jump-game/) | Medium |
 | [0122 Best Time to Buy and Sell Stock II](./0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
-| [0134 Gas Station](./0134-gas-station/) | Medium |
 | [0135 Candy](./0135-candy/) | Hard |
 | [0316 Remove Duplicate Letters](./0316-remove-duplicate-letters/) | Medium |
 | [0334 Increasing Triplet Subsequence](./0334-increasing-triplet-subsequence/) | Medium |
