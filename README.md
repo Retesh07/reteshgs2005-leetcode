@@ -10,20 +10,20 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**409 solutions** are currently stored in this repository.
+**410 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 141 |
 | 🟡 Medium | 223 |
-| 🔴 Hard | 45 |
+| 🔴 Hard | 46 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
 | Array | 210 |
-| String | 78 |
+| String | 79 |
 | Dynamic Programming | 75 |
 | Hash Table | 73 |
 | Depth-First Search | 55 |
@@ -36,7 +36,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Binary Tree | 36 |
 | Matrix | 32 |
 | Greedy | 31 |
-| Stack | 30 |
+| Stack | 31 |
 | Database | 29 |
 | Heap (Priority Queue) | 25 |
 | Linked List | 23 |
@@ -49,7 +49,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Sliding Window | 17 |
 | Prefix Sum | 15 |
 | Union-Find | 15 |
-| Recursion | 12 |
+| Recursion | 13 |
 | Counting | 11 |
 | Binary Search Tree | 10 |
 | Monotonic Stack | 10 |
@@ -1738,6 +1738,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0342 Power of Four](./0342-power-of-four/) | Easy |
 | [0394 Decode String](./0394-decode-string/) | Medium |
 | [0486 Predict the Winner](./0486-predict-the-winner/) | Medium |
+| [1106 Parsing A Boolean Expression](./1106-parsing-a-boolean-expression/) | Hard |
 | [2050 Count Good Numbers](./2050-count-good-numbers/) | Medium |
 
 ## Segment Tree
@@ -1903,6 +1904,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0883 Car Fleet](./0883-car-fleet/) | Medium |
 | [0931 Maximum Frequency Stack](./0931-maximum-frequency-stack/) | Hard |
 | [0937 Online Stock Span](./0937-online-stock-span/) | Medium |
+| [1106 Parsing A Boolean Expression](./1106-parsing-a-boolean-expression/) | Hard |
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
 
@@ -1968,6 +1970,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0990 Verifying an Alien Dictionary](./0990-verifying-an-alien-dictionary/) | Easy |
 | [1023 Time Based Key-Value Store](./1023-time-based-key-value-store/) | Medium |
 | [1092 Shortest Common Supersequence ](./1092-shortest-common-supersequence/) | Hard |
+| [1106 Parsing A Boolean Expression](./1106-parsing-a-boolean-expression/) | Hard |
 | [1146 Greatest Common Divisor of Strings](./1146-greatest-common-divisor-of-strings/) | Easy |
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1250 Longest Common Subsequence](./1250-longest-common-subsequence/) | Medium |
