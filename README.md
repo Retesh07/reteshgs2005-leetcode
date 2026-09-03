@@ -10,21 +10,21 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**410 solutions** are currently stored in this repository.
+**411 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 141 |
 | 🟡 Medium | 223 |
-| 🔴 Hard | 46 |
+| 🔴 Hard | 47 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
 | Array | 210 |
-| String | 79 |
-| Dynamic Programming | 75 |
+| String | 80 |
+| Dynamic Programming | 76 |
 | Hash Table | 73 |
 | Depth-First Search | 55 |
 | Math | 53 |
@@ -1026,6 +1026,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0122 Best Time to Buy and Sell Stock II](./0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0124 Binary Tree Maximum Path Sum](./0124-binary-tree-maximum-path-sum/) | Hard |
 | [0131 Palindrome Partitioning](./0131-palindrome-partitioning/) | Medium |
+| [0132 Palindrome Partitioning II](./0132-palindrome-partitioning-ii/) | Hard |
 | [0139 Word Break](./0139-word-break/) | Medium |
 | [0140 Word Break II](./0140-word-break-ii/) | Hard |
 | [0152 Maximum Product Subarray](./0152-maximum-product-subarray/) | Medium |
@@ -1935,6 +1936,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0126 Word Ladder II](./0126-word-ladder-ii/) | Hard |
 | [0127 Word Ladder](./0127-word-ladder/) | Hard |
 | [0131 Palindrome Partitioning](./0131-palindrome-partitioning/) | Medium |
+| [0132 Palindrome Partitioning II](./0132-palindrome-partitioning-ii/) | Hard |
 | [0139 Word Break](./0139-word-break/) | Medium |
 | [0140 Word Break II](./0140-word-break-ii/) | Hard |
 | [0151 Reverse Words in a String](./0151-reverse-words-in-a-string/) | Medium |
