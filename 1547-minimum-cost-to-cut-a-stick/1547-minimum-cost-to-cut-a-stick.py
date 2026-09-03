@@ -1,35 +1,21 @@
 class Solution:
     def minCost(self, n: int, cuts: List[int]) -> int:
+        dp={}
 
-        cuts = [0] + sorted(cuts) + [n]
-
-        m = len(cuts)
-        dp = [[-1] * m for _ in range(m)]
-
-        def f(i, j):
-
-
-            if i > j:
+        def dfs(l,r):
+            if r-l==1:
                 return 0
+            if (l,r) in dp:
+                return dp[(l,r)]
+            res=float("inf")
+            for c in cuts:
+                if l<c<r:
+                    res=min(res,r-l+dfs(l,c)+dfs(c,r))
+                    dp[(l,r)]=res
+            if res==float("inf"):
 
-            if dp[i][j] != -1:
-                return dp[i][j]
+                dp[(l,r)]=0 
+            return dp[(l,r)]
+        return dfs(0,n)
 
-            mini = float("inf")
-
-            for k in range(i, j + 1):
-
-                cost = (
-                    cuts[j + 1] - cuts[i - 1]
-                    + f(i, k - 1)
-                    + f(k + 1, j)
-                )
-
-                mini = min(mini, cost)
-
-
-            dp[i][j] = mini
-
-            return dp[i][j]
-
-        return f(1, m - 2)
+      
