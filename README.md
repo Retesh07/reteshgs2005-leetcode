@@ -10,21 +10,21 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**408 solutions** are currently stored in this repository.
+**409 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 141 |
 | 🟡 Medium | 223 |
-| 🔴 Hard | 44 |
+| 🔴 Hard | 45 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 209 |
+| Array | 210 |
 | String | 78 |
-| Dynamic Programming | 74 |
+| Dynamic Programming | 75 |
 | Hash Table | 73 |
 | Depth-First Search | 55 |
 | Math | 53 |
@@ -351,6 +351,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0303 Range Sum Query - Immutable](./0303-range-sum-query-immutable/) | Easy |
 | [0304 Range Sum Query 2D - Immutable](./0304-range-sum-query-2d-immutable/) | Medium |
 | [0309 Best Time to Buy and Sell Stock with Cooldown](./0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
+| [0312 Burst Balloons](./0312-burst-balloons/) | Hard |
 | [0322 Coin Change](./0322-coin-change/) | Medium |
 | [0329 Longest Increasing Path in a Matrix](./0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0332 Reconstruct Itinerary](./0332-reconstruct-itinerary/) | Hard |
@@ -1033,6 +1034,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0279 Perfect Squares](./0279-perfect-squares/) | Medium |
 | [0300 Longest Increasing Subsequence](./0300-longest-increasing-subsequence/) | Medium |
 | [0309 Best Time to Buy and Sell Stock with Cooldown](./0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
+| [0312 Burst Balloons](./0312-burst-balloons/) | Hard |
 | [0322 Coin Change](./0322-coin-change/) | Medium |
 | [0329 Longest Increasing Path in a Matrix](./0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0337 House Robber III](./0337-house-robber-iii/) | Medium |
