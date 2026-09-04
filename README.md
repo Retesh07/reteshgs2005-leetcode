@@ -28,9 +28,9 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Hash Table | 73 |
 | Depth-First Search | 55 |
 | Math | 53 |
-| Sorting | 52 |
+| Sorting | 51 |
 | Breadth-First Search | 48 |
-| Two Pointers | 48 |
+| Two Pointers | 47 |
 | Binary Search | 38 |
 | Tree | 37 |
 | Binary Tree | 36 |
@@ -272,7 +272,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0004 Median of Two Sorted Arrays](./0004-median-of-two-sorted-arrays/) | Hard |
 | [0011 Container With Most Water](./0011-container-with-most-water/) | Medium |
 | [0014 Longest Common Prefix](./0014-longest-common-prefix/) | Easy |
-| [0015 3Sum](./0015-3sum/) | Medium |
 | [0018 4Sum](./0018-4sum/) | Medium |
 | [0026 Remove Duplicates from Sorted Array](./0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027 Remove Element](./0027-remove-element/) | Easy |
@@ -1822,7 +1821,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Problem | Difficulty |
 |---------|------------|
-| [0015 3Sum](./0015-3sum/) | Medium |
 | [0018 4Sum](./0018-4sum/) | Medium |
 | [0047 Permutations II](./0047-permutations-ii/) | Medium |
 | [0049 Group Anagrams](./0049-group-anagrams/) | Medium |
@@ -2102,7 +2100,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 |---------|------------|
 | [0005 Longest Palindromic Substring](./0005-longest-palindromic-substring/) | Medium |
 | [0011 Container With Most Water](./0011-container-with-most-water/) | Medium |
-| [0015 3Sum](./0015-3sum/) | Medium |
 | [0018 4Sum](./0018-4sum/) | Medium |
 | [0019 Remove Nth Node From End of List](./0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0026 Remove Duplicates from Sorted Array](./0026-remove-duplicates-from-sorted-array/) | Easy |
