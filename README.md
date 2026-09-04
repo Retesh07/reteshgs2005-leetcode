@@ -10,21 +10,21 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**411 solutions** are currently stored in this repository.
+**412 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 141 |
-| 🟡 Medium | 223 |
+| 🟡 Medium | 224 |
 | 🔴 Hard | 47 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 210 |
+| Array | 211 |
 | String | 80 |
-| Dynamic Programming | 76 |
+| Dynamic Programming | 77 |
 | Hash Table | 73 |
 | Depth-First Search | 55 |
 | Math | 53 |
@@ -424,6 +424,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1020 Longest Turbulent Subarray](./1020-longest-turbulent-subarray/) | Medium |
 | [1036 Rotting Oranges](./1036-rotting-oranges/) | Medium |
 | [1039 Find the Town Judge](./1039-find-the-town-judge/) | Easy |
+| [1043 Partition Array for Maximum Sum](./1043-partition-array-for-maximum-sum/) | Medium |
 | [1046 Max Consecutive Ones III](./1046-max-consecutive-ones-iii/) | Medium |
 | [1056 Capacity To Ship Packages Within D Days](./1056-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1073 Number of Enclaves](./1073-number-of-enclaves/) | Medium |
@@ -1063,6 +1064,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0909 Stone Game](./0909-stone-game/) | Medium |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
 | [1020 Longest Turbulent Subarray](./1020-longest-turbulent-subarray/) | Medium |
+| [1043 Partition Array for Maximum Sum](./1043-partition-array-for-maximum-sum/) | Medium |
 | [1086 Divisor Game](./1086-divisor-game/) | Easy |
 | [1092 Shortest Common Supersequence ](./1092-shortest-common-supersequence/) | Hard |
 | [1130 Last Stone Weight II](./1130-last-stone-weight-ii/) | Medium |
