@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**412 solutions** are currently stored in this repository.
+**413 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 141 |
+| 🟢 Easy | 142 |
 | 🟡 Medium | 224 |
 | 🔴 Hard | 47 |
 
@@ -27,7 +27,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Dynamic Programming | 77 |
 | Hash Table | 73 |
 | Depth-First Search | 55 |
-| Math | 53 |
+| Math | 54 |
 | Sorting | 52 |
 | Breadth-First Search | 48 |
 | Two Pointers | 48 |
@@ -1496,6 +1496,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 | [3859 Maximum Product of Two Digits](./3859-maximum-product-of-two-digits/) | Easy |
+| [3870 Count Commas in Range](./3870-count-commas-in-range/) | Easy |
 | [3995 GCD of Odd and Even Sums](./3995-gcd-of-odd-and-even-sums/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 | [4356 Sum of Integers with Maximum Digit Range](./4356-sum-of-integers-with-maximum-digit-range/) | Easy |
