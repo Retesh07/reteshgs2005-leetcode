@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**415 solutions** are currently stored in this repository.
+**416 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 142 |
+| 🟢 Easy | 143 |
 | 🟡 Medium | 226 |
 | 🔴 Hard | 47 |
 
@@ -23,7 +23,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Topic | Problems |
 |-------|---------:|
 | Array | 212 |
-| String | 80 |
+| String | 81 |
 | Dynamic Programming | 77 |
 | Hash Table | 73 |
 | Depth-First Search | 55 |
@@ -1990,6 +1990,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
 | [1537 Maximum Score After Splitting a String](./1537-maximum-score-after-splitting-a-string/) | Easy |
 | [1567 Maximum Number of Vowels in a Substring of Given Length](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
+| [1758 Minimum Changes To Make Alternating Binary String](./1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1894 Merge Strings Alternately](./1894-merge-strings-alternately/) | Easy |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
