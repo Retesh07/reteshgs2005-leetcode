@@ -10,33 +10,33 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**413 solutions** are currently stored in this repository.
+**414 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 142 |
-| 🟡 Medium | 224 |
+| 🟡 Medium | 225 |
 | 🔴 Hard | 47 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 211 |
+| Array | 212 |
 | String | 80 |
 | Dynamic Programming | 77 |
 | Hash Table | 73 |
 | Depth-First Search | 55 |
 | Math | 54 |
-| Sorting | 52 |
+| Sorting | 53 |
+| Two Pointers | 49 |
 | Breadth-First Search | 48 |
-| Two Pointers | 48 |
 | Binary Search | 38 |
 | Tree | 37 |
 | Binary Tree | 36 |
+| Greedy | 32 |
 | Matrix | 32 |
-| Greedy | 31 |
-| Stack | 31 |
+| Stack | 32 |
 | Database | 29 |
 | Heap (Priority Queue) | 25 |
 | Linked List | 23 |
@@ -51,8 +51,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Union-Find | 15 |
 | Recursion | 13 |
 | Counting | 11 |
+| Monotonic Stack | 11 |
 | Binary Search Tree | 10 |
-| Monotonic Stack | 10 |
 | Number Theory | 8 |
 | Queue | 8 |
 | Topological Sort | 7 |
@@ -382,6 +382,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0542 01 Matrix](./0542-01-matrix/) | Medium |
 | [0560 Subarray Sum Equals K](./0560-subarray-sum-equals-k/) | Medium |
 | [0566 Reshape the Matrix](./0566-reshape-the-matrix/) | Easy |
+| [0581 Shortest Unsorted Continuous Subarray](./0581-shortest-unsorted-continuous-subarray/) | Medium |
 | [0605 Can Place Flowers](./0605-can-place-flowers/) | Easy |
 | [0621 Task Scheduler](./0621-task-scheduler/) | Medium |
 | [0628 Maximum Product of Three Numbers](./0628-maximum-product-of-three-numbers/) | Easy |
@@ -1203,6 +1204,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0435 Non-overlapping Intervals](./0435-non-overlapping-intervals/) | Medium |
 | [0455 Assign Cookies](./0455-assign-cookies/) | Easy |
 | [0502 IPO](./0502-ipo/) | Hard |
+| [0581 Shortest Unsorted Continuous Subarray](./0581-shortest-unsorted-continuous-subarray/) | Medium |
 | [0605 Can Place Flowers](./0605-can-place-flowers/) | Easy |
 | [0621 Task Scheduler](./0621-task-scheduler/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
@@ -1596,6 +1598,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0316 Remove Duplicate Letters](./0316-remove-duplicate-letters/) | Medium |
 | [0496 Next Greater Element I](./0496-next-greater-element-i/) | Easy |
 | [0503 Next Greater Element II](./0503-next-greater-element-ii/) | Medium |
+| [0581 Shortest Unsorted Continuous Subarray](./0581-shortest-unsorted-continuous-subarray/) | Medium |
 | [0739 Daily Temperatures](./0739-daily-temperatures/) | Medium |
 | [0769 Max Chunks To Make Sorted](./0769-max-chunks-to-make-sorted/) | Medium |
 | [0883 Car Fleet](./0883-car-fleet/) | Medium |
@@ -1843,6 +1846,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0442 Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array/) | Medium |
 | [0455 Assign Cookies](./0455-assign-cookies/) | Easy |
 | [0502 IPO](./0502-ipo/) | Hard |
+| [0581 Shortest Unsorted Continuous Subarray](./0581-shortest-unsorted-continuous-subarray/) | Medium |
 | [0621 Task Scheduler](./0621-task-scheduler/) | Medium |
 | [0628 Maximum Product of Three Numbers](./0628-maximum-product-of-three-numbers/) | Easy |
 | [0645 Set Mismatch](./0645-set-mismatch/) | Easy |
@@ -1899,6 +1903,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0394 Decode String](./0394-decode-string/) | Medium |
 | [0496 Next Greater Element I](./0496-next-greater-element-i/) | Easy |
 | [0503 Next Greater Element II](./0503-next-greater-element-ii/) | Medium |
+| [0581 Shortest Unsorted Continuous Subarray](./0581-shortest-unsorted-continuous-subarray/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
 | [0682 Baseball Game](./0682-baseball-game/) | Easy |
 | [0735 Asteroid Collision](./0735-asteroid-collision/) | Medium |
@@ -2133,6 +2138,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0443 String Compression](./0443-string-compression/) | Medium |
 | [0455 Assign Cookies](./0455-assign-cookies/) | Easy |
 | [0567 Permutation in String](./0567-permutation-in-string/) | Medium |
+| [0581 Shortest Unsorted Continuous Subarray](./0581-shortest-unsorted-continuous-subarray/) | Medium |
 | [0633 Sum of Square Numbers](./0633-sum-of-square-numbers/) | Medium |
 | [0647 Palindromic Substrings](./0647-palindromic-substrings/) | Medium |
 | [0653 Two Sum IV - Input is a BST](./0653-two-sum-iv-input-is-a-bst/) | Easy |
