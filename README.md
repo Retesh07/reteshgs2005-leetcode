@@ -10,12 +10,12 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**416 solutions** are currently stored in this repository.
+**417 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 143 |
-| 🟡 Medium | 226 |
+| 🟡 Medium | 227 |
 | 🔴 Hard | 47 |
 
 ## 🧠 Topics
@@ -26,14 +26,14 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | String | 81 |
 | Dynamic Programming | 77 |
 | Hash Table | 73 |
-| Depth-First Search | 55 |
+| Depth-First Search | 56 |
 | Math | 55 |
 | Sorting | 53 |
 | Two Pointers | 49 |
 | Breadth-First Search | 48 |
 | Binary Search | 38 |
-| Tree | 37 |
-| Binary Tree | 36 |
+| Tree | 38 |
+| Binary Tree | 37 |
 | Greedy | 32 |
 | Matrix | 32 |
 | Stack | 32 |
@@ -633,6 +633,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1450 Delete Leaves With a Given Value](./1450-delete-leaves-with-a-given-value/) | Medium |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
+| [2265 Count Nodes Equal to Average of Subtree](./2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 
 ## Bipartite Graph
 
@@ -921,6 +922,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
+| [2265 Count Nodes Equal to Average of Subtree](./2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 
 ## Design
 
@@ -2093,6 +2095,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1450 Delete Leaves With a Given Value](./1450-delete-leaves-with-a-given-value/) | Medium |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
+| [2265 Count Nodes Equal to Average of Subtree](./2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 
 ## Trie
 
