@@ -29,7 +29,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Depth-First Search | 56 |
 | Math | 55 |
 | Sorting | 53 |
-| Two Pointers | 49 |
+| Two Pointers | 50 |
 | Breadth-First Search | 48 |
 | Binary Search | 38 |
 | Tree | 38 |
@@ -2159,6 +2159,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1894 Merge Strings Alternately](./1894-merge-strings-alternately/) | Easy |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2271 Rearrange Array Elements by Sign](./2271-rearrange-array-elements-by-sign/) | Medium |
+| [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
 ## Union-Find
