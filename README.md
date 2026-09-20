@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**417 solutions** are currently stored in this repository.
+**418 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 143 |
+| 🟢 Easy | 144 |
 | 🟡 Medium | 227 |
 | 🔴 Hard | 47 |
 
@@ -23,7 +23,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Topic | Problems |
 |-------|---------:|
 | Array | 212 |
-| String | 81 |
+| String | 82 |
 | Dynamic Programming | 77 |
 | Hash Table | 73 |
 | Depth-First Search | 56 |
@@ -45,7 +45,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Backtracking | 19 |
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
-| Simulation | 17 |
+| Simulation | 18 |
 | Sliding Window | 17 |
 | Prefix Sum | 15 |
 | Union-Find | 15 |
@@ -1799,6 +1799,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
+| [3498 Reverse Degree of a String](./3498-reverse-degree-of-a-string/) | Easy |
 | [3701 Compute Alternating Sum](./3701-compute-alternating-sum/) | Easy |
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
@@ -2001,6 +2002,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3275 Minimum Number of Pushes to Type Word I](./3275-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3405 Count the Number of Special Characters II](./3405-count-the-number-of-special-characters-ii/) | Medium |
+| [3498 Reverse Degree of a String](./3498-reverse-degree-of-a-string/) | Easy |
 | [3805 Maximize Active Section with Trade I](./3805-maximize-active-section-with-trade-i/) | Medium |
 | [3812 Smallest Palindromic Rearrangement I](./3812-smallest-palindromic-rearrangement-i/) | Medium |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
