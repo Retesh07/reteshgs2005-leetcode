@@ -10,19 +10,19 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**418 solutions** are currently stored in this repository.
+**419 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 144 |
 | 🟡 Medium | 227 |
-| 🔴 Hard | 47 |
+| 🔴 Hard | 48 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 212 |
+| Array | 213 |
 | String | 82 |
 | Dynamic Programming | 77 |
 | Hash Table | 73 |
@@ -31,7 +31,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Sorting | 53 |
 | Two Pointers | 50 |
 | Breadth-First Search | 48 |
-| Binary Search | 38 |
+| Binary Search | 39 |
 | Tree | 38 |
 | Binary Tree | 37 |
 | Greedy | 32 |
@@ -327,6 +327,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0150 Evaluate Reverse Polish Notation](./0150-evaluate-reverse-polish-notation/) | Medium |
 | [0152 Maximum Product Subarray](./0152-maximum-product-subarray/) | Medium |
 | [0153 Find Minimum in Rotated Sorted Array](./0153-find-minimum-in-rotated-sorted-array/) | Medium |
+| [0154 Find Minimum in Rotated Sorted Array II](./0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162 Find Peak Element](./0162-find-peak-element/) | Medium |
 | [0167 Two Sum II - Input Array Is Sorted](./0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0169 Majority Element](./0169-majority-element/) | Easy |
@@ -547,6 +548,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0074 Search a 2D Matrix](./0074-search-a-2d-matrix/) | Medium |
 | [0081 Search in Rotated Sorted Array II](./0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0153 Find Minimum in Rotated Sorted Array](./0153-find-minimum-in-rotated-sorted-array/) | Medium |
+| [0154 Find Minimum in Rotated Sorted Array II](./0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162 Find Peak Element](./0162-find-peak-element/) | Medium |
 | [0167 Two Sum II - Input Array Is Sorted](./0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0209 Minimum Size Subarray Sum](./0209-minimum-size-subarray-sum/) | Medium |
