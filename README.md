@@ -10,28 +10,28 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**419 solutions** are currently stored in this repository.
+**420 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 144 |
-| 🟡 Medium | 227 |
+| 🟡 Medium | 228 |
 | 🔴 Hard | 48 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 213 |
+| Array | 214 |
 | String | 82 |
 | Dynamic Programming | 77 |
-| Hash Table | 73 |
+| Hash Table | 74 |
 | Depth-First Search | 56 |
 | Math | 55 |
 | Sorting | 53 |
 | Two Pointers | 50 |
 | Breadth-First Search | 48 |
-| Binary Search | 39 |
+| Binary Search | 40 |
 | Tree | 38 |
 | Binary Tree | 37 |
 | Greedy | 32 |
@@ -46,8 +46,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
 | Simulation | 18 |
-| Sliding Window | 17 |
-| Prefix Sum | 15 |
+| Sliding Window | 18 |
+| Prefix Sum | 16 |
 | Union-Find | 15 |
 | Recursion | 13 |
 | Counting | 11 |
@@ -447,6 +447,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1605 Minimum Number of Days to Make m Bouquets](./1605-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1646 Kth Missing Positive Number](./1646-kth-missing-positive-number/) | Easy |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1675 Magnetic Force Between Two Balls](./1675-magnetic-force-between-two-balls/) | Medium |
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 | [1741 Sort Array by Increasing Frequency](./1741-sort-array-by-increasing-frequency/) | Easy |
@@ -574,6 +575,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1408 Find the Smallest Divisor Given a Threshold](./1408-find-the-smallest-divisor-given-a-threshold/) | Medium |
 | [1605 Minimum Number of Days to Make m Bouquets](./1605-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1646 Kth Missing Positive Number](./1646-kth-missing-positive-number/) | Easy |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1675 Magnetic Force Between Two Balls](./1675-magnetic-force-between-two-balls/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
@@ -1302,6 +1304,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1039 Find the Town Judge](./1039-find-the-town-judge/) | Easy |
 | [1256 Rank Transform of an Array](./1256-rank-transform-of-an-array/) | Easy |
 | [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1741 Sort Array by Increasing Frequency](./1741-sort-array-by-increasing-frequency/) | Easy |
 | [1798 Max Number of K-Sum Pairs](./1798-max-number-of-k-sum-pairs/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
@@ -1664,6 +1667,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1184 Car Pooling](./1184-car-pooling/) | Medium |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1537 Maximum Score After Splitting a String](./1537-maximum-score-after-splitting-a-string/) | Easy |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
@@ -1825,6 +1829,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1046 Max Consecutive Ones III](./1046-max-consecutive-ones-iii/) | Medium |
 | [1567 Maximum Number of Vowels in a Substring of Given Length](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 
