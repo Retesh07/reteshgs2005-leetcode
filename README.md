@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**421 solutions** are currently stored in this repository.
+**422 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 144 |
+| 🟢 Easy | 145 |
 | 🟡 Medium | 229 |
 | 🔴 Hard | 48 |
 
@@ -22,12 +22,12 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 215 |
+| Array | 216 |
 | String | 82 |
 | Dynamic Programming | 77 |
 | Hash Table | 74 |
 | Depth-First Search | 56 |
-| Math | 55 |
+| Math | 56 |
 | Sorting | 53 |
 | Two Pointers | 50 |
 | Breadth-First Search | 48 |
@@ -470,6 +470,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
+| [3550 Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [3701 Compute Alternating Sum](./3701-compute-alternating-sum/) | Easy |
@@ -1501,6 +1502,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2903 Insert Greatest Common Divisors in Linked List](./2903-insert-greatest-common-divisors-in-linked-list/) | Medium |
 | [3275 Minimum Number of Pushes to Type Word I](./3275-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3345 Smallest Divisible Digit Product I](./3345-smallest-divisible-digit-product-i/) | Easy |
+| [3550 Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [3622 Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product/) | Easy |
