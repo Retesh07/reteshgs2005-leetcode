@@ -10,19 +10,19 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**420 solutions** are currently stored in this repository.
+**421 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 144 |
-| 🟡 Medium | 228 |
+| 🟡 Medium | 229 |
 | 🔴 Hard | 48 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 214 |
+| Array | 215 |
 | String | 82 |
 | Dynamic Programming | 77 |
 | Hash Table | 74 |
@@ -40,7 +40,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Database | 29 |
 | Heap (Priority Queue) | 25 |
 | Linked List | 23 |
-| Bit Manipulation | 21 |
+| Bit Manipulation | 22 |
 | Design | 20 |
 | Backtracking | 19 |
 | Divide and Conquer | 19 |
@@ -345,6 +345,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0238 Product of Array Except Self](./0238-product-of-array-except-self/) | Medium |
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
 | [0240 Search a 2D Matrix II](./0240-search-a-2d-matrix-ii/) | Medium |
+| [0260 Single Number III](./0260-single-number-iii/) | Medium |
 | [0268 Missing Number](./0268-missing-number/) | Easy |
 | [0283 Move Zeroes](./0283-move-zeroes/) | Easy |
 | [0287 Find the Duplicate Number](./0287-find-the-duplicate-number/) | Medium |
@@ -656,6 +657,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0190 Reverse Bits](./0190-reverse-bits/) | Easy |
 | [0191 Number of 1 Bits](./0191-number-of-1-bits/) | Easy |
 | [0201 Bitwise AND of Numbers Range](./0201-bitwise-and-of-numbers-range/) | Medium |
+| [0260 Single Number III](./0260-single-number-iii/) | Medium |
 | [0268 Missing Number](./0268-missing-number/) | Easy |
 | [0287 Find the Duplicate Number](./0287-find-the-duplicate-number/) | Medium |
 | [0338 Counting Bits](./0338-counting-bits/) | Easy |
