@@ -1,16 +1,14 @@
 class Solution:
     def singleNumber(self, nums: list[int]) -> list[int]:
-        xr=0
-        for x in nums:
-            xr^=x
-        bit=xr&-xr
+        freq = {}
 
-        a=0
-        b=0
         for n in nums:
-            if n & bit:
-                a^=n
-            else:
-                b^=n
-        return [a,b]
-        
+            freq[n] = freq.get(n, 0) + 1
+
+        ans = []
+
+        for n, count in freq.items():
+            if count == 1:
+                ans.append(n)
+
+        return ans
