@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**422 solutions** are currently stored in this repository.
+**423 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 145 |
+| 🟢 Easy | 146 |
 | 🟡 Medium | 229 |
 | 🔴 Hard | 48 |
 
@@ -23,9 +23,9 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Topic | Problems |
 |-------|---------:|
 | Array | 216 |
-| String | 82 |
+| String | 83 |
 | Dynamic Programming | 77 |
-| Hash Table | 74 |
+| Hash Table | 75 |
 | Depth-First Search | 56 |
 | Math | 56 |
 | Sorting | 53 |
@@ -50,7 +50,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Prefix Sum | 16 |
 | Union-Find | 15 |
 | Recursion | 13 |
-| Counting | 11 |
+| Counting | 12 |
 | Monotonic Stack | 11 |
 | Binary Search Tree | 10 |
 | Number Theory | 8 |
@@ -812,6 +812,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
+| [3692 Majority Frequency Characters](./3692-majority-frequency-characters/) | Easy |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 
 ## Counting Sort
@@ -1317,6 +1318,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3405 Count the Number of Special Characters II](./3405-count-the-number-of-special-characters-ii/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
+| [3692 Majority Frequency Characters](./3692-majority-frequency-characters/) | Easy |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 
@@ -2014,6 +2016,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3405 Count the Number of Special Characters II](./3405-count-the-number-of-special-characters-ii/) | Medium |
 | [3498 Reverse Degree of a String](./3498-reverse-degree-of-a-string/) | Easy |
+| [3692 Majority Frequency Characters](./3692-majority-frequency-characters/) | Easy |
 | [3805 Maximize Active Section with Trade I](./3805-maximize-active-section-with-trade-i/) | Medium |
 | [3812 Smallest Palindromic Rearrangement I](./3812-smallest-palindromic-rearrangement-i/) | Medium |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
