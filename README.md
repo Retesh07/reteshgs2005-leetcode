@@ -10,22 +10,22 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**423 solutions** are currently stored in this repository.
+**424 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 146 |
-| 🟡 Medium | 229 |
+| 🟡 Medium | 230 |
 | 🔴 Hard | 48 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 216 |
+| Array | 217 |
 | String | 83 |
 | Dynamic Programming | 77 |
-| Hash Table | 75 |
+| Hash Table | 76 |
 | Depth-First Search | 56 |
 | Math | 56 |
 | Sorting | 53 |
@@ -47,7 +47,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Graph Theory | 19 |
 | Simulation | 18 |
 | Sliding Window | 18 |
-| Prefix Sum | 16 |
+| Prefix Sum | 17 |
 | Union-Find | 15 |
 | Recursion | 13 |
 | Counting | 12 |
@@ -421,6 +421,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
 | [0958 Sort Array By Parity II](./0958-sort-array-by-parity-ii/) | Easy |
+| [0974 Subarray Sums Divisible by K](./0974-subarray-sums-divisible-by-k/) | Medium |
 | [0990 Verifying an Alien Dictionary](./0990-verifying-an-alien-dictionary/) | Easy |
 | [1014 K Closest Points to Origin](./1014-k-closest-points-to-origin/) | Medium |
 | [1019 Squares of a Sorted Array](./1019-squares-of-a-sorted-array/) | Easy |
@@ -1302,6 +1303,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0817 Design HashMap](./0817-design-hashmap/) | Easy |
 | [0876 Hand of Straights](./0876-hand-of-straights/) | Medium |
 | [0931 Maximum Frequency Stack](./0931-maximum-frequency-stack/) | Hard |
+| [0974 Subarray Sums Divisible by K](./0974-subarray-sums-divisible-by-k/) | Medium |
 | [0990 Verifying an Alien Dictionary](./0990-verifying-an-alien-dictionary/) | Easy |
 | [1023 Time Based Key-Value Store](./1023-time-based-key-value-store/) | Medium |
 | [1029 Vertical Order Traversal of a Binary Tree](./1029-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -1669,6 +1671,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0410 Split Array Largest Sum](./0410-split-array-largest-sum/) | Hard |
 | [0560 Subarray Sum Equals K](./0560-subarray-sum-equals-k/) | Medium |
 | [0912 Random Pick with Weight](./0912-random-pick-with-weight/) | Medium |
+| [0974 Subarray Sums Divisible by K](./0974-subarray-sums-divisible-by-k/) | Medium |
 | [1046 Max Consecutive Ones III](./1046-max-consecutive-ones-iii/) | Medium |
 | [1184 Car Pooling](./1184-car-pooling/) | Medium |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
