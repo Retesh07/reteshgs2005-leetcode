@@ -10,19 +10,19 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**424 solutions** are currently stored in this repository.
+**425 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 146 |
-| 🟡 Medium | 230 |
+| 🟡 Medium | 231 |
 | 🔴 Hard | 48 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 217 |
+| Array | 218 |
 | String | 83 |
 | Dynamic Programming | 77 |
 | Hash Table | 76 |
@@ -391,6 +391,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0643 Maximum Average Subarray I](./0643-maximum-average-subarray-i/) | Easy |
 | [0645 Set Mismatch](./0645-set-mismatch/) | Easy |
 | [0658 Find K Closest Elements](./0658-find-k-closest-elements/) | Medium |
+| [0665 Non-decreasing Array](./0665-non-decreasing-array/) | Medium |
 | [0682 Baseball Game](./0682-baseball-game/) | Easy |
 | [0695 Max Area of Island](./0695-max-area-of-island/) | Medium |
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
