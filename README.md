@@ -10,12 +10,12 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**425 solutions** are currently stored in this repository.
+**426 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 146 |
-| 🟡 Medium | 231 |
+| 🟡 Medium | 232 |
 | 🔴 Hard | 48 |
 
 ## 🧠 Topics
@@ -23,7 +23,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Topic | Problems |
 |-------|---------:|
 | Array | 218 |
-| String | 83 |
+| String | 84 |
 | Dynamic Programming | 77 |
 | Hash Table | 76 |
 | Depth-First Search | 56 |
@@ -34,9 +34,9 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Binary Search | 40 |
 | Tree | 38 |
 | Binary Tree | 37 |
+| Stack | 33 |
 | Greedy | 32 |
 | Matrix | 32 |
-| Stack | 32 |
 | Database | 29 |
 | Heap (Priority Queue) | 25 |
 | Linked List | 23 |
@@ -65,6 +65,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Shortest Path | 5 |
 | Trie | 5 |
 | Bidirectional Search | 4 |
+| Bracket Sequences | 4 |
 | Combinatorics | 4 |
 | Data Stream | 4 |
 | DP on Trees | 4 |
@@ -75,7 +76,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | 0-1 Knapsack | 3 |
 | Algorithm X | 3 |
 | Bitmask | 3 |
-| Bracket Sequences | 3 |
 | Complete Knapsack | 3 |
 | Hash Function | 3 |
 | Longest Common Subsequence | 3 |
@@ -704,6 +704,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0020 Valid Parentheses](./0020-valid-parentheses/) | Easy |
 | [0022 Generate Parentheses](./0022-generate-parentheses/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
+| [0856 Score of Parentheses](./0856-score-of-parentheses/) | Medium |
 
 ## Brainteaser
 
@@ -1930,6 +1931,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0735 Asteroid Collision](./0735-asteroid-collision/) | Medium |
 | [0739 Daily Temperatures](./0739-daily-temperatures/) | Medium |
 | [0769 Max Chunks To Make Sorted](./0769-max-chunks-to-make-sorted/) | Medium |
+| [0856 Score of Parentheses](./0856-score-of-parentheses/) | Medium |
 | [0874 Backspace String Compare](./0874-backspace-string-compare/) | Easy |
 | [0883 Car Fleet](./0883-car-fleet/) | Medium |
 | [0931 Maximum Frequency Stack](./0931-maximum-frequency-stack/) | Hard |
@@ -1997,6 +1999,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0753 Open the Lock](./0753-open-the-lock/) | Medium |
 | [0768 Partition Labels](./0768-partition-labels/) | Medium |
 | [0778 Reorganize String](./0778-reorganize-string/) | Medium |
+| [0856 Score of Parentheses](./0856-score-of-parentheses/) | Medium |
 | [0874 Backspace String Compare](./0874-backspace-string-compare/) | Easy |
 | [0990 Verifying an Alien Dictionary](./0990-verifying-an-alien-dictionary/) | Easy |
 | [1023 Time Based Key-Value Store](./1023-time-based-key-value-store/) | Medium |
