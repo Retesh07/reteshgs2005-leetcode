@@ -10,12 +10,12 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**426 solutions** are currently stored in this repository.
+**427 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 146 |
-| 🟡 Medium | 232 |
+| 🟡 Medium | 233 |
 | 🔴 Hard | 48 |
 
 ## 🧠 Topics
@@ -23,7 +23,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Topic | Problems |
 |-------|---------:|
 | Array | 218 |
-| String | 84 |
+| String | 85 |
 | Dynamic Programming | 77 |
 | Hash Table | 76 |
 | Depth-First Search | 56 |
@@ -34,8 +34,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Binary Search | 40 |
 | Tree | 38 |
 | Binary Tree | 37 |
-| Stack | 33 |
-| Greedy | 32 |
+| Stack | 34 |
+| Greedy | 33 |
 | Matrix | 32 |
 | Database | 29 |
 | Heap (Priority Queue) | 25 |
@@ -58,6 +58,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Topological Sort | 7 |
 | Knapsack Problem | 6 |
 | Memoization | 6 |
+| Bracket Sequences | 5 |
 | Dijkstra's Algorithm | 5 |
 | Enumeration | 5 |
 | Game Theory | 5 |
@@ -65,7 +66,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Shortest Path | 5 |
 | Trie | 5 |
 | Bidirectional Search | 4 |
-| Bracket Sequences | 4 |
 | Combinatorics | 4 |
 | Data Stream | 4 |
 | DP on Trees | 4 |
@@ -705,6 +705,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0022 Generate Parentheses](./0022-generate-parentheses/) | Medium |
 | [0678 Valid Parenthesis String](./0678-valid-parenthesis-string/) | Medium |
 | [0856 Score of Parentheses](./0856-score-of-parentheses/) | Medium |
+| [1541 Minimum Insertions to Balance a Parentheses String](./1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 
 ## Brainteaser
 
@@ -1229,6 +1230,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0917 Boats to Save People](./0917-boats-to-save-people/) | Medium |
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1304 Longest Happy String](./1304-longest-happy-string/) | Medium |
+| [1541 Minimum Insertions to Balance a Parentheses String](./1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [2026 Merge Triplets to Form Target Triplet](./2026-merge-triplets-to-form-target-triplet/) | Medium |
 | [2248 Minimum Cost of Buying Candies With Discount](./2248-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [3275 Minimum Number of Pushes to Type Word I](./3275-minimum-number-of-pushes-to-type-word-i/) | Easy |
@@ -1938,6 +1940,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0937 Online Stock Span](./0937-online-stock-span/) | Medium |
 | [1106 Parsing A Boolean Expression](./1106-parsing-a-boolean-expression/) | Hard |
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
+| [1541 Minimum Insertions to Balance a Parentheses String](./1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
 
 ## String
@@ -2012,6 +2015,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1312 Minimum Insertion Steps to Make a String Palindrome](./1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
 | [1537 Maximum Score After Splitting a String](./1537-maximum-score-after-splitting-a-string/) | Easy |
+| [1541 Minimum Insertions to Balance a Parentheses String](./1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1567 Maximum Number of Vowels in a Substring of Given Length](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1758 Minimum Changes To Make Alternating Binary String](./1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1894 Merge Strings Alternately](./1894-merge-strings-alternately/) | Easy |
