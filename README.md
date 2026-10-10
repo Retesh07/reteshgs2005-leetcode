@@ -10,35 +10,35 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**427 solutions** are currently stored in this repository.
+**428 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 146 |
-| 🟡 Medium | 233 |
+| 🟡 Medium | 234 |
 | 🔴 Hard | 48 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 218 |
+| Array | 219 |
 | String | 85 |
 | Dynamic Programming | 77 |
 | Hash Table | 76 |
 | Depth-First Search | 56 |
 | Math | 56 |
-| Sorting | 53 |
+| Sorting | 54 |
 | Two Pointers | 50 |
 | Breadth-First Search | 48 |
-| Binary Search | 40 |
+| Binary Search | 41 |
 | Tree | 38 |
 | Binary Tree | 37 |
+| Greedy | 34 |
 | Stack | 34 |
-| Greedy | 33 |
 | Matrix | 32 |
 | Database | 29 |
-| Heap (Priority Queue) | 25 |
+| Heap (Priority Queue) | 26 |
 | Linked List | 23 |
 | Bit Manipulation | 22 |
 | Design | 20 |
@@ -466,6 +466,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 | [2248 Minimum Cost of Buying Candies With Discount](./2248-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2271 Rearrange Array Elements by Sign](./2271-rearrange-array-elements-by-sign/) | Medium |
+| [2333 Minimum Sum of Squared Difference](./2333-minimum-sum-of-squared-difference/) | Medium |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
@@ -584,6 +585,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
+| [2333 Minimum Sum of Squared Difference](./2333-minimum-sum-of-squared-difference/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 
 ## Binary Search Tree
@@ -1233,6 +1235,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1541 Minimum Insertions to Balance a Parentheses String](./1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [2026 Merge Triplets to Form Target Triplet](./2026-merge-triplets-to-form-target-triplet/) | Medium |
 | [2248 Minimum Cost of Buying Candies With Discount](./2248-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2333 Minimum Sum of Squared Difference](./2333-minimum-sum-of-squared-difference/) | Medium |
 | [3275 Minimum Number of Pushes to Type Word I](./3275-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
@@ -1355,6 +1358,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1574 Maximum Product of Two Elements in an Array](./1574-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 | [1962 Single-Threaded CPU](./1962-single-threaded-cpu/) | Medium |
+| [2333 Minimum Sum of Squared Difference](./2333-minimum-sum-of-squared-difference/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
@@ -1897,6 +1901,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1962 Single-Threaded CPU](./1962-single-threaded-cpu/) | Medium |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2248 Minimum Cost of Buying Candies With Discount](./2248-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2333 Minimum Sum of Squared Difference](./2333-minimum-sum-of-squared-difference/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [2978 Check if Strings Can be Made Equal With Operations II](./2978-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
