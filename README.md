@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**428 solutions** are currently stored in this repository.
+**429 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 146 |
+| 🟢 Easy | 147 |
 | 🟡 Medium | 234 |
 | 🔴 Hard | 48 |
 
@@ -22,7 +22,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 219 |
+| Array | 220 |
 | String | 85 |
 | Dynamic Programming | 77 |
 | Hash Table | 76 |
@@ -56,11 +56,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Number Theory | 8 |
 | Queue | 8 |
 | Topological Sort | 7 |
+| Enumeration | 6 |
 | Knapsack Problem | 6 |
 | Memoization | 6 |
 | Bracket Sequences | 5 |
 | Dijkstra's Algorithm | 5 |
-| Enumeration | 5 |
 | Game Theory | 5 |
 | Minimax | 5 |
 | Shortest Path | 5 |
@@ -471,6 +471,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
+| [2778 Sum of Squares of Special Elements ](./2778-sum-of-squares-of-special-elements/) | Easy |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3550 Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -1108,6 +1109,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0204 Count Primes](./0204-count-primes/) | Medium |
 | [1212 Sequential Digits](./1212-sequential-digits/) | Medium |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
+| [2778 Sum of Squares of Special Elements ](./2778-sum-of-squares-of-special-elements/) | Easy |
 | [3345 Smallest Divisible Digit Product I](./3345-smallest-divisible-digit-product-i/) | Easy |
 | [3805 Maximize Active Section with Trade I](./3805-maximize-active-section-with-trade-i/) | Medium |
 
