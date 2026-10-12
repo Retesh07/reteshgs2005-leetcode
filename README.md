@@ -10,22 +10,22 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**429 solutions** are currently stored in this repository.
+**430 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 147 |
 | 🟡 Medium | 234 |
-| 🔴 Hard | 48 |
+| 🔴 Hard | 49 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 220 |
+| Array | 221 |
 | String | 85 |
 | Dynamic Programming | 77 |
-| Hash Table | 76 |
+| Hash Table | 77 |
 | Depth-First Search | 56 |
 | Math | 56 |
 | Sorting | 54 |
@@ -34,13 +34,13 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Binary Search | 41 |
 | Tree | 38 |
 | Binary Tree | 37 |
-| Greedy | 34 |
+| Greedy | 35 |
 | Stack | 34 |
 | Matrix | 32 |
 | Database | 29 |
 | Heap (Priority Queue) | 26 |
+| Bit Manipulation | 23 |
 | Linked List | 23 |
-| Bit Manipulation | 22 |
 | Design | 20 |
 | Backtracking | 19 |
 | Divide and Conquer | 19 |
@@ -472,6 +472,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
 | [2778 Sum of Squares of Special Elements ](./2778-sum-of-squares-of-special-elements/) | Easy |
+| [2897 Apply Operations on Array to Maximize Sum of Squares](./2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3550 Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -675,6 +676,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1444 Number of Steps to Reduce a Number to Zero](./1444-number-of-steps-to-reduce-a-number-to-zero/) | Easy |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+| [2897 Apply Operations on Array to Maximize Sum of Squares](./2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [3394 Minimum Array End](./3394-minimum-array-end/) | Medium |
 | [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
@@ -1238,6 +1240,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2026 Merge Triplets to Form Target Triplet](./2026-merge-triplets-to-form-target-triplet/) | Medium |
 | [2248 Minimum Cost of Buying Candies With Discount](./2248-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2333 Minimum Sum of Squared Difference](./2333-minimum-sum-of-squared-difference/) | Medium |
+| [2897 Apply Operations on Array to Maximize Sum of Squares](./2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [3275 Minimum Number of Pushes to Type Word I](./3275-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
@@ -1324,6 +1327,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1798 Max Number of K-Sum Pairs](./1798-max-number-of-k-sum-pairs/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
+| [2897 Apply Operations on Array to Maximize Sum of Squares](./2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2978 Check if Strings Can be Made Equal With Operations II](./2978-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
