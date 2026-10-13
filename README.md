@@ -10,31 +10,31 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**430 solutions** are currently stored in this repository.
+**431 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 147 |
-| 🟡 Medium | 234 |
+| 🟡 Medium | 235 |
 | 🔴 Hard | 49 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 221 |
+| Array | 222 |
 | String | 85 |
 | Dynamic Programming | 77 |
 | Hash Table | 77 |
 | Depth-First Search | 56 |
 | Math | 56 |
-| Sorting | 54 |
+| Sorting | 55 |
 | Two Pointers | 50 |
 | Breadth-First Search | 48 |
 | Binary Search | 41 |
 | Tree | 38 |
 | Binary Tree | 37 |
-| Greedy | 35 |
+| Greedy | 36 |
 | Stack | 34 |
 | Matrix | 32 |
 | Database | 29 |
@@ -480,6 +480,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [3701 Compute Alternating Sum](./3701-compute-alternating-sum/) | Easy |
 | [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
+| [3727 Maximum Alternating Sum of Squares](./3727-maximum-alternating-sum-of-squares/) | Medium |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 | [4005 Maximum Total Subarray Value I](./4005-maximum-total-subarray-value-i/) | Medium |
@@ -1243,6 +1244,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2897 Apply Operations on Array to Maximize Sum of Squares](./2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [3275 Minimum Number of Pushes to Type Word I](./3275-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
+| [3727 Maximum Alternating Sum of Squares](./3727-maximum-alternating-sum-of-squares/) | Medium |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 | [4005 Maximum Total Subarray Value I](./4005-maximum-total-subarray-value-i/) | Medium |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
@@ -1911,6 +1913,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [2978 Check if Strings Can be Made Equal With Operations II](./2978-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
+| [3727 Maximum Alternating Sum of Squares](./3727-maximum-alternating-sum-of-squares/) | Medium |
 | [3812 Smallest Palindromic Rearrangement I](./3812-smallest-palindromic-rearrangement-i/) | Medium |
 | [3859 Maximum Product of Two Digits](./3859-maximum-product-of-two-digits/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
