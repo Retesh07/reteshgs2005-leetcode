@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**432 solutions** are currently stored in this repository.
+**433 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 147 |
+| 🟢 Easy | 148 |
 | 🟡 Medium | 236 |
 | 🔴 Hard | 49 |
 
@@ -22,10 +22,10 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 222 |
+| Array | 223 |
 | String | 85 |
+| Hash Table | 78 |
 | Dynamic Programming | 77 |
-| Hash Table | 77 |
 | Math | 57 |
 | Depth-First Search | 56 |
 | Sorting | 55 |
@@ -72,9 +72,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Euclidean Algorithm | 4 |
 | Floyd's Cycle Finding Algorithm | 4 |
 | Greatest Common Divisor | 4 |
+| Segment Tree | 4 |
 | Zero-Sum Game | 4 |
 | 0-1 Knapsack | 3 |
 | Algorithm X | 3 |
+| Binary Indexed Tree | 3 |
 | Bitmask | 3 |
 | Complete Knapsack | 3 |
 | Hash Function | 3 |
@@ -84,9 +86,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Ordered Set | 3 |
 | Quickselect | 3 |
 | Quicksort | 3 |
-| Segment Tree | 3 |
 | Bellman–Ford Algorithm | 2 |
-| Binary Indexed Tree | 2 |
 | Binary Lifting | 2 |
 | Boyer–Moore Majority Vote Algorithm | 2 |
 | Bucket Sort | 2 |
@@ -473,6 +473,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
 | [2778 Sum of Squares of Special Elements ](./2778-sum-of-squares-of-special-elements/) | Easy |
 | [2897 Apply Operations on Array to Maximize Sum of Squares](./2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
+| [2913 Subarrays Distinct Element Sum of Squares I](./2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3550 Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -537,6 +538,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 |---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
+| [2913 Subarrays Distinct Element Sum of Squares I](./2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 
 ## Binary Lifting
 
@@ -1331,6 +1333,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [2897 Apply Operations on Array to Maximize Sum of Squares](./2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
+| [2913 Subarrays Distinct Element Sum of Squares I](./2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2978 Check if Strings Can be Made Equal With Operations II](./2978-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
@@ -1790,6 +1793,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 |---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
+| [2913 Subarrays Distinct Element Sum of Squares I](./2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
 ## Semi-Eulerian Graph
