@@ -10,12 +10,12 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**433 solutions** are currently stored in this repository.
+**434 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 148 |
-| 🟡 Medium | 236 |
+| 🟡 Medium | 237 |
 | 🔴 Hard | 49 |
 
 ## 🧠 Topics
@@ -23,7 +23,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Topic | Problems |
 |-------|---------:|
 | Array | 223 |
-| String | 85 |
+| String | 86 |
 | Hash Table | 78 |
 | Dynamic Programming | 77 |
 | Math | 57 |
@@ -2051,6 +2051,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3805 Maximize Active Section with Trade I](./3805-maximize-active-section-with-trade-i/) | Medium |
 | [3812 Smallest Palindromic Rearrangement I](./3812-smallest-palindromic-rearrangement-i/) | Medium |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
+| [3863 Minimum Operations to Sort a String](./3863-minimum-operations-to-sort-a-string/) | Medium |
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
 
 ## String Matching
