@@ -10,33 +10,33 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**434 solutions** are currently stored in this repository.
+**435 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 148 |
-| 🟡 Medium | 237 |
+| 🟡 Medium | 238 |
 | 🔴 Hard | 49 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 223 |
+| Array | 224 |
 | String | 86 |
 | Hash Table | 78 |
 | Dynamic Programming | 77 |
+| Depth-First Search | 57 |
 | Math | 57 |
-| Depth-First Search | 56 |
 | Sorting | 55 |
 | Two Pointers | 50 |
-| Breadth-First Search | 48 |
+| Breadth-First Search | 49 |
 | Binary Search | 41 |
 | Tree | 38 |
 | Binary Tree | 37 |
 | Greedy | 37 |
 | Stack | 34 |
-| Matrix | 32 |
+| Matrix | 33 |
 | Database | 29 |
 | Heap (Priority Queue) | 26 |
 | Bit Manipulation | 23 |
@@ -48,7 +48,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Simulation | 18 |
 | Sliding Window | 18 |
 | Prefix Sum | 17 |
-| Union-Find | 15 |
+| Union-Find | 16 |
 | Recursion | 13 |
 | Counting | 12 |
 | Monotonic Stack | 11 |
@@ -479,6 +479,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3550 Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3619 Count Islands With Total Value Divisible by K](./3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3701 Compute Alternating Sum](./3701-compute-alternating-sum/) | Easy |
 | [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3727 Maximum Alternating Sum of Squares](./3727-maximum-alternating-sum-of-squares/) | Medium |
@@ -773,6 +774,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
+| [3619 Count Islands With Total Value Divisible by K](./3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 
 ## Brute-Force Search
 
@@ -943,6 +945,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 | [2265 Count Nodes Equal to Average of Subtree](./2265-count-nodes-equal-to-average-of-subtree/) | Medium |
+| [3619 Count Islands With Total Value Divisible by K](./3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 
 ## Design
 
@@ -1576,6 +1579,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
+| [3619 Count Islands With Total Value Divisible by K](./3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 
 ## Meet in the Middle
 
@@ -2229,6 +2233,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1319 Number of Operations to Make Network Connected](./1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
+| [3619 Count Islands With Total Value Divisible by K](./3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 
 ## Zero-Sum Game
 
