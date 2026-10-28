@@ -10,44 +10,44 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**430 solutions** are currently stored in this repository.
+**436 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 149 |
-| 🟡 Medium | 233 |
-| 🔴 Hard | 48 |
+| 🟡 Medium | 238 |
+| 🔴 Hard | 49 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 221 |
-| String | 85 |
-| Hash Table | 77 |
-| Dynamic Programming | 75 |
-| Depth-First Search | 56 |
-| Math | 56 |
-| Sorting | 52 |
+| Array | 224 |
+| String | 86 |
+| Hash Table | 78 |
+| Dynamic Programming | 77 |
+| Depth-First Search | 57 |
+| Math | 57 |
+| Sorting | 55 |
+| Two Pointers | 50 |
 | Breadth-First Search | 49 |
-| Two Pointers | 49 |
-| Binary Search | 38 |
+| Binary Search | 41 |
+| Tree | 38 |
+| Binary Tree | 37 |
 | Greedy | 37 |
-| Tree | 37 |
-| Binary Tree | 36 |
 | Stack | 34 |
 | Matrix | 33 |
 | Database | 29 |
 | Heap (Priority Queue) | 26 |
+| Bit Manipulation | 23 |
 | Linked List | 23 |
-| Bit Manipulation | 22 |
 | Design | 20 |
 | Backtracking | 19 |
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
 | Simulation | 18 |
-| Sliding Window | 17 |
-| Prefix Sum | 16 |
+| Sliding Window | 18 |
+| Prefix Sum | 17 |
 | Union-Find | 16 |
 | Recursion | 13 |
 | Counting | 12 |
@@ -66,6 +66,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Shortest Path | 5 |
 | Trie | 5 |
 | Bidirectional Search | 4 |
+| Combinatorics | 4 |
 | Data Stream | 4 |
 | DP on Trees | 4 |
 | Euclidean Algorithm | 4 |
@@ -76,25 +77,25 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | 0-1 Knapsack | 3 |
 | Algorithm X | 3 |
 | Binary Indexed Tree | 3 |
-| Combinatorics | 3 |
+| Bitmask | 3 |
 | Complete Knapsack | 3 |
 | Hash Function | 3 |
 | Longest Common Subsequence | 3 |
 | Merge Sort | 3 |
 | Monotonic Queue | 3 |
+| Ordered Set | 3 |
 | Quickselect | 3 |
 | Quicksort | 3 |
 | Bellman–Ford Algorithm | 2 |
 | Binary Lifting | 2 |
-| Bitmask | 2 |
 | Boyer–Moore Majority Vote Algorithm | 2 |
 | Bucket Sort | 2 |
+| Counting Sort | 2 |
 | Directed Acyclic Graph | 2 |
 | Floyd–Warshall Algorithm | 2 |
 | Interactive | 2 |
 | Longest Increasing Subsequence | 2 |
 | Lowest Common Ancestor | 2 |
-| Ordered Set | 2 |
 | Other | 2 |
 | Range Minimum/Maximum Query | 2 |
 | Bipartite Graph | 1 |
@@ -102,7 +103,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Brainteaser | 1 |
 | Brute-Force Search | 1 |
 | Bubble Sort | 1 |
-| Counting Sort | 1 |
 | Dancing Links | 1 |
 | Doubly-Linked List | 1 |
 | Eulerian Circuit | 1 |
@@ -115,6 +115,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Kosaraju's Algorithm | 1 |
 | Kruskal's Algorithm | 1 |
 | Manacher | 1 |
+| Meet in the Middle | 1 |
 | Minimum Spanning Tree | 1 |
 | Newton's Method | 1 |
 | Pigeonhole Principle | 1 |
@@ -200,6 +201,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 - [Manacher](#manacher)
 - [Math](#math)
 - [Matrix](#matrix)
+- [Meet in the Middle](#meet-in-the-middle)
 - [Memoization](#memoization)
 - [Merge Sort](#merge-sort)
 - [Minimax](#minimax)
@@ -448,6 +450,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1605 Minimum Number of Days to Make m Bouquets](./1605-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1646 Kth Missing Positive Number](./1646-kth-missing-positive-number/) | Easy |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
+| [1675 Magnetic Force Between Two Balls](./1675-magnetic-force-between-two-balls/) | Medium |
 | [1706 Min Cost to Connect All Points](./1706-min-cost-to-connect-all-points/) | Medium |
 | [1741 Sort Array by Increasing Frequency](./1741-sort-array-by-increasing-frequency/) | Easy |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
@@ -456,6 +460,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1962 Single-Threaded CPU](./1962-single-threaded-cpu/) | Medium |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 | [2026 Merge Triplets to Form Target Triplet](./2026-merge-triplets-to-form-target-triplet/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [2106 Find Greatest Common Divisor of Array](./2106-find-greatest-common-divisor-of-array/) | Easy |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
@@ -581,7 +586,10 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1408 Find the Smallest Divisor Given a Threshold](./1408-find-the-smallest-divisor-given-a-threshold/) | Medium |
 | [1605 Minimum Number of Days to Make m Bouquets](./1605-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1646 Kth Missing Positive Number](./1646-kth-missing-positive-number/) | Easy |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
+| [1675 Magnetic Force Between Two Balls](./1675-magnetic-force-between-two-balls/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2047 Find a Peak Element II](./2047-find-a-peak-element-ii/) | Medium |
 | [2333 Minimum Sum of Squared Difference](./2333-minimum-sum-of-squared-difference/) | Medium |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
@@ -641,6 +649,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1450 Delete Leaves With a Given Value](./1450-delete-leaves-with-a-given-value/) | Medium |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
+| [2265 Count Nodes Equal to Average of Subtree](./2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 
 ## Bipartite Graph
 
@@ -670,6 +679,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1444 Number of Steps to Reduce a Number to Zero](./1444-number-of-steps-to-reduce-a-number-to-zero/) | Easy |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2897 Apply Operations on Array to Maximize Sum of Squares](./2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [3394 Minimum Array End](./3394-minimum-array-end/) | Medium |
 | [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
@@ -681,6 +691,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 |---------|------------|
 | [0473 Matchsticks to Square](./0473-matchsticks-to-square/) | Medium |
 | [0698 Partition to K Equal Sum Subsets](./0698-partition-to-k-equal-sum-subsets/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
 ## Borůvka's Algorithm
 
@@ -788,6 +799,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Problem | Difficulty |
 |---------|------------|
+| [0062 Unique Paths](./0062-unique-paths/) | Medium |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
@@ -822,6 +834,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Problem | Difficulty |
 |---------|------------|
 | [0948 Sort an Array](./0948-sort-an-array/) | Medium |
+| [3812 Smallest Palindromic Rearrangement I](./3812-smallest-palindromic-rearrangement-i/) | Medium |
 
 ## Dancing Links
 
@@ -931,6 +944,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
 | [1558 Course Schedule IV](./1558-course-schedule-iv/) | Medium |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
+| [2265 Count Nodes Equal to Average of Subtree](./2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [3619 Count Islands With Total Value Divisible by K](./3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 
 ## Design
@@ -1025,6 +1039,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0045 Jump Game II](./0045-jump-game-ii/) | Medium |
 | [0053 Maximum Subarray](./0053-maximum-subarray/) | Medium |
 | [0055 Jump Game](./0055-jump-game/) | Medium |
+| [0062 Unique Paths](./0062-unique-paths/) | Medium |
 | [0063 Unique Paths II](./0063-unique-paths-ii/) | Medium |
 | [0064 Minimum Path Sum](./0064-minimum-path-sum/) | Medium |
 | [0070 Climbing Stairs](./0070-climbing-stairs/) | Easy |
@@ -1089,6 +1104,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1547 Minimum Cost to Cut a Stick](./1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2090 Number of Ways to Arrive at Destination](./2090-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
@@ -1314,6 +1330,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1039 Find the Town Judge](./1039-find-the-town-judge/) | Easy |
 | [1256 Rank Transform of an Array](./1256-rank-transform-of-an-array/) | Easy |
 | [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1741 Sort Array by Increasing Frequency](./1741-sort-array-by-increasing-frequency/) | Easy |
 | [1798 Max Number of K-Sum Pairs](./1798-max-number-of-k-sum-pairs/) | Medium |
 | [2139 Detect Squares](./2139-detect-squares/) | Medium |
@@ -1475,6 +1492,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0043 Multiply Strings](./0043-multiply-strings/) | Medium |
 | [0048 Rotate Image](./0048-rotate-image/) | Medium |
 | [0050 Pow(x, n)](./0050-powx-n/) | Medium |
+| [0062 Unique Paths](./0062-unique-paths/) | Medium |
 | [0066 Plus One](./0066-plus-one/) | Easy |
 | [0067 Add Binary](./0067-add-binary/) | Easy |
 | [0069 Sqrt(x)](./0069-sqrtx/) | Easy |
@@ -1563,6 +1581,12 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2737 Row With Maximum Ones](./2737-row-with-maximum-ones/) | Easy |
 | [3619 Count Islands With Total Value Divisible by K](./3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 
+## Meet in the Middle
+
+| Problem | Difficulty |
+|---------|------------|
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+
 ## Memoization
 
 | Problem | Difficulty |
@@ -1647,6 +1671,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 |---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [0931 Maximum Frequency Stack](./0931-maximum-frequency-stack/) | Hard |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
 ## Other
 
@@ -1677,6 +1702,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1184 Car Pooling](./1184-car-pooling/) | Medium |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1537 Maximum Score After Splitting a String](./1537-maximum-score-after-splitting-a-string/) | Easy |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
@@ -1839,6 +1865,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1046 Max Consecutive Ones III](./1046-max-consecutive-ones-iii/) | Medium |
 | [1567 Maximum Number of Vowels in a Substring of Given Length](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
+| [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 
@@ -1887,15 +1914,18 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1256 Rank Transform of an Array](./1256-rank-transform-of-an-array/) | Easy |
 | [1547 Minimum Cost to Cut a Stick](./1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1574 Maximum Product of Two Elements in an Array](./1574-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [1675 Magnetic Force Between Two Balls](./1675-magnetic-force-between-two-balls/) | Medium |
 | [1741 Sort Array by Increasing Frequency](./1741-sort-array-by-increasing-frequency/) | Easy |
 | [1798 Max Number of K-Sum Pairs](./1798-max-number-of-k-sum-pairs/) | Medium |
 | [1962 Single-Threaded CPU](./1962-single-threaded-cpu/) | Medium |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2248 Minimum Cost of Buying Candies With Discount](./2248-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2333 Minimum Sum of Squared Difference](./2333-minimum-sum-of-squared-difference/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
 | [2978 Check if Strings Can be Made Equal With Operations II](./2978-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3276 Minimum Number of Pushes to Type Word II](./3276-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3727 Maximum Alternating Sum of Squares](./3727-maximum-alternating-sum-of-squares/) | Medium |
+| [3812 Smallest Palindromic Rearrangement I](./3812-smallest-palindromic-rearrangement-i/) | Medium |
 | [3859 Maximum Product of Two Digits](./3859-maximum-product-of-two-digits/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
 
@@ -2024,6 +2054,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3498 Reverse Degree of a String](./3498-reverse-degree-of-a-string/) | Easy |
 | [3692 Majority Frequency Characters](./3692-majority-frequency-characters/) | Easy |
 | [3805 Maximize Active Section with Trade I](./3805-maximize-active-section-with-trade-i/) | Medium |
+| [3812 Smallest Palindromic Rearrangement I](./3812-smallest-palindromic-rearrangement-i/) | Medium |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3863 Minimum Operations to Sort a String](./3863-minimum-operations-to-sort-a-string/) | Medium |
 | [4216 Weighted Word Mapping](./4216-weighted-word-mapping/) | Easy |
@@ -2117,6 +2148,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1450 Delete Leaves With a Given Value](./1450-delete-leaves-with-a-given-value/) | Medium |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1544 Count Good Nodes in Binary Tree](./1544-count-good-nodes-in-binary-tree/) | Medium |
+| [2265 Count Nodes Equal to Average of Subtree](./2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 
 ## Trie
 
@@ -2178,6 +2210,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1019 Squares of a Sorted Array](./1019-squares-of-a-sorted-array/) | Easy |
 | [1798 Max Number of K-Sum Pairs](./1798-max-number-of-k-sum-pairs/) | Medium |
 | [1894 Merge Strings Alternately](./1894-merge-strings-alternately/) | Easy |
+| [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2271 Rearrange Array Elements by Sign](./2271-rearrange-array-elements-by-sign/) | Medium |
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [4242 Sum of GCD of Formed Pairs](./4242-sum-of-gcd-of-formed-pairs/) | Medium |
