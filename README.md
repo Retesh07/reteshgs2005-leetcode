@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**436 solutions** are currently stored in this repository.
+**437 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 149 |
+| 🟢 Easy | 150 |
 | 🟡 Medium | 238 |
 | 🔴 Hard | 49 |
 
@@ -37,7 +37,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Greedy | 37 |
 | Stack | 34 |
 | Matrix | 33 |
-| Database | 29 |
+| Database | 30 |
 | Heap (Priority Queue) | 26 |
 | Bit Manipulation | 23 |
 | Linked List | 23 |
@@ -876,6 +876,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1390 Average Selling Price](./1390-average-selling-price/) | Easy |
 | [1415 Students and Examinations](./1415-students-and-examinations/) | Easy |
 | [1509 Replace Employee ID With The Unique Identifier](./1509-replace-employee-id-with-the-unique-identifier/) | Easy |
+| [1683 Invalid Tweets](./1683-invalid-tweets/) | Easy |
 | [1724 Customer Who Visited but Did Not Make Any Transactions](./1724-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
 | [1773 Percentage of Users Attended a Contest](./1773-percentage-of-users-attended-a-contest/) | Easy |
 | [1801 Average Time of Process per Machine](./1801-average-time-of-process-per-machine/) | Easy |
