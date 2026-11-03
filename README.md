@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**439 solutions** are currently stored in this repository.
+**440 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 150 |
+| 🟢 Easy | 151 |
 | 🟡 Medium | 240 |
 | 🔴 Hard | 49 |
 
@@ -22,11 +22,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 226 |
+| Array | 227 |
 | String | 86 |
 | Hash Table | 78 |
 | Dynamic Programming | 77 |
-| Math | 59 |
+| Math | 60 |
 | Depth-First Search | 57 |
 | Sorting | 56 |
 | Two Pointers | 50 |
@@ -485,6 +485,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3701 Compute Alternating Sum](./3701-compute-alternating-sum/) | Easy |
 | [3702 Longest Subsequence With Non-Zero Bitwise XOR](./3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3727 Maximum Alternating Sum of Squares](./3727-maximum-alternating-sum-of-squares/) | Medium |
+| [3736 Minimum Moves to Equal Array Elements III](./3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 | [4005 Maximum Total Subarray Value I](./4005-maximum-total-subarray-value-i/) | Medium |
@@ -1539,6 +1540,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [3622 Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 | [3723 Maximize Sum of Squares of Digits](./3723-maximize-sum-of-squares-of-digits/) | Medium |
+| [3736 Minimum Moves to Equal Array Elements III](./3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3813 Smallest Palindromic Rearrangement II](./3813-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3824 Number of Unique XOR Triplets I](./3824-number-of-unique-xor-triplets-i/) | Medium |
 | [3859 Maximum Product of Two Digits](./3859-maximum-product-of-two-digits/) | Easy |
