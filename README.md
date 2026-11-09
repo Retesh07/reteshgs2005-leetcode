@@ -10,19 +10,19 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**440 solutions** are currently stored in this repository.
+**441 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 151 |
 | 🟡 Medium | 240 |
-| 🔴 Hard | 49 |
+| 🔴 Hard | 50 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 227 |
+| Array | 228 |
 | String | 86 |
 | Hash Table | 78 |
 | Dynamic Programming | 77 |
@@ -38,14 +38,14 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Stack | 34 |
 | Matrix | 33 |
 | Database | 30 |
-| Heap (Priority Queue) | 26 |
+| Heap (Priority Queue) | 27 |
 | Bit Manipulation | 23 |
 | Linked List | 23 |
 | Design | 20 |
 | Backtracking | 19 |
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
-| Simulation | 18 |
+| Simulation | 19 |
 | Sliding Window | 18 |
 | Prefix Sum | 17 |
 | Union-Find | 16 |
@@ -72,6 +72,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Euclidean Algorithm | 4 |
 | Floyd's Cycle Finding Algorithm | 4 |
 | Greatest Common Divisor | 4 |
+| Ordered Set | 4 |
 | Segment Tree | 4 |
 | Zero-Sum Game | 4 |
 | 0-1 Knapsack | 3 |
@@ -83,7 +84,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Longest Common Subsequence | 3 |
 | Merge Sort | 3 |
 | Monotonic Queue | 3 |
-| Ordered Set | 3 |
 | Quickselect | 3 |
 | Quicksort | 3 |
 | Bellman–Ford Algorithm | 2 |
@@ -451,6 +451,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1574 Maximum Product of Two Elements in an Array](./1574-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1605 Minimum Number of Days to Make m Bouquets](./1605-minimum-number-of-days-to-make-m-bouquets/) | Medium |
+| [1606 Find Servers That Handled Most Number of Requests](./1606-find-servers-that-handled-most-number-of-requests/) | Hard |
 | [1646 Kth Missing Positive Number](./1646-kth-missing-positive-number/) | Easy |
 | [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1675 Magnetic Force Between Two Balls](./1675-magnetic-force-between-two-balls/) | Medium |
@@ -1375,6 +1376,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1184 Car Pooling](./1184-car-pooling/) | Medium |
 | [1304 Longest Happy String](./1304-longest-happy-string/) | Medium |
 | [1574 Maximum Product of Two Elements in an Array](./1574-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [1606 Find Servers That Handled Most Number of Requests](./1606-find-servers-that-handled-most-number-of-requests/) | Hard |
 | [1753 Path With Minimum Effort](./1753-path-with-minimum-effort/) | Medium |
 | [1962 Single-Threaded CPU](./1962-single-threaded-cpu/) | Medium |
 | [2333 Minimum Sum of Squared Difference](./2333-minimum-sum-of-squared-difference/) | Medium |
@@ -1678,6 +1680,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 |---------|------------|
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [0931 Maximum Frequency Stack](./0931-maximum-frequency-stack/) | Hard |
+| [1606 Find Servers That Handled Most Number of Requests](./1606-find-servers-that-handled-most-number-of-requests/) | Hard |
 | [2035 Partition Array Into Two Arrays to Minimize Sum Difference](./2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 
 ## Other
@@ -1844,6 +1847,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0898 Transpose Matrix](./0898-transpose-matrix/) | Easy |
 | [1184 Car Pooling](./1184-car-pooling/) | Medium |
 | [1386 Shift 2D Grid](./1386-shift-2d-grid/) | Easy |
+| [1606 Find Servers That Handled Most Number of Requests](./1606-find-servers-that-handled-most-number-of-requests/) | Hard |
 | [2271 Rearrange Array Elements by Sign](./2271-rearrange-array-elements-by-sign/) | Medium |
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
 | [2479 Meeting Rooms III](./2479-meeting-rooms-iii/) | Hard |
