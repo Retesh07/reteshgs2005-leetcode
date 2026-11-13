@@ -10,19 +10,19 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**442 solutions** are currently stored in this repository.
+**443 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 151 |
 | 🟡 Medium | 241 |
-| 🔴 Hard | 50 |
+| 🔴 Hard | 51 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 228 |
+| Array | 229 |
 | String | 86 |
 | Hash Table | 78 |
 | Dynamic Programming | 77 |
@@ -35,7 +35,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Greedy | 38 |
 | Tree | 38 |
 | Binary Tree | 37 |
-| Stack | 34 |
+| Stack | 35 |
 | Matrix | 33 |
 | Database | 30 |
 | Heap (Priority Queue) | 27 |
@@ -46,15 +46,15 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
 | Simulation | 19 |
-| Sliding Window | 18 |
+| Sliding Window | 19 |
 | Prefix Sum | 17 |
 | Union-Find | 16 |
 | Recursion | 13 |
 | Counting | 12 |
-| Monotonic Stack | 11 |
+| Monotonic Stack | 12 |
 | Binary Search Tree | 10 |
+| Queue | 9 |
 | Number Theory | 8 |
-| Queue | 8 |
 | Topological Sort | 7 |
 | Enumeration | 6 |
 | Knapsack Problem | 6 |
@@ -63,6 +63,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Dijkstra's Algorithm | 5 |
 | Game Theory | 5 |
 | Minimax | 5 |
+| Segment Tree | 5 |
 | Shortest Path | 5 |
 | Trie | 5 |
 | Bidirectional Search | 4 |
@@ -72,8 +73,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Euclidean Algorithm | 4 |
 | Floyd's Cycle Finding Algorithm | 4 |
 | Greatest Common Divisor | 4 |
+| Monotonic Queue | 4 |
 | Ordered Set | 4 |
-| Segment Tree | 4 |
 | Zero-Sum Game | 4 |
 | 0-1 Knapsack | 3 |
 | Algorithm X | 3 |
@@ -83,7 +84,6 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Hash Function | 3 |
 | Longest Common Subsequence | 3 |
 | Merge Sort | 3 |
-| Monotonic Queue | 3 |
 | Quickselect | 3 |
 | Quicksort | 3 |
 | Bellman–Ford Algorithm | 2 |
@@ -479,6 +479,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2913 Subarrays Distinct Element Sum of Squares I](./2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
+| [3420 Count Non-Decreasing Subarrays After K Operations](./3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 | [3550 Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [3608 Find the Number of Subsequences With Equal GCD](./3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
@@ -1640,6 +1641,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0239 Sliding Window Maximum](./0239-sliding-window-maximum/) | Hard |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
+| [3420 Count Non-Decreasing Subarrays After K Operations](./3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 
 ## Monotonic Stack
 
@@ -1656,6 +1658,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0883 Car Fleet](./0883-car-fleet/) | Medium |
 | [0937 Online Stock Span](./0937-online-stock-span/) | Medium |
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
+| [3420 Count Non-Decreasing Subarrays After K Operations](./3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 
 ## Newton's Method
 
@@ -1749,6 +1752,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0860 Design Circular Queue](./0860-design-circular-queue/) | Medium |
 | [0954 Maximum Sum Circular Subarray](./0954-maximum-sum-circular-subarray/) | Medium |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
+| [3420 Count Non-Decreasing Subarrays After K Operations](./3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 | [3948 Lexicographically Maximum MEX Array](./3948-lexicographically-maximum-mex-array/) | Hard |
 
 ## Quickselect
@@ -1811,6 +1815,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [0493 Reverse Pairs](./0493-reverse-pairs/) | Hard |
 | [2407 Longest Increasing Subsequence II](./2407-longest-increasing-subsequence-ii/) | Hard |
 | [2913 Subarrays Distinct Element Sum of Squares I](./2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
+| [3420 Count Non-Decreasing Subarrays After K Operations](./3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 | [4007 Maximum Total Subarray Value II](./4007-maximum-total-subarray-value-ii/) | Hard |
 
 ## Semi-Eulerian Graph
@@ -1881,6 +1886,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
+| [3420 Count Non-Decreasing Subarrays After K Operations](./3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 
 ## Sorting
 
@@ -1981,6 +1987,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1159 Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1541 Minimum Insertions to Balance a Parentheses String](./1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [2470 Removing Stars From a String](./2470-removing-stars-from-a-string/) | Medium |
+| [3420 Count Non-Decreasing Subarrays After K Operations](./3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 
 ## String
 
