@@ -10,11 +10,11 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**443 solutions** are currently stored in this repository.
+**444 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
-| 🟢 Easy | 151 |
+| 🟢 Easy | 152 |
 | 🟡 Medium | 241 |
 | 🔴 Hard | 51 |
 
@@ -22,7 +22,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 229 |
+| Array | 230 |
 | String | 86 |
 | Hash Table | 78 |
 | Dynamic Programming | 77 |
@@ -42,12 +42,12 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Bit Manipulation | 23 |
 | Linked List | 23 |
 | Design | 20 |
+| Sliding Window | 20 |
 | Backtracking | 19 |
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
 | Simulation | 19 |
-| Sliding Window | 19 |
-| Prefix Sum | 17 |
+| Prefix Sum | 18 |
 | Union-Find | 16 |
 | Recursion | 13 |
 | Counting | 12 |
@@ -479,6 +479,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [2913 Subarrays Distinct Element Sum of Squares I](./2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3069 Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy |
+| [3364 Minimum Positive Sum Subarray ](./3364-minimum-positive-sum-subarray/) | Easy |
 | [3420 Count Non-Decreasing Subarrays After K Operations](./3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 | [3550 Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
@@ -1720,6 +1721,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2714 Left and Right Sum Differences](./2714-left-and-right-sum-differences/) | Easy |
+| [3364 Minimum Positive Sum Subarray ](./3364-minimum-positive-sum-subarray/) | Easy |
 | [3583 Sorted GCD Pair Queries](./3583-sorted-gcd-pair-queries/) | Hard |
 | [4330 Minimum Lights to Illuminate a Road](./4330-minimum-lights-to-illuminate-a-road/) | Medium |
 
@@ -1886,6 +1888,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
 | [2958 Length of Longest Subarray With at Most K Frequency](./2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
+| [3364 Minimum Positive Sum Subarray ](./3364-minimum-positive-sum-subarray/) | Easy |
 | [3420 Count Non-Decreasing Subarrays After K Operations](./3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 
 ## Sorting
