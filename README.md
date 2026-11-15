@@ -10,23 +10,23 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 
 ## 📚 Repository Statistics
 
-**444 solutions** are currently stored in this repository.
+**445 solutions** are currently stored in this repository.
 
 | Difficulty | Solutions |
 |------------|----------:|
 | 🟢 Easy | 152 |
-| 🟡 Medium | 241 |
+| 🟡 Medium | 242 |
 | 🔴 Hard | 51 |
 
 ## 🧠 Topics
 
 | Topic | Problems |
 |-------|---------:|
-| Array | 230 |
+| Array | 231 |
 | String | 86 |
+| Dynamic Programming | 78 |
 | Hash Table | 78 |
-| Dynamic Programming | 77 |
-| Math | 61 |
+| Math | 62 |
 | Depth-First Search | 57 |
 | Sorting | 56 |
 | Two Pointers | 50 |
@@ -46,8 +46,8 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | Backtracking | 19 |
 | Divide and Conquer | 19 |
 | Graph Theory | 19 |
+| Prefix Sum | 19 |
 | Simulation | 19 |
-| Prefix Sum | 18 |
 | Union-Find | 16 |
 | Recursion | 13 |
 | Counting | 12 |
@@ -446,6 +446,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1408 Find the Smallest Divisor Given a Threshold](./1408-find-the-smallest-divisor-given-a-threshold/) | Medium |
 | [1487 Making File Names Unique](./1487-making-file-names-unique/) | Medium |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
+| [1524 Number of Sub-arrays With Odd Sum](./1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 | [1528 Kids With the Greatest Number of Candies](./1528-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1547 Minimum Cost to Cut a Stick](./1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1574 Maximum Product of Two Elements in an Array](./1574-maximum-product-of-two-elements-in-an-array/) | Easy |
@@ -1108,6 +1109,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1475 Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
+| [1524 Number of Sub-arrays With Odd Sum](./1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 | [1547 Minimum Cost to Cut a Stick](./1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1586 Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
@@ -1532,6 +1534,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
 | [1444 Number of Steps to Reduce a Number to Zero](./1444-number-of-steps-to-reduce-a-number-to-zero/) | Easy |
 | [1522 Stone Game III](./1522-stone-game-iii/) | Hard |
+| [1524 Number of Sub-arrays With Odd Sum](./1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 | [1993 Sum of All Subset XOR Totals](./1993-sum-of-all-subset-xor-totals/) | Easy |
 | [2050 Count Good Numbers](./2050-count-good-numbers/) | Medium |
 | [2106 Find Greatest Common Divisor of Array](./2106-find-greatest-common-divisor-of-array/) | Easy |
@@ -1717,6 +1720,7 @@ Solutions and progress for [**reteshgs2005**](https://leetcode.com/u/reteshgs200
 | [1046 Max Consecutive Ones III](./1046-max-consecutive-ones-iii/) | Medium |
 | [1184 Car Pooling](./1184-car-pooling/) | Medium |
 | [1240 Stone Game II](./1240-stone-game-ii/) | Medium |
+| [1524 Number of Sub-arrays With Odd Sum](./1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 | [1537 Maximum Score After Splitting a String](./1537-maximum-score-after-splitting-a-string/) | Easy |
 | [1658 Minimum Operations to Reduce X to Zero](./1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2001 Jump Game VII](./2001-jump-game-vii/) | Medium |
